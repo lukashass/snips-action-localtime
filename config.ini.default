@@ -1,4 +1,5 @@
 [global]
-locale=french
 
 [secret]
+locale=english
+default_location="New York City"
