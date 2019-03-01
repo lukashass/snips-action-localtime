@@ -51,6 +51,7 @@ export const location = {
             locationName: string | null
         
         const mappings = mappingsFactory.get()
+        
         const config = configFactory.get()
         locationName = null
         if (citySlot && typeof(citySlot.value.value) === 'string')

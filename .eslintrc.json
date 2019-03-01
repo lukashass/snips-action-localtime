@@ -17,7 +17,7 @@
         "sourceType": "module"
     },
     "rules": {
-        "no-console": "warn",
+        "no-console": "off",
         "quotes": ["error", "single", { "avoidEscape": true }],
         "quote-props": ["error", "as-needed"],
         "no-unused-vars": "off",

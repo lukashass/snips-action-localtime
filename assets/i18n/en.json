@@ -2,13 +2,40 @@
     "error": {
         "mqtt": "Sorry, there was a communication error with the Snips platform",
         "config": "Sorry, there was an error with your config file.",
-        "locale": "Sorry, there was an error with your language settings.",
+        "localisation": "Sorry, there was an error with your language settings.",
         "intentNotRecognized": "Sorry, I did not understand your request.",
-        "APIResponse": "Sorry, there was an issue with the service provider.",
-        "APIRequest": "Sorry, the service provider is unreachable.",
+        "samePlaces": "Please indicate two different places for your request.",
+        "place": "Sorry, the location you asked was not found.",
+        "country": "Sorry, the country you asked was not found.",
         "unspecific": "Oops, something went wrong."
     },
-    "pokemon": {
-        "info": "{{ name }}'s weight is {{ weight }} and its height is {{ height }}."
+    "localTime": {
+        "getLocalTime": [
+            "It's currently {{ targetHour }} {{ targetMinute }} {{ targetPeriod }} in {{ targetPlace }}.",
+            "It's {{ targetHour }} {{ targetMinute }} {{ targetPeriod }} in {{ targetPlace }}.",
+            "In {{ targetPlace }}, it's currently {{ targetHour }} {{ targetMinute }} {{ targetPeriod }}.",
+            "The time in {{ targetPlace }} is {{ targetHour }} {{ targetMinute }} {{ targetPeriod }}."
+        ],
+        "convertTime": {
+            "noTime": "Sorry, I did not understand the time you asked for.",
+            "timeProvided": [
+                    "It's {{ targetHour }} {{ targetMinute }} {{ targetPeriod }} in {{ targetPlace }} when it's {{ baseHour }} {{ baseMinute }} {{ basePeriod }} in {{ basePlace }}.",
+                    "When it's {{ baseHour }} {{ baseMinute }} {{ basePeriod }} in {{ basePlace }}, it's {{ targetHour }} {{ targetMinute }} {{ targetPeriod }} in {{ targetPlace }}.",
+                    "At {{ baseHour }} {{ baseMinute }} {{ basePeriod }} in {{ basePlace }}, it's {{ targetHour }} {{ targetMinute }} {{ targetPeriod }} in {{ targetPlace }}."
+            ]
+        },
+        "getTimeDifference": {
+            "round": {
+                "zeroHour": "There's no time difference between {{ basePlace }} and {{ targetPlace }}.",
+                "oneHour": "There is a one hour difference between {{ basePlace }} and {{ targetPlace }}.",
+                "severalHours": "There is a {{ diffHour }} hours difference between {{ basePlace }} and {{ targetPlace }}."
+            },
+            "halves": {
+                "zeroHour": "There's half an hour difference between {{ basePlace }} and {{ targetPlace }}.",
+                "oneHour": "there's an hour and a half difference between {{ basePlace }} and {{ targetPlace }}.",
+                "severalHours": "There is a {{ diffHour }} hours and 30 minutes difference between {{ basePlace }} and {{ targetPlace }}."
+            }
+        },
+        "getTimeZone": "{{ targetPlace }} is in the UTC {{ offsetHour }} {{ offsetMinute }} timezone."
     }
 }

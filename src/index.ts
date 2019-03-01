@@ -10,7 +10,6 @@ export default function ({ hermesOptions = {}, bootstrapOptions = {} } = {}) : P
             try {
                 // Bootstrap config, locale, i18n…
                 await bootstrap(bootstrapOptions)
-
                 const dialog = hermes.dialog()
                 // This is a placeholder! Replace that by something valid!
                 dialog.flows([
@@ -33,8 +32,11 @@ export default function ({ hermesOptions = {}, bootstrapOptions = {} } = {}) : P
                 ])
                 resolve(done)
             } catch (error) {
+                console.log(error)
+                
                 // Output initialization errors to stderr and exit
                 const message = await translation.errorMessage(error)
+                
                 logger.error(message)
                 logger.error(error)
                 // Exit
