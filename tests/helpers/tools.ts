@@ -1,7 +1,9 @@
-import { createServer } from 'net'
+import { createServer, AddressInfo } from 'net'
 import camelcase from 'camelcase'
 
-export function camelize(item) {
+type obj = {[key: string]: any}
+
+export function camelize(item: obj | obj[]): obj | obj[] {
     if(typeof item !== 'object' || !item)
         return item
     if(item instanceof Array) {
@@ -18,14 +20,15 @@ export function camelize(item) {
     return item
 }
 
-export function getFreePort(): Promise<string> {
+export function getFreePort(): Promise<number> {
     return new Promise((resolve, reject) => {
         const server = createServer()
         server.on('error', err => {
             reject(err)
         })
         server.on('listening', () => {
-            const port: string = server.address()['port']
+            const address: AddressInfo = server.address() as AddressInfo
+            const port = address && address['port']
             server.close()
             resolve(port)
         })
@@ -33,7 +36,6 @@ export function getFreePort(): Promise<string> {
     })
 }
 
-export function getMessageKey(message) {
+export function getMessageKey(message: {text: any, [key: string]: any}) {
     return JSON.parse(message.text).key
 }
-

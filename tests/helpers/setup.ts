@@ -1,47 +1,42 @@
 /* eslint no-console: off */
 
-import { spawn } from 'child_process'
+import { spawn, ChildProcess } from 'child_process'
 import mqtt, { MqttClient } from 'mqtt'
 import { getFreePort } from './tools'
-import fetchMock from 'fetch-mock'
 import index from '../../dist/index'
 
-export const setupVars : {
-    mosquitto: any,
+export let setupVars : {
+    mosquitto: ChildProcess,
     mosquittoPort: string,
     mqttClient: MqttClient,
     killHermes: () => void
-} = {
-    mosquitto: null,
-    mosquittoPort: null,
-    mqttClient: null,
-    killHermes: null
-}
+} = {} as any
 
 export function bootstrap() {
     beforeAll(async () => {
         require('debug').enable('*:error')
-        const mosquittoPort = await getFreePort()
+        const mosquittoPort = '' + await getFreePort()
         console.log('Launching mosquitto on port [' + mosquittoPort + ']')
         // To print full mosquitto logs, replace stdio: 'ignore' with stdio: 'inherit'
         const mosquitto = spawn('mosquitto', ['-p', mosquittoPort, '-v'], { stdio: 'ignore' })
         console.log('Mosquitto ready!')
-        setupVars.mosquitto = mosquitto
-        setupVars.mosquittoPort = mosquittoPort
-        setupVars.killHermes = await index({
-            hermesOptions: {
-                address: 'localhost:' + mosquittoPort,
-                logs: true
-            },
-            bootstrapOptions: {
-                i18n: {
-                    mock: true
+        try {
+            setupVars.mosquitto = mosquitto
+            setupVars.mosquittoPort = mosquittoPort
+            setupVars.killHermes = await index({
+                hermesOptions: {
+                    address: 'localhost:' + mosquittoPort,
+                    logs: true
                 },
-                http: {
-                    mock: require('../httpMocks').mock(fetchMock.sandbox())
+                bootstrapOptions: {
+                    i18n: {
+                        mock: true
+                    }
                 }
-            }
-        })
+            })
+        } catch (error) {
+            console.error(error)
+        }
     })
 
     beforeEach(done => {
@@ -61,11 +56,11 @@ export function bootstrap() {
     })
 
     afterAll(done => {
-        const { mosquitto } = setupVars
+        const { mosquitto, killHermes } = setupVars
         setTimeout(() => {
             mosquitto.kill()
             console.log('Mosquitto killed.')
-            setupVars.killHermes()
+            killHermes()
             console.log('Hermes killed.')
             done()
         }, 500)

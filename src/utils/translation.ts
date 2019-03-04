@@ -10,8 +10,6 @@ export const translation = {
             i18n = i18nFactory.get()
         }
 
-        console.log(error);
-        
         if(i18n) {
             return i18n([`error.${error.message}`, 'error.unspecific'])
         } else {
@@ -25,7 +23,7 @@ export const translation = {
         if(typeof possibleValues === 'string')
             return possibleValues
         const randomIndex = Math.floor(Math.random() * possibleValues.length)
-        console.log(possibleValues[randomIndex]);
+        console.log(possibleValues[randomIndex])
         
         return possibleValues[randomIndex]
     }

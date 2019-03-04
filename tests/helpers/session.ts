@@ -3,6 +3,8 @@ import { MqttClient } from 'mqtt'
 import uuid from 'uuid/v4'
 import { ContinueSessionMessage, EndSessionMessage } from 'hermes-javascript'
 
+type FunctionArgs = { intentName: string, input: string, [key: string]: any }
+
 export default class Session {
     private mqtt: MqttClient
     private sessionId: string
@@ -32,7 +34,7 @@ export default class Session {
         })
     }
 
-    async publishMessage ({ intentName, input, ...additionalFields }) {
+    async publishMessage ({ intentName, input, ...additionalFields } : FunctionArgs) {
         return new Promise(resolve => {
             this.mqtt.publish(`hermes/intent/${intentName}`, JSON.stringify({
                  sessionId: this.sessionId,
@@ -61,7 +63,7 @@ export default class Session {
         intentName,
         input,
         ...additionalFields
-    }) {
+    } : FunctionArgs) {
         if(!input || !intentName) {
             throw new Error('input and intentName fields are required')
         }
@@ -76,7 +78,7 @@ export default class Session {
         intentName,
         input,
         ...additionalFields
-    }) : Promise<ContinueSessionMessage> {
+    } : FunctionArgs) : Promise<ContinueSessionMessage> {
         if(!input || !intentName) {
             throw new Error('input and intentName fields are required')
         }

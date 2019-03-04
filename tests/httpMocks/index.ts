@@ -1,4 +1,4 @@
-export function mock(fetchMock) {
+export function mock(fetchMock: {[ key: string ]: any }) {
     // Chain mocks - see http://www.wheresrhys.co.uk/fetch-mock for API details
     fetchMock.mock('https://pokeapi.co/api/v2/pokemon/1/', {
         name: 'bulbasaur',
