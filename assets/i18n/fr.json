@@ -2,7 +2,7 @@
     "error": {
         "mqtt": "Désolé, une erreur s'est produite lors de la communication avec la plateforme Snips",
         "config": "Désolé, une erreur s'est produite avec votre fichier de configuration.",
-        "localisation": "Désolé, une erreur s'est produite avec vos paramètres de langue.",
+        "locale": "Désolé, une erreur s'est produite avec vos paramètres de langue.",
         "intentNotRecognized": "Désolé, je n'ai pas compris votre requête.",
         "samePlaces": "Veuillez indiquer deux lieux différents pour votre requête.",
         "place": "Désolé, le lieu demandé n'a pas été retrouvé.",
@@ -17,7 +17,7 @@
             "L'heure actuelle à {{ targetPlace }} est {{ targetHour }} {{ targetMinute }} {{ targetPeriod }}."
         ],
         "convertTime": {
-            "noTime": "Désolé, pouvez-vous répéter l'heure de votre requête."
+            "noTime": "Désolé, pouvez-vous répéter l'heure de votre requête.",
             "timeProvided": [
                     "Il est {{ targetHour }} {{ targetMinute }} {{ targetPeriod }} à {{ targetPlace }} quand il est {{ baseHour }} {{ baseMinute }} {{ basePeriod }} à {{ basePlace }}.",
                     "Quand il est {{ baseHour }} {{ baseMinute }} {{ basePeriod }} à {{ basePlace }}, il est {{ targetHour }} {{ targetMinute }} {{ targetPeriod }} à {{ targetPlace }}.",
