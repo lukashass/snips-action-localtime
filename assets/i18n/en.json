@@ -5,8 +5,8 @@
         "localisation": "Sorry, there was an error with your language settings.",
         "intentNotRecognized": "Sorry, I did not understand your request.",
         "samePlaces": "Please indicate two different places for your request.",
-        "place": "Sorry, the location you asked was not found.",
-        "country": "Sorry, the country you asked was not found.",
+        "place": "Sorry, the location you asked for was not found.",
+        "country": "Sorry, the country you asked for was not found.",
         "unspecific": "Oops, something went wrong."
     },
     "localTime": {
@@ -27,13 +27,13 @@
         "getTimeDifference": {
             "round": {
                 "zeroHour": "There's no time difference between {{ basePlace }} and {{ targetPlace }}.",
-                "oneHour": "There is a one hour difference between {{ basePlace }} and {{ targetPlace }}.",
-                "severalHours": "There is a {{ diffHour }} hours difference between {{ basePlace }} and {{ targetPlace }}."
+                "oneHour": "There is a time difference of one hour between {{ basePlace }} and {{ targetPlace }}.",
+                "severalHours": "There is a time difference of {{ diffHour }} hours between {{ basePlace }} and {{ targetPlace }}."
             },
             "halves": {
-                "zeroHour": "There's half an hour difference between {{ basePlace }} and {{ targetPlace }}.",
-                "oneHour": "there's an hour and a half difference between {{ basePlace }} and {{ targetPlace }}.",
-                "severalHours": "There is a {{ diffHour }} hours and 30 minutes difference between {{ basePlace }} and {{ targetPlace }}."
+                "zeroHour": "There's a time difference of half an hour between {{ basePlace }} and {{ targetPlace }}.",
+                "oneHour": "there's a time difference of one hour and a half between {{ basePlace }} and {{ targetPlace }}.",
+                "severalHours": "There is a time difference of {{ diffHour }} hours and 30 minutes between {{ basePlace }} and {{ targetPlace }}."
             }
         },
         "getTimeZone": "{{ targetPlace }} is in the UTC {{ offsetHour }} {{ offsetMinute }} timezone."

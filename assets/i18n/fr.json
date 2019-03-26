@@ -2,13 +2,40 @@
     "error": {
         "mqtt": "Désolé, une erreur s'est produite lors de la communication avec la plateforme Snips",
         "config": "Désolé, une erreur s'est produite avec votre fichier de configuration.",
-        "locale": "Désolé, une erreur s'est produite avec vos paramètres de localisation.",
+        "locale": "Désolé, une erreur s'est produite avec vos paramètres de langue.",
         "intentNotRecognized": "Désolé, je n'ai pas compris votre requête.",
-        "APIResponse": "Désolé, une erreur s'est produite avec le service de météo.",
-        "APIRequest": "Désolé, le service de météo est injoignable.",
+        "samePlaces": "Veuillez indiquer deux lieux différents pour votre requête.",
+        "place": "Désolé, le lieu demandé n'a pas été retrouvé.",
+        "country": "Désolé, le pays demandé n'a pas été retrouvé.",
         "unspecific": "Oups, quelque chose s'est mal passé."
     },
-    "pokemon": {
-        "info": "Le pokémon {{ name }} pèse {{ weight }} kilos et mesure {{ height }} centimètres."
+    "localTime": {
+        "getLocalTime": [
+            "Il est actuellement {{ targetHour }} {{ targetMinute }} {{ targetPeriod }} à {{ targetPlace }}.",
+            "Il est {{ targetHour }} {{ targetMinute }} {{ targetPeriod }} à {{ targetPlace }}.",
+            "À {{ targetPlace }}, il est actuellement {{ targetHour }} {{ targetMinute }} {{ targetPeriod }}.",
+            "L'heure actuelle à {{ targetPlace }} est {{ targetHour }} {{ targetMinute }} {{ targetPeriod }}."
+        ],
+        "convertTime": {
+            "noTime": "Désolé, pouvez-vous répéter l'heure de votre requête.",
+            "timeProvided": [
+                    "Il est {{ targetHour }} {{ targetMinute }} {{ targetPeriod }} à {{ targetPlace }} quand il est {{ baseHour }} {{ baseMinute }} {{ basePeriod }} à {{ basePlace }}.",
+                    "Quand il est {{ baseHour }} {{ baseMinute }} {{ basePeriod }} à {{ basePlace }}, il est {{ targetHour }} {{ targetMinute }} {{ targetPeriod }} à {{ targetPlace }}.",
+                    "À {{ baseHour }} {{ baseMinute }} {{ basePeriod }} à {{ basePlace }}, il est {{ targetHour }} {{ targetMinute }} {{ targetPeriod }} à {{ targetPlace }}."
+            ]
+        },
+        "getTimeDifference": {
+            "round": {
+                "zeroHour": "Il n'y a pas de décalage horaire entre {{ basePlace }} et {{ targetPlace }}.",
+                "oneHour": "Il y a une heure de décalage horaire entre {{ basePlace }} et {{ targetPlace }}.",
+                "severalHours": "Il y a {{ diffHour }} heures de décalage horaire entre {{ basePlace }} et {{ targetPlace }}."
+            },
+            "halves": {
+                "zeroHour": "Il y a une demi-heure de décalage horaire entre {{ basePlace }} et {{ targetPlace }}.",
+                "oneHour": "Il y a une heure et demie de décalage horaire entre {{ basePlace }} et {{ targetPlace }}.",
+                "severalHours": "Il y a {{ diffHour }} heures et 30 minutes de décalage horaire entre {{ basePlace }} et {{ targetPlace }}."
+            }
+        },
+        "getTimeZone": "{{ targetPlace }} se trouve sur le fuseau horaire {{ offsetHour }} {{ offsetMinute }}."
     }
 }
