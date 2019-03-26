@@ -1,5 +1,5 @@
 # snips-action-localtime
-#### localtime app for the Snips-Assistant
+#### Snips action code for the Local time app
 
 ## Setup
 

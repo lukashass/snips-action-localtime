@@ -1,7 +1,7 @@
 {
   "name": "snips-action-localtime",
   "version": "0.0.1",
-  "description": "localtime app for the Snips-Assistant",
+  "description": "Snips action code for the localtime app",
   "main": "dist/index.js",
   "scripts": {
     "start": "npm run lint && npm run build && npm run test",

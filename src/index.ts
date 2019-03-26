@@ -8,10 +8,10 @@ export default function ({ hermesOptions = {}, bootstrapOptions = {} } = {}) : P
     return new Promise((resolve, reject) => {
         withHermes(async (hermes, done) => {
             try {
-                // Bootstrap config, locale, i18n…
                 await bootstrap(bootstrapOptions)
+                
                 const dialog = hermes.dialog()
-                // This is a placeholder! Replace that by something valid!
+                
                 dialog.flows([
                     {
                         intent: 'snips-assistant:GetLocalTime',

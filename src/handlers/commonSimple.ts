@@ -10,9 +10,20 @@ export default async function (msg: IntentMessage) {
     }
 
     /* Extract slots */
-    const countrySlot: NluSlot<slotType.custom> | null = message.getSlotsByName<slotType.custom, true>(msg, 'country', { onlyMostConfident: true, threshold: SLOT_CONFIDENCE_THRESHOLD })
-    const regionSlot: NluSlot<slotType.custom> | null = message.getSlotsByName<slotType.custom, true>(msg, 'region', { onlyMostConfident: true, threshold: SLOT_CONFIDENCE_THRESHOLD })
-    const citySlot: NluSlot<slotType.custom> | null = message.getSlotsByName<slotType.custom, true>(msg, 'city', { onlyMostConfident: true, threshold: SLOT_CONFIDENCE_THRESHOLD })
+    const countrySlot: NluSlot<slotType.custom> | null = message.getSlotsByName<slotType.custom, true>(msg, 'country', {
+        onlyMostConfident: true,
+        threshold: SLOT_CONFIDENCE_THRESHOLD
+    })
+
+    const regionSlot: NluSlot<slotType.custom> | null = message.getSlotsByName<slotType.custom, true>(msg, 'region', {
+        onlyMostConfident: true,
+        threshold: SLOT_CONFIDENCE_THRESHOLD
+    })
+
+    const citySlot: NluSlot<slotType.custom> | null = message.getSlotsByName<slotType.custom, true>(msg, 'city', {
+        onlyMostConfident: true,
+        threshold: SLOT_CONFIDENCE_THRESHOLD
+    })
 
     return {
         countrySlot, regionSlot, citySlot
