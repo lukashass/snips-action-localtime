@@ -15,12 +15,12 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
         params: timeInfo,
         noTime: string
     
+    /*
     const {
         timeSlot, baseCountrySlot, baseRegionSlot, baseCitySlot, targetCountrySlot, targetRegionSlot, targetCitySlot
     } = await commonHandler(msg)
     flow.end()
     
-    /* Extract places names and timezones */
     const {
         value: basePlace,
         timezone: baseTimeZone
@@ -55,4 +55,5 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
         targetPeriod: timeInfo.targetPeriod
     }
     return translation.randomTranslation(key, params)
+    */
 }

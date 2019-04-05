@@ -15,6 +15,7 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
         hourKey: string
     
     flow.end()
+    /*
     const {
         baseCountrySlot, baseRegionSlot, baseCitySlot, targetCountrySlot, targetRegionSlot, targetCitySlot
     } = await commonHandler(msg)
@@ -23,7 +24,6 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
         throw new Error('intentNotRecognized')
     }
 
-    /* Extract places names and timezones */
     const {
         value: basePlace,
         timezone: baseTimeZone
@@ -44,6 +44,7 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
     } 
     roundKey = diffData.minute === '30' ? 'halves' : 'round'
     hourKey = diffData.hour === '' ? 'zeroHour' : diffData.hour === '1' ? 'oneHour' : 'severalHours'
-    key = `localTime.getTimeDifference.${roundKey}.${hourKey}` 
+    key = `localTime.getTimeDifference.${roundKey}.${hourKey}`
+    */
     return i18nFactory.get()(key, params)
 }

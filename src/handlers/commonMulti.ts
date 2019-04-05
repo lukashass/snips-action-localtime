@@ -1,12 +1,22 @@
 import { message } from '../utils'
 import { IntentMessage, NluSlot, slotType } from 'hermes-javascript'
-import { INTENT_PROBABILITY_THRESHOLD, GEOMETRIC_MEAN_THRESHOLD, SLOT_CONFIDENCE_THRESHOLD } from '../constants'
+import {
+    INTENT_PROBABILITY_THRESHOLD,
+    ASR_UTTERANCE_CONFIDENCE_THRESHOLD,
+    SLOT_CONFIDENCE_THRESHOLD
+} from '../constants'
 
 /* Common logic performed for various intents */
 export default async function (msg: IntentMessage) {
-    if(msg.intent.confidenceScore < INTENT_PROBABILITY_THRESHOLD || message.getAsrConfidence(msg) < GEOMETRIC_MEAN_THRESHOLD) {
-        throw new Error('intentNotRecognized')
+    if (msg.intent) {
+        if (msg.intent.confidenceScore < INTENT_PROBABILITY_THRESHOLD) {
+            throw new Error('intentNotRecognized')
+        }
+        if (message.getAsrConfidence(msg) < ASR_UTTERANCE_CONFIDENCE_THRESHOLD) {
+            throw new Error('intentNotRecognized')
+        }
     }
+    
     /* Extract slots */
     const slots: { [key: string]: NluSlot<slotType.custom>[] } = {
         baseCountrySlot: message.getSlotsByName<slotType.custom>(msg, 'country_base', { onlyMostConfident: false, threshold: SLOT_CONFIDENCE_THRESHOLD }),

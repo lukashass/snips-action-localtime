@@ -23,7 +23,7 @@ export default function ({ hermesOptions = {}, bootstrapOptions = {} } = {}) : P
                         intent: 'snips-assistant:ConvertTime',
                         action : handlers.convertTime
                     }, {
-                        intent: 'snips-assistant:GetTimezone',
+                        intent: 'snips-assistant:GetTimezone_V2',
                         action : handlers.getTimeZone
                     }, {
                         intent: 'snips-assistant:GetTimeDifference',

@@ -16,6 +16,7 @@ export const translation = {
             return 'Oops, something went wrong.'
         }
     },
+    
     // Takes an array from the i18n and returns a random item.
     randomTranslation (key: string | string[], opts: {[key: string]: any}): string {
         const i18n = i18nFactory.get()

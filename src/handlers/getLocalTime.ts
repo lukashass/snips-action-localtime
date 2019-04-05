@@ -8,6 +8,7 @@ import commonSimple from './commonSimple'
 import { IntentMessage, FlowContinuation } from 'hermes-javascript'
 
 export default async function (msg: IntentMessage, flow: FlowContinuation) {
+    /*
     let timeInfo: timeInfo,
         key: string,
         params: timeInfo
@@ -15,7 +16,6 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
     const { countrySlot, regionSlot, citySlot } = await commonSimple(msg)
     flow.end()
 
-    /* Extract target geonameid and name */
     const { value: place, timezone: timeZone } = location.extractGeoNameIdAndPlace(countrySlot, regionSlot, citySlot)
 
     timeInfo = time.getTimeFromPlace(timeZone)
@@ -28,4 +28,5 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
     key = 'localTime.getLocalTime'
 
     return translation.randomTranslation(key, params)
+    */
 }
