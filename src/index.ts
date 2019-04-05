@@ -14,19 +14,19 @@ export default function ({ hermesOptions = {}, bootstrapOptions = {} } = {}) : P
                 
                 dialog.flows([
                     {
-                        intent: 'snips-assistant:GetLocalTime',
+                        intent: 'snips-assistant:GetLocalTime_V2',
                         action : handlers.getLocalTime
                     }, {
-                        intent: 'snips-assistant:CheckTime',
+                        intent: 'snips-assistant:CheckTime_V2',
                         action: handlers.getLocalTime
                     }, {
-                        intent: 'snips-assistant:ConvertTime',
+                        intent: 'snips-assistant:ConvertTime_V2',
                         action : handlers.convertTime
                     }, {
                         intent: 'snips-assistant:GetTimezone_V2',
                         action : handlers.getTimeZone
                     }, {
-                        intent: 'snips-assistant:GetTimeDifference',
+                        intent: 'snips-assistant:GetTimeDifference_V2',
                         action : handlers.getTimeDifference
                     }
                 ])

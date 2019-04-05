@@ -11,12 +11,15 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
 
     const locations = await commonHandler(msg)
 
+    //TODO: handle default location
     if (slot.missing(locations)) {
         throw new Error('intentNotRecognized')
     }
 
     let entry: MappingEntry
 
+    //TODO: to be rewritten
+    // At the moment, entry is overwritten
     for (let loc of locations) {
         const cityEntry = location.getMostPopulated(loc, mappings.city)
         const regionEntry = location.getMostPopulated(loc, mappings.region)

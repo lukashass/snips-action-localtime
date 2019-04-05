@@ -1,32 +1,43 @@
-import {
-    location,
-    time,
-    translation,
-    timeInfo
-} from '../utils'
-import commonSimple from './commonSimple'
+import { location, time, logger, slot, translation, timeInfo, MappingEntry } from '../utils'
+import { mappingsFactory } from '../factories'
+import commonHandler from './commonSimple'
 import { IntentMessage, FlowContinuation } from 'hermes-javascript'
 
 export default async function (msg: IntentMessage, flow: FlowContinuation) {
-    /*
-    let timeInfo: timeInfo,
-        key: string,
-        params: timeInfo
+    const mappings = mappingsFactory.get()
+
+    logger.info('GetLocalTime')
     
-    const { countrySlot, regionSlot, citySlot } = await commonSimple(msg)
+    const locations = await commonHandler(msg)
+
+    //TODO: handle default location
+    if (slot.missing(locations)) {
+        throw new Error('intentNotRecognized')
+    }
+
+    let entry: MappingEntry
+
+    //TODO: to be rewritten
+    // At the moment, entry is overwritten
+    for (let loc of locations) {
+        const cityEntry = location.getMostPopulated(loc, mappings.city)
+        const regionEntry = location.getMostPopulated(loc, mappings.region)
+        const countryEntry = location.getMostPopulated(loc, mappings.country)
+
+        entry = (cityEntry) ? cityEntry : ((regionEntry) ? regionEntry : ((countryEntry) ? countryEntry : null))
+    }
+
+    if (!entry)
+        throw new Error('place')
+
+    const timeZone = entry.timezone
+    const timeInfo = time.getTimeFromPlace(timeZone)
+
     flow.end()
-
-    const { value: place, timezone: timeZone } = location.extractGeoNameIdAndPlace(countrySlot, regionSlot, citySlot)
-
-    timeInfo = time.getTimeFromPlace(timeZone)
-    params = {
-        targetPlace: place,
+    return translation.randomTranslation('localTime.getLocalTime', {
+        targetPlace: entry.value,
         targetHour: timeInfo.hour,
         targetMinute: timeInfo.minute,
         targetPeriod: timeInfo.period,
-    }
-    key = 'localTime.getLocalTime'
-
-    return translation.randomTranslation(key, params)
-    */
+    })
 }
