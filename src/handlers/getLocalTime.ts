@@ -18,6 +18,8 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
         entries.push(location.getMostRelevantEntry(loc))
     }
 
+    console.log(entries)
+
     const entry = location.reduceToRelevantEntry(entries)
     if (!entry)
         throw new Error('place')

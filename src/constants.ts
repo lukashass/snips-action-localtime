@@ -6,5 +6,5 @@ export const LANGUAGE_MAPPINGS: {[key:string]: string} = {
     french: 'fr'
 }
 export const INTENT_PROBABILITY_THRESHOLD: number =  0.5
-export const SLOT_CONFIDENCE_THRESHOLD: number =  0.5
+export const SLOT_CONFIDENCE_THRESHOLD: number =  0.2
 export const ASR_UTTERANCE_CONFIDENCE_THRESHOLD: number =  0.5
