@@ -12,15 +12,9 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
         throw new Error('intentNotRecognized')
     }
 
-    let entries: MappingEntry[] = []
-
-    for (let loc of locations) {
-        entries.push(location.getMostRelevantEntry(loc))
-    }
-
-    console.log(entries)
-
+    const entries: MappingEntry[] = location.getMostRelevantEntries(locations)
     const entry = location.reduceToRelevantEntry(entries)
+
     if (!entry)
         throw new Error('place')
 

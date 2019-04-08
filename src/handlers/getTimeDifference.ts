@@ -18,17 +18,12 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
         throw new Error('intentNotRecognized')
     }
 
-    let baseEntries: MappingEntry[] = [], targetEntries: MappingEntry[] = []
-
-    for (let loc of baseLocations) {
-        baseEntries.push(location.getMostRelevantEntry(loc))
-    }
-    for (let loc of targetLocations) {
-        targetEntries.push(location.getMostRelevantEntry(loc))
-    }
-
+    const baseEntries: MappingEntry[] = location.getMostRelevantEntries(baseLocations)
     const baseEntry = location.reduceToRelevantEntry(baseEntries)
+
+    const targetEntries: MappingEntry[] = location.getMostRelevantEntries(targetLocations)
     const targetEntry = location.reduceToRelevantEntry(targetEntries)
+    
     if (!baseEntry || !targetEntry)
         throw new Error('place')
     

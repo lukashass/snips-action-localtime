@@ -15,15 +15,12 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
         throw new Error('intentNotRecognized')
     }
 
-    let entries: MappingEntry[] = []
-
-    for (let loc of locations) {
-        entries.push(location.getMostRelevantEntry(loc))
-    }
-
+    const entries: MappingEntry[] = location.getMostRelevantEntries(locations)
     const entry = location.reduceToRelevantEntry(entries)
-    if (!entry)
+
+    if (!entry) {
         throw new Error('place')
+    }
 
     const timeZone = entry.timezone
     const offsetInfo = time.getUtcOffset(timeZone)
