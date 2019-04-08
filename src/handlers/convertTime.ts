@@ -1,5 +1,5 @@
 import { location, time, logger, slot, translation, message, MappingEntry } from '../utils'
-import { i18nFactory, mappingsFactory } from '../factories'
+import { i18nFactory } from '../factories'
 import commonHandler from './commonMulti'
 import { IntentMessage, FlowContinuation, NluSlot, slotType } from 'hermes-javascript'
 import {
@@ -8,7 +8,6 @@ import {
 
 export default async function (msg: IntentMessage, flow: FlowContinuation) {
     const i18n = i18nFactory.get()
-    const mappings = mappingsFactory.get()
 
     logger.info('ConvertTime')
 
@@ -19,6 +18,7 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
 
     let timeValue: string
 
+    // extracting time slot
     const timeSlot: NluSlot<slotType.custom> = message.getSlotsByName(msg, 'time', {
         onlyMostConfident: true,
         threshold: SLOT_CONFIDENCE_THRESHOLD
@@ -37,29 +37,18 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
         return i18n('localTime.convertTime.noTime') + await require('../handlers').getTimeDifference(msg, flow)
     }
 
-    let baseEntry: MappingEntry, targetEntry: MappingEntry
-    
-    //TODO: to be rewritten
-    // At the moment, entry is overwritten
+    let baseEntries: MappingEntry[] = [], targetEntries: MappingEntry[] = []
+
     for (let loc of baseLocations) {
-        const cityEntry = location.getMostPopulated(loc, mappings.city)
-        const regionEntry = location.getMostPopulated(loc, mappings.region)
-        const countryEntry = location.getMostPopulated(loc, mappings.country)
-
-        baseEntry = (cityEntry) ? cityEntry : ((regionEntry) ? regionEntry : ((countryEntry) ? countryEntry : null))
+        baseEntries.push(location.getMostRelevantEntry(loc))
     }
-
-    //TODO: to be rewritten
-    // At the moment, entry is overwritten
     for (let loc of targetLocations) {
-        const cityEntry = location.getMostPopulated(loc, mappings.city)
-        const regionEntry = location.getMostPopulated(loc, mappings.region)
-        const countryEntry = location.getMostPopulated(loc, mappings.country)
-
-        targetEntry = (cityEntry) ? cityEntry : ((regionEntry) ? regionEntry : ((countryEntry) ? countryEntry : null))
+        targetEntries.push(location.getMostRelevantEntry(loc))
     }
-    
-    if (!baseEntry && !targetEntry)
+
+    const baseEntry = location.reduceToRelevantEntry(baseEntries)
+    const targetEntry = location.reduceToRelevantEntry(targetEntries)
+    if (!baseEntry || !targetEntry)
         throw new Error('place')
 
     if (baseEntry.value === targetEntry.value)

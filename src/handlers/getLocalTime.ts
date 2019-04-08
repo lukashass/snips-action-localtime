@@ -1,11 +1,8 @@
 import { location, time, logger, slot, translation, MappingEntry } from '../utils'
-import { mappingsFactory } from '../factories'
 import commonHandler from './commonSimple'
 import { IntentMessage, FlowContinuation } from 'hermes-javascript'
 
 export default async function (msg: IntentMessage, flow: FlowContinuation) {
-    const mappings = mappingsFactory.get()
-
     logger.info('GetLocalTime')
     
     const locations = await commonHandler(msg)
@@ -15,18 +12,13 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
         throw new Error('intentNotRecognized')
     }
 
-    let entry: MappingEntry
+    let entries: MappingEntry[] = []
 
-    //TODO: to be rewritten
-    // At the moment, entry is overwritten
     for (let loc of locations) {
-        const cityEntry = location.getMostPopulated(loc, mappings.city)
-        const regionEntry = location.getMostPopulated(loc, mappings.region)
-        const countryEntry = location.getMostPopulated(loc, mappings.country)
-
-        entry = (cityEntry) ? cityEntry : ((regionEntry) ? regionEntry : ((countryEntry) ? countryEntry : null))
+        entries.push(location.getMostRelevantEntry(loc))
     }
 
+    const entry = location.reduceToRelevantEntry(entries)
     if (!entry)
         throw new Error('place')
 

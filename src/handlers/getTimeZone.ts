@@ -1,11 +1,10 @@
 import { location, time, logger, slot, MappingEntry } from '../utils'
-import { i18nFactory, mappingsFactory } from '../factories'
+import { i18nFactory } from '../factories'
 import commonHandler from './commonSimple'
 import { IntentMessage, FlowContinuation } from 'hermes-javascript'
 
 export default async function (msg: IntentMessage, flow: FlowContinuation) {
     const i18n = i18nFactory.get()
-    const mappings = mappingsFactory.get()
 
     logger.info('GetTimeZone')
 
@@ -16,18 +15,13 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
         throw new Error('intentNotRecognized')
     }
 
-    let entry: MappingEntry
+    let entries: MappingEntry[] = []
 
-    //TODO: to be rewritten
-    // At the moment, entry is overwritten
     for (let loc of locations) {
-        const cityEntry = location.getMostPopulated(loc, mappings.city)
-        const regionEntry = location.getMostPopulated(loc, mappings.region)
-        const countryEntry = location.getMostPopulated(loc, mappings.country)
-
-        entry = (cityEntry) ? cityEntry : ((regionEntry) ? regionEntry : ((countryEntry) ? countryEntry : null))
+        entries.push(location.getMostRelevantEntry(loc))
     }
 
+    const entry = location.reduceToRelevantEntry(entries)
     if (!entry)
         throw new Error('place')
 
