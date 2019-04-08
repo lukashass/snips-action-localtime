@@ -1,59 +1,81 @@
-import {
-    location,
-    time,
-    translation,
-    timeInfo
-} from '../utils'
-import { i18nFactory } from '../factories/'
+import { location, time, logger, slot, translation, message, MappingEntry } from '../utils'
+import { i18nFactory, mappingsFactory } from '../factories'
 import commonHandler from './commonMulti'
-import { IntentMessage, FlowContinuation } from 'hermes-javascript'
+import { IntentMessage, FlowContinuation, NluSlot, slotType } from 'hermes-javascript'
+import {
+    SLOT_CONFIDENCE_THRESHOLD
+} from '../constants'
 
 export default async function (msg: IntentMessage, flow: FlowContinuation) {
-    const { getTimeDifference } = require('../handlers')
-    let timeInfo: timeInfo,
-        key: string,
-        params: timeInfo,
-        noTime: string
-    
-    /*
+    const i18n = i18nFactory.get()
+    const mappings = mappingsFactory.get()
+
+    logger.info('ConvertTime')
+
     const {
-        timeSlot, baseCountrySlot, baseRegionSlot, baseCitySlot, targetCountrySlot, targetRegionSlot, targetCitySlot
+        baseLocations,
+        targetLocations
     } = await commonHandler(msg)
-    flow.end()
+
+    let timeValue: string
+
+    const timeSlot: NluSlot<slotType.custom> = message.getSlotsByName(msg, 'time', {
+        onlyMostConfident: true,
+        threshold: SLOT_CONFIDENCE_THRESHOLD
+    })
+
+    if (timeSlot) {
+        timeValue = timeSlot.value.value
+    }
+
+    //TODO: handle default location
+    if (slot.missing(baseLocations) || slot.missing(targetLocations)) {
+        throw new Error('intentNotRecognized')
+    }
+
+    if (slot.missing(timeValue)) {
+        return i18n('localTime.convertTime.noTime') + await require('../handlers').getTimeDifference(msg, flow)
+    }
+
+    let baseEntry: MappingEntry, targetEntry: MappingEntry
     
-    const {
-        value: basePlace,
-        timezone: baseTimeZone
-    } = location.extractGeoNameIdAndPlace(baseCountrySlot, baseRegionSlot, baseCitySlot)
-    const {
-        value: targetPlace,
-        timezone: targetTimeZone
-    } = location.extractGeoNameIdAndPlace(targetCountrySlot, targetRegionSlot, targetCitySlot)
+    //TODO: to be rewritten
+    // At the moment, entry is overwritten
+    for (let loc of baseLocations) {
+        const cityEntry = location.getMostPopulated(loc, mappings.city)
+        const regionEntry = location.getMostPopulated(loc, mappings.region)
+        const countryEntry = location.getMostPopulated(loc, mappings.country)
+
+        baseEntry = (cityEntry) ? cityEntry : ((regionEntry) ? regionEntry : ((countryEntry) ? countryEntry : null))
+    }
+
+    //TODO: to be rewritten
+    // At the moment, entry is overwritten
+    for (let loc of targetLocations) {
+        const cityEntry = location.getMostPopulated(loc, mappings.city)
+        const regionEntry = location.getMostPopulated(loc, mappings.region)
+        const countryEntry = location.getMostPopulated(loc, mappings.country)
+
+        targetEntry = (cityEntry) ? cityEntry : ((regionEntry) ? regionEntry : ((countryEntry) ? countryEntry : null))
+    }
     
-    if (!basePlace && !targetPlace)
-        throw new Error('location')
-    else if (basePlace == targetPlace)
+    if (!baseEntry && !targetEntry)
+        throw new Error('place')
+
+    if (baseEntry.value === targetEntry.value)
         throw new Error('samePlaces')
     
-    try {
-        timeInfo = time.getConvertedTime(timeSlot, baseTimeZone, targetTimeZone)
-    } catch(e) {
-        key = 'localTime.convertTime.noTime'
-        noTime = i18nFactory.get()(key)
-        return noTime + await getTimeDifference(msg, flow)
-    }
+    const timeInfo = time.getConvertedTime(timeValue, baseEntry.timezone, targetEntry.timezone)
     
-    key = 'localTime.convertTime.timeProvided'
-    params = {
-        basePlace,
-        baseHour: timeInfo.baseHour,
-        baseMinute: timeInfo.baseMinute,
-        basePeriod: timeInfo.basePeriod,
-        targetPlace,
-        targetHour: timeInfo.targetHour,
-        targetMinute: timeInfo.targetMinute,
-        targetPeriod: timeInfo.targetPeriod
-    }
-    return translation.randomTranslation(key, params)
-    */
+    flow.end()
+    return translation.randomTranslation('localTime.convertTime.timeProvided', {
+        base_location: baseEntry.value,
+        base_hour: timeInfo.baseHour,
+        base_minute: timeInfo.baseMinute,
+        base_period: timeInfo.basePeriod,
+        target_location: targetEntry.value,
+        target_hour: timeInfo.targetHour,
+        target_minute: timeInfo.targetMinute,
+        target_period: timeInfo.targetPeriod
+    })
 }

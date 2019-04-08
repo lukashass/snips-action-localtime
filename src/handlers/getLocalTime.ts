@@ -1,4 +1,4 @@
-import { location, time, logger, slot, translation, timeInfo, MappingEntry } from '../utils'
+import { location, time, logger, slot, translation, MappingEntry } from '../utils'
 import { mappingsFactory } from '../factories'
 import commonHandler from './commonSimple'
 import { IntentMessage, FlowContinuation } from 'hermes-javascript'
@@ -35,9 +35,9 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
 
     flow.end()
     return translation.randomTranslation('localTime.getLocalTime', {
-        targetPlace: entry.value,
-        targetHour: timeInfo.hour,
-        targetMinute: timeInfo.minute,
-        targetPeriod: timeInfo.period,
+        target_location: entry.value,
+        target_hour: timeInfo.hour,
+        target_minute: timeInfo.minute,
+        target_period: timeInfo.period,
     })
 }

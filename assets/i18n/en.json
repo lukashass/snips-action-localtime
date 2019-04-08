@@ -11,31 +11,31 @@
     },
     "localTime": {
         "getLocalTime": [
-            "It's currently {{ targetHour }} {{ targetMinute }} {{ targetPeriod }} in {{ targetPlace }}.",
-            "It's {{ targetHour }} {{ targetMinute }} {{ targetPeriod }} in {{ targetPlace }}.",
-            "In {{ targetPlace }}, it's currently {{ targetHour }} {{ targetMinute }} {{ targetPeriod }}.",
-            "The time in {{ targetPlace }} is {{ targetHour }} {{ targetMinute }} {{ targetPeriod }}."
+            "It's currently {{ target_hour }} {{ target_minute }} {{ target_period }} in {{- target_location }}.",
+            "It's {{- target_hour }} {{ target_minute }} {{ target_period }} in {{- target_location }}.",
+            "In {{- target_location }}, it's currently {{ target_hour }} {{ target_minute }} {{ target_period }}.",
+            "The time in {{- target_location }} is {{ target_hour }} {{ target_minute }} {{ target_period }}."
         ],
         "convertTime": {
             "noTime": "Sorry, I did not understand the time you asked for.",
             "timeProvided": [
-                    "It's {{ targetHour }} {{ targetMinute }} {{ targetPeriod }} in {{ targetPlace }} when it's {{ baseHour }} {{ baseMinute }} {{ basePeriod }} in {{ basePlace }}.",
-                    "When it's {{ baseHour }} {{ baseMinute }} {{ basePeriod }} in {{ basePlace }}, it's {{ targetHour }} {{ targetMinute }} {{ targetPeriod }} in {{ targetPlace }}.",
-                    "At {{ baseHour }} {{ baseMinute }} {{ basePeriod }} in {{ basePlace }}, it's {{ targetHour }} {{ targetMinute }} {{ targetPeriod }} in {{ targetPlace }}."
+                    "It's {{ target_hour }} {{ target_minute }} {{ target_period }} in {{- target_location }} when it's {{ base_hour }} {{ base_minute }} {{ base_period }} in {{- base_location }}.",
+                    "When it's {{ base_hour }} {{ base_minute }} {{ base_period }} in {{- base_location }}, it's {{ target_hour }} {{ target_minute }} {{ target_period }} in {{- target_location }}.",
+                    "At {{ base_hour }} {{ base_minute }} {{ base_period }} in {{- base_location }}, it's {{ target_hour }} {{ target_minute }} {{ target_period }} in {{- target_location }}."
             ]
         },
         "getTimeDifference": {
             "round": {
-                "zeroHour": "There's no time difference between {{ basePlace }} and {{ targetPlace }}.",
-                "oneHour": "There is a time difference of one hour between {{ basePlace }} and {{ targetPlace }}.",
-                "severalHours": "There is a time difference of {{ diffHour }} hours between {{ basePlace }} and {{ targetPlace }}."
+                "zeroHour": "There's no time difference between {{- base_location }} and {{- target_location }}.",
+                "oneHour": "There is a time difference of one hour between {{- base_location }} and {{- target_location }}.",
+                "severalHours": "There is a time difference of {{ diff_hour }} hours between {{- base_location }} and {{- target_location }}."
             },
             "halves": {
-                "zeroHour": "There's a time difference of half an hour between {{ basePlace }} and {{ targetPlace }}.",
-                "oneHour": "there's a time difference of one hour and a half between {{ basePlace }} and {{ targetPlace }}.",
-                "severalHours": "There is a time difference of {{ diffHour }} hours and 30 minutes between {{ basePlace }} and {{ targetPlace }}."
+                "zeroHour": "There's a time difference of half an hour between {{- base_location }} and {{- target_location }}.",
+                "oneHour": "there's a time difference of one hour and a half between {{- base_location }} and {{- target_location }}.",
+                "severalHours": "There is a time difference of {{ diff_hour }} hours and 30 minutes between {{- base_location }} and {{- target_location }}."
             }
         },
-        "getTimeZone": "{{ targetPlace }} is in the UTC {{ offsetHour }} {{ offsetMinute }} timezone."
+        "getTimeZone": "{{- target_location }} is in the UTC {{ offset_hour }} {{ offset_minute }} timezone."
     }
 }

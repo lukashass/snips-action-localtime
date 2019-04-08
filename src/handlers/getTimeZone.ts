@@ -36,8 +36,8 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
     
     flow.end()
     return i18n('localTime.getTimeZone', {
-        targetPlace: entry.value,
-        offsetHour: offsetInfo.hour,
-        offsetMinute: offsetInfo.minute
+        target_location: entry.value,
+        offset_hour: offsetInfo.hour,
+        offset_minute: offsetInfo.minute
     })
 }
