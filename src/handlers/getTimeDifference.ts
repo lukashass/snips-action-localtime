@@ -19,13 +19,16 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
     }
 
     const baseEntries: MappingEntry[] = location.getMostRelevantEntries(baseLocations)
+    if (!baseEntries || baseEntries.length === 0) {
+        throw new Error('place')
+    }
     const baseEntry = location.reduceToRelevantEntry(baseEntries)
 
     const targetEntries: MappingEntry[] = location.getMostRelevantEntries(targetLocations)
-    const targetEntry = location.reduceToRelevantEntry(targetEntries)
-    
-    if (!baseEntry || !targetEntry)
+    if (!targetEntries || targetEntries.length === 0) {
         throw new Error('place')
+    }
+    const targetEntry = location.reduceToRelevantEntry(targetEntries)
     
     if (baseEntry.value === targetEntry.value)
         throw new Error('samePlaces')

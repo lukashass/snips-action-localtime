@@ -16,11 +16,10 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
     }
 
     const entries: MappingEntry[] = location.getMostRelevantEntries(locations)
-    const entry = location.reduceToRelevantEntry(entries)
-
-    if (!entry) {
+    if (!entries || entries.length === 0) {
         throw new Error('place')
     }
+    const entry = entries[0]
 
     const timeZone = entry.timezone
     const offsetInfo = time.getUtcOffset(timeZone)
