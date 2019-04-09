@@ -1,9 +1,9 @@
 import { translation, logger } from '../utils'
 import { FlowContinuation, IntentMessage, FlowActionReturn } from 'hermes-javascript'
-import getTimeDifference from './getTimeDifference'
-import getLocalTime from './getLocalTime'
-import getTimeZone from './getTimeZone'
-import convertTime from './convertTime'
+import { getTimeDifferenceHandler } from './getTimeDifference'
+import { getLocalTimeHandler } from './getLocalTime'
+import { getTimeZoneHandler } from './getTimeZone'
+import { convertTimeHandler } from './convertTime'
 
 export type Handler = (
     message: IntentMessage,
@@ -32,8 +32,8 @@ const handlerWrapper = (handler: Handler): Handler => (
 
 // Add handlers here, and wrap them.
 export default {
-    getLocalTime: handlerWrapper(getLocalTime),
-    getTimeZone: handlerWrapper(getTimeZone),
-    getTimeDifference: handlerWrapper(getTimeDifference),
-    convertTime: handlerWrapper(convertTime)
+    getLocalTime: handlerWrapper(getLocalTimeHandler),
+    getTimeZone: handlerWrapper(getTimeZoneHandler),
+    getTimeDifference: handlerWrapper(getTimeDifferenceHandler),
+    convertTime: handlerWrapper(convertTimeHandler)
 }

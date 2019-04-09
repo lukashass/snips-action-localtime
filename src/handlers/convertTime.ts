@@ -1,12 +1,14 @@
 import { location, time, logger, slot, translation, message, MappingEntry } from '../utils'
+import { Handler } from './index'
 import { i18nFactory } from '../factories'
 import commonHandler from './commonMulti'
 import { IntentMessage, FlowContinuation, NluSlot, slotType } from 'hermes-javascript'
 import {
     SLOT_CONFIDENCE_THRESHOLD
 } from '../constants'
+import { getTimeDifferenceHandler } from './getTimeDifference'
 
-export default async function (msg: IntentMessage, flow: FlowContinuation) {
+export const convertTimeHandler: Handler = async function (msg: IntentMessage, flow: FlowContinuation) {
     const i18n = i18nFactory.get()
 
     logger.info('ConvertTime')
@@ -34,7 +36,7 @@ export default async function (msg: IntentMessage, flow: FlowContinuation) {
     }
 
     if (slot.missing(timeValue)) {
-        return i18n('localTime.convertTime.noTime') + await require('../handlers').getTimeDifference(msg, flow)
+        return i18n('localTime.convertTime.noTime') + await getTimeDifferenceHandler(msg, flow)
     }
 
     const baseEntries: MappingEntry[] = location.getMostRelevantEntries(baseLocations)

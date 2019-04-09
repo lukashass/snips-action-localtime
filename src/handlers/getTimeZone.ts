@@ -1,9 +1,10 @@
 import { location, time, logger, slot, MappingEntry } from '../utils'
+import { Handler } from './index'
 import { i18nFactory } from '../factories'
 import commonHandler from './commonSimple'
 import { IntentMessage, FlowContinuation } from 'hermes-javascript'
 
-export default async function (msg: IntentMessage, flow: FlowContinuation) {
+export const getTimeZoneHandler: Handler = async function (msg: IntentMessage, flow: FlowContinuation) {
     const i18n = i18nFactory.get()
 
     logger.info('GetTimeZone')

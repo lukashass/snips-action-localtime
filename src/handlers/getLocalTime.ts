@@ -1,8 +1,9 @@
 import { location, time, logger, slot, translation, MappingEntry } from '../utils'
+import { Handler } from './index'
 import commonHandler from './commonSimple'
 import { IntentMessage, FlowContinuation } from 'hermes-javascript'
 
-export default async function (msg: IntentMessage, flow: FlowContinuation) {
+export const getLocalTimeHandler: Handler = async function (msg: IntentMessage, flow: FlowContinuation) {
     logger.info('GetLocalTime')
     
     const locations = await commonHandler(msg)
