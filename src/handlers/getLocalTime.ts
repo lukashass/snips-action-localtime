@@ -23,10 +23,5 @@ export const getLocalTimeHandler: Handler = async function (msg: IntentMessage, 
     const timeInfo = time.getTimeFromPlace(timeZone)
 
     flow.end()
-    return translation.randomTranslation('localTime.getLocalTime', {
-        target_location: entry.value,
-        target_hour: timeInfo.hour,
-        target_minute: timeInfo.minute,
-        target_period: timeInfo.period,
-    })
+    return translation.localTimeToSpeech(entry, timeInfo)
 }

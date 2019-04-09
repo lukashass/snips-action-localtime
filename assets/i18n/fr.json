@@ -7,6 +7,7 @@
         "samePlaces": "Veuillez indiquer deux lieux différents pour votre requête.",
         "place": "Désolé, le lieu demandé n'a pas été retrouvé.",
         "country": "Désolé, le pays demandé n'a pas été retrouvé.",
+        "noTime": "Désolé, pouvez-vous répéter l'heure de votre requête.",
         "unspecific": "Oups, quelque chose s'est mal passé."
     },
     "localTime": {

@@ -1,12 +1,9 @@
-import { location, time, logger, slot, MappingEntry } from '../utils'
+import { location, time, logger, slot, MappingEntry, translation } from '../utils'
 import { Handler } from './index'
-import { i18nFactory } from '../factories'
 import commonHandler from './commonMulti'
 import { IntentMessage, FlowContinuation } from 'hermes-javascript'
 
 export const getTimeDifferenceHandler: Handler = async function (msg: IntentMessage, flow: FlowContinuation) {
-    const i18n = i18nFactory.get()
-
     logger.info('GetTimeDifference')
 
     const {
@@ -36,13 +33,6 @@ export const getTimeDifferenceHandler: Handler = async function (msg: IntentMess
     
     const diffData = time.getUtcOffsetDiff(baseEntry.timezone, targetEntry.timezone)
 
-    const roundKey = diffData.minute === '30' ? 'halves' : 'round'
-    const hourKey = (diffData.hour === '') ? 'zeroHour' : ((diffData.hour === '1') ? 'oneHour' : 'severalHours')
-
     flow.end()
-    return i18n(`localTime.getTimeDifference.${roundKey}.${hourKey}`, {
-        base_location: baseEntry.value,
-        target_location: targetEntry.value,
-        diff_hour: diffData.hour
-    })
+    return translation.timeDifferenceToSpeech(baseEntry, targetEntry, diffData)
 }

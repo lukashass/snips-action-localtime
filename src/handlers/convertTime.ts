@@ -36,7 +36,7 @@ export const convertTimeHandler: Handler = async function (msg: IntentMessage, f
     }
 
     if (slot.missing(timeValue)) {
-        return i18n('localTime.convertTime.noTime') + await getTimeDifferenceHandler(msg, flow)
+        throw new Error('noTime')
     }
 
     const baseEntries: MappingEntry[] = location.getMostRelevantEntries(baseLocations)
@@ -57,14 +57,5 @@ export const convertTimeHandler: Handler = async function (msg: IntentMessage, f
     const timeInfo = time.getConvertedTime(timeValue, baseEntry.timezone, targetEntry.timezone)
     
     flow.end()
-    return translation.randomTranslation('localTime.convertTime.timeProvided', {
-        base_location: baseEntry.value,
-        base_hour: timeInfo.baseHour,
-        base_minute: timeInfo.baseMinute,
-        base_period: timeInfo.basePeriod,
-        target_location: targetEntry.value,
-        target_hour: timeInfo.targetHour,
-        target_minute: timeInfo.targetMinute,
-        target_period: timeInfo.targetPeriod
-    })
+    return translation.convertTimeToSpeech(baseEntry, targetEntry, timeInfo)
 }

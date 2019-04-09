@@ -17,15 +17,15 @@ export function createEnglishPlaceSlot(placeName: string, slotName: string): Nlu
     }
 }
 
-export function createTimeSlot(time: Date): NluSlot<slotType.instantTime> {
+export function createTimeSlot(time: string): NluSlot<slotType.instantTime> {
     return {
-        confidenceScore: 1,
-        rawValue: time.toDateString() + '*******',
         slotName: 'time',
         entity: 'snips/datetime',
+        confidenceScore: 1,
+        rawValue: time,
         value: {
             kind: slotType.instantTime,
-            value: time.toDateString(),
+            value: time,
             grain: grain.minute,
             precision: 'Exact'
         },

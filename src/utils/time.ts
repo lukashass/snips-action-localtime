@@ -2,6 +2,7 @@ import Moment from 'moment-timezone'
 
 export const time = {
     getConvertedTime(timeValue: string, baseTimeZone: string, targetTimeZone: string) {
+        // deleting the timezone info from the string
         let dateTime: string = timeValue.slice(0, -7)
         let rawTime: Moment.Moment = Moment.tz(dateTime, baseTimeZone)
         let converted: Moment.Moment = Moment.tz(rawTime, targetTimeZone)

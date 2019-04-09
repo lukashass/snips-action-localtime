@@ -1,9 +1,6 @@
 import Session from '../helpers/session'
 import { createEnglishPlaceSlot, createTimeSlot } from '../utils'
-const intentKey: string = 'localTime.convertTime'
-const noTime = '.noTime'
-const timeProvided = '.timeProvided'
-
+import { getMessageKey, getMessageOptions } from '../helpers'
 
 export function testConvertTime(): void {
     describe('convertTime', () => {
@@ -12,30 +9,27 @@ export function testConvertTime(): void {
             const session = new Session()
             await session.start({
                 intentName: 'snips-assistant:ConvertTime_V2',
-                input: 'what time is it in Tokyo when it\'s 3am in Paris?',
+                input: 'what time is it in Tokyo when it\'s 3 am in Paris?',
                 slots: [
                     createEnglishPlaceSlot('Paris', 'location_base'),
                     createEnglishPlaceSlot('Tokyo', 'location_target'),
-                    createTimeSlot(new Date(2019, 0, 1, 3))
+                    createTimeSlot('2019-04-10 03:00:00 +00:00')
                 ]
             })
-            // (basically the arguments passed to i18n, in serialized string form)
-            const endMessage = await session.end()
-            const text = endMessage.text ? endMessage.text : ''
-
-            const { key, options } = JSON.parse(text)
-            expect(key).toBe(intentKey + timeProvided)
-            expect(options.base_location).toBe('Paris')
-            expect(options.target_location).toBe('Tokyo')
-            expect(options.base_hour).toBe('3')
-            expect(options.base_minute).toBe('')
-            expect(options.base_period).toBe('AM')
-            expect(options.target_hour).toBe('11')
-            expect(options.target_minute).toBe('')
-            expect(options.target_period).toBe('11')
+            
+            const endMsg = (await session.end()).text
+            expect(getMessageKey(endMsg)).toBe('localTime.convertTime.timeProvided')
+            expect(getMessageOptions(endMsg).base_location).toBe('Paris')
+            expect(getMessageOptions(endMsg).target_location).toBe('Tokyo')
+            expect(getMessageOptions(endMsg).base_hour).toBe('3')
+            expect(getMessageOptions(endMsg).base_minute).toBe('')
+            expect(getMessageOptions(endMsg).base_period).toBe('AM')
+            expect(getMessageOptions(endMsg).target_hour).toBe('10')
+            expect(getMessageOptions(endMsg).target_minute).toBe('')
+            expect(getMessageOptions(endMsg).target_period).toBe('AM')
         })
 
-        it('No Time', async () => {
+        it('no time', async () => {
             const session = new Session()
             await session.start({
                 intentName: 'snips-assistant:ConvertTime_V2',
@@ -45,14 +39,9 @@ export function testConvertTime(): void {
                     createEnglishPlaceSlot('Tokyo', 'location_target'),
                 ]
             })
-            // (basically the arguments passed to i18n, in serialized string form)
-            const endMessage = await session.end()
-            const text = endMessage.text ? endMessage.text : ''
-            const { key, options } = JSON.parse(text)
-            expect(key).toBe(intentKey + noTime)
-            expect(options.basePlace).toBe('Paris')
-            expect(options.targetPlace).toBe('Tokyo')
-            expect(options.difference).toBe('11 AM')
+            
+            const endMsg = (await session.end()).text
+            expect(getMessageKey(endMsg)[0]).toBe('error.noTime')
         })    
     })
 }
