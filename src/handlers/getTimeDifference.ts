@@ -11,8 +11,7 @@ export const getTimeDifferenceHandler: Handler = async function (msg: IntentMess
         targetLocations
     } = await commonHandler(msg)
     
-    //TODO: handle default location
-    if (slot.missing(baseLocations) && slot.missing(targetLocations)) {
+    if (slot.missing(baseLocations) || slot.missing(targetLocations)) {
         throw new Error('intentNotRecognized')
     }
 

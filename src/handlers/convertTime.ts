@@ -1,16 +1,12 @@
 import { location, time, logger, slot, translation, message, MappingEntry } from '../utils'
 import { Handler } from './index'
-import { i18nFactory } from '../factories'
 import commonHandler from './commonMulti'
 import { IntentMessage, FlowContinuation, NluSlot, slotType } from 'hermes-javascript'
 import {
     SLOT_CONFIDENCE_THRESHOLD
 } from '../constants'
-import { getTimeDifferenceHandler } from './getTimeDifference'
 
 export const convertTimeHandler: Handler = async function (msg: IntentMessage, flow: FlowContinuation) {
-    const i18n = i18nFactory.get()
-
     logger.info('ConvertTime')
 
     const {
@@ -30,7 +26,6 @@ export const convertTimeHandler: Handler = async function (msg: IntentMessage, f
         timeValue = timeSlot.value.value
     }
 
-    //TODO: handle default location
     if (slot.missing(baseLocations) || slot.missing(targetLocations)) {
         throw new Error('intentNotRecognized')
     }
@@ -53,9 +48,10 @@ export const convertTimeHandler: Handler = async function (msg: IntentMessage, f
 
     if (baseEntry.value === targetEntry.value)
         throw new Error('samePlaces')
-    
-    const timeInfo = time.getConvertedTime(timeValue, baseEntry.timezone, targetEntry.timezone)
+     
+    const baseTime: Date = new Date(timeValue.slice(0, -7))
+    const targetTime: Date = time.getConvertedTime(timeValue, baseEntry.timezone, targetEntry.timezone)
     
     flow.end()
-    return translation.convertTimeToSpeech(baseEntry, targetEntry, timeInfo)
+    return translation.convertTimeToSpeech(baseEntry, targetEntry, baseTime, targetTime)
 }

@@ -1,5 +1,6 @@
 import { i18nFactory } from '../factories/i18nFactory'
 import { MappingEntry } from './location'
+import { beautify } from './beautify'
 
 export const translation = {
     // Outputs an error message based on the error object, or a default message if not found.
@@ -33,12 +34,10 @@ export const translation = {
         return possibleValues[randomIndex]
     },
 
-    localTimeToSpeech(entry: MappingEntry, timeInfo): string {
+    localTimeToSpeech(entry: MappingEntry, time: Date): string {
         return translation.randomTranslation('localTime.getLocalTime', {
-            target_location: entry.value,
-            target_hour: timeInfo.hour,
-            target_minute: timeInfo.minute,
-            target_period: timeInfo.period,
+            location: entry.value,
+            time: beautify.time(time)
         })
     },
 
@@ -52,16 +51,12 @@ export const translation = {
         })
     },
 
-    convertTimeToSpeech(baseEntry: MappingEntry, targetEntry: MappingEntry, timeInfo): string {
+    convertTimeToSpeech(baseEntry: MappingEntry, targetEntry: MappingEntry, baseTime: Date, targetTime: Date): string {
         return translation.randomTranslation('localTime.convertTime.timeProvided', {
             base_location: baseEntry.value,
-            base_hour: timeInfo.baseHour,
-            base_minute: timeInfo.baseMinute,
-            base_period: timeInfo.basePeriod,
+            base_time: beautify.time(baseTime),
             target_location: targetEntry.value,
-            target_hour: timeInfo.targetHour,
-            target_minute: timeInfo.targetMinute,
-            target_period: timeInfo.targetPeriod
+            target_time: beautify.time(targetTime),
         })
     },
 

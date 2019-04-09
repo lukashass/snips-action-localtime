@@ -1,5 +1,6 @@
 import { location, time, logger, slot, translation, MappingEntry } from '../utils'
 import { Handler } from './index'
+import { configFactory } from '../factories'
 import commonHandler from './commonSimple'
 import { IntentMessage, FlowContinuation } from 'hermes-javascript'
 
@@ -8,9 +9,9 @@ export const getLocalTimeHandler: Handler = async function (msg: IntentMessage, 
     
     const locations = await commonHandler(msg)
 
-    //TODO: handle default location
     if (slot.missing(locations)) {
-        throw new Error('intentNotRecognized')
+        const config = configFactory.get()
+        locations.push(config.defaultLocation)
     }
 
     const entries: MappingEntry[] = location.getMostRelevantEntries(locations)
@@ -19,8 +20,7 @@ export const getLocalTimeHandler: Handler = async function (msg: IntentMessage, 
     }
     const entry = entries[0]
 
-    const timeZone = entry.timezone
-    const timeInfo = time.getTimeFromPlace(timeZone)
+    const timeInfo = time.getTimeFromPlace(entry.timezone)
 
     flow.end()
     return translation.localTimeToSpeech(entry, timeInfo)

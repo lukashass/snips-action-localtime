@@ -1,5 +1,6 @@
 import { location, time, logger, slot, MappingEntry, translation } from '../utils'
 import { Handler } from './index'
+import { configFactory } from '../factories'
 import commonHandler from './commonSimple'
 import { IntentMessage, FlowContinuation } from 'hermes-javascript'
 
@@ -8,9 +9,9 @@ export const getTimeZoneHandler: Handler = async function (msg: IntentMessage, f
 
     const locations = await commonHandler(msg)
 
-    //TODO: handle default location
     if (slot.missing(locations)) {
-        throw new Error('intentNotRecognized')
+        const config = configFactory.get()
+        locations.push(config.defaultLocation)
     }
 
     const entries: MappingEntry[] = location.getMostRelevantEntries(locations)

@@ -12,17 +12,17 @@
     },
     "localTime": {
         "getLocalTime": [
-            "It's currently {{ target_hour }} {{ target_minute }} {{ target_period }} in {{- target_location }}.",
-            "It's {{- target_hour }} {{ target_minute }} {{ target_period }} in {{- target_location }}.",
-            "In {{- target_location }}, it's currently {{ target_hour }} {{ target_minute }} {{ target_period }}.",
-            "The time in {{- target_location }} is {{ target_hour }} {{ target_minute }} {{ target_period }}."
+            "It's currently {{ time }} in {{- location }}.",
+            "It's {{- time }} in {{- location }}.",
+            "In {{- location }}, it's currently {{ time }}.",
+            "The time in {{- location }} is {{ time }}."
         ],
         "convertTime": {
             "noTime": "Sorry, I did not understand the time you asked for.",
             "timeProvided": [
-                    "It's {{ target_hour }} {{ target_minute }} {{ target_period }} in {{- target_location }} when it's {{ base_hour }} {{ base_minute }} {{ base_period }} in {{- base_location }}.",
-                    "When it's {{ base_hour }} {{ base_minute }} {{ base_period }} in {{- base_location }}, it's {{ target_hour }} {{ target_minute }} {{ target_period }} in {{- target_location }}.",
-                    "At {{ base_hour }} {{ base_minute }} {{ base_period }} in {{- base_location }}, it's {{ target_hour }} {{ target_minute }} {{ target_period }} in {{- target_location }}."
+                "It's {{ target_time }} in {{- target_location }} when it's {{ base_time }} in {{- base_location }}.",
+                "When it's {{ base_time }} in {{- base_location }}, it's {{ target_time }} in {{- target_location }}.",
+                "At {{ base_time }} in {{- base_location }}, it's {{ target_time }} in {{- target_location }}."
             ]
         },
         "getTimeDifference": {
