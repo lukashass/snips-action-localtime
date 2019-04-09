@@ -12,17 +12,17 @@
     },
     "localTime": {
         "getLocalTime": [
-            "Il est actuellement {{ target_hour }} {{ target_minute }} {{ target_period }} à {{- target_location }}.",
-            "Il est {{ target_hour }} {{ target_minute }} {{ target_period }} à {{- target_location }}.",
-            "À {{- target_location }}, il est actuellement {{ target_hour }} {{ target_minute }} {{ target_period }}.",
-            "L'heure actuelle à {{- target_location }} est {{ target_hour }} {{ target_minute }} {{ target_period }}."
+            "Il est actuellement {{ time }} à {{- location }}.",
+            "Il est {{ time }} à {{- location }}.",
+            "À {{- location }}, il est actuellement {{ time }}.",
+            "L'heure actuelle à {{- location }} est {{ time }}."
         ],
         "convertTime": {
             "noTime": "Désolé, pouvez-vous répéter l'heure de votre requête.",
             "timeProvided": [
-                    "Il est {{ target_hour }} {{ target_minute }} {{ target_period }} à {{- target_location }} quand il est {{ base_hour }} {{ base_minute }} {{ base_period }} à {{- base_location }}.",
-                    "Quand il est {{ base_hour }} {{ base_minute }} {{ base_period }} à {{- base_location }}, il est {{ target_hour }} {{ target_minute }} {{ target_period }} à {{- target_location }}.",
-                    "À {{ base_hour }} {{ base_minute }} {{ base_period }} à {{- base_location }}, il est {{ target_hour }} {{ target_minute }} {{ target_period }} à {{- target_location }}."
+                    "Il est {{ target_time }} à {{- target_location }} quand il est {{ base_time }} à {{- base_location }}.",
+                    "Quand il est {{ base_time }} à {{- base_location }}, il est {{ target_time }} à {{- target_location }}.",
+                    "À {{ base_time }} à {{- base_location }}, il est {{ target_time }} à {{- target_location }}."
             ]
         },
         "getTimeDifference": {
