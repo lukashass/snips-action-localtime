@@ -1,8 +1,8 @@
 import { location, time, logger, slot, translation, MappingEntry } from '../utils'
 import { Handler } from './index'
-import { configFactory } from '../factories'
 import commonHandler from './commonSimple'
 import { IntentMessage, FlowContinuation } from 'hermes-javascript'
+import { getCurrentLocation } from './utils'
 
 export const getLocalTimeHandler: Handler = async function (msg: IntentMessage, flow: FlowContinuation) {
     logger.info('GetLocalTime')
@@ -10,8 +10,7 @@ export const getLocalTimeHandler: Handler = async function (msg: IntentMessage, 
     const locations = await commonHandler(msg)
 
     if (slot.missing(locations)) {
-        const config = configFactory.get()
-        locations.push(config.defaultLocation)
+        locations.push(getCurrentLocation())
     }
 
     const entries: MappingEntry[] = location.getMostRelevantEntries(locations)

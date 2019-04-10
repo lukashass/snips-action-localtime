@@ -2,4 +2,4 @@
 locale=english
 
 [secret]
-default_location=New York City
+current_location=New York City

@@ -8,6 +8,7 @@
         "place": "Sorry, the location you asked for was not found.",
         "country": "Sorry, the country you asked for was not found.",
         "noTime": "Sorry, I did not understand the time you asked for.",
+        "noCurrentLocation": "Please, make sure you set up your current location.",
         "unspecific": "Oops, something went wrong."
     },
     "localTime": {

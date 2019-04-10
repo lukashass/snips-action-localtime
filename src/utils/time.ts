@@ -11,7 +11,7 @@ export const time = {
     },
     
     getTimeFromPlace(timeZone: string): Date {
-        return new Date(Moment().tz(timeZone).format("YYYY-MM-DD HH:mm:ss"))
+        return new Date(Moment().tz(timeZone).format('YYYY-MM-DD HH:mm:ss'))
     },
 
     getUtcOffset(timezone: string) {

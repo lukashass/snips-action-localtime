@@ -8,6 +8,7 @@
         "place": "Désolé, le lieu demandé n'a pas été retrouvé.",
         "country": "Désolé, le pays demandé n'a pas été retrouvé.",
         "noTime": "Désolé, pouvez-vous répéter l'heure de votre requête.",
+        "noCurrentLocation": "Veillez à configurer votre localisation actuelle.",
         "unspecific": "Oups, quelque chose s'est mal passé."
     },
     "localTime": {
