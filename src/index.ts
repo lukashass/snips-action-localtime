@@ -21,12 +21,10 @@ export default function ({ hermesOptions = {}, bootstrapOptions = {} } = {}) : P
                         intent: 'snips-assistant:CheckTime_V2',
                         action: handlers.getLocalTime
                     },
-                    /*
                     {
                         intent: 'snips-assistant:ConvertTime_V2',
                         action : handlers.convertTime
                     },
-                    */
                     {
                         intent: 'snips-assistant:GetTimezone_V2',
                         action : handlers.getTimeZone
