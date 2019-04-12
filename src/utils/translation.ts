@@ -54,9 +54,9 @@ export const translation = {
     convertTimeToSpeech(baseEntry: MappingEntry, targetEntry: MappingEntry, baseTime: Date, targetTime: Date): string {
         return translation.randomTranslation('localTime.convertTime.timeProvided', {
             base_location: baseEntry.value,
-            base_time: beautify.time(baseTime),
+            base_time: beautify.time(baseTime, true),
             target_location: targetEntry.value,
-            target_time: beautify.time(targetTime),
+            target_time: beautify.time(targetTime, true),
         })
     },
 

@@ -1,9 +1,16 @@
 import { configFactory } from '../factories'
 
 export const beautify = {    
-    time: (date: Date): string => {
+    time: (date: Date, cancelTimezoneOffset: boolean = false): string => {
         const config = configFactory.get()
-        const options = { hour: 'numeric', minute: 'numeric' }
+        let options: any = { hour: 'numeric', minute: 'numeric' }
+
+        if (cancelTimezoneOffset) {
+            options = {
+                ...options,
+                timeZone: 'UTC'
+            }
+        }
 
         if (config.locale === 'french') {
             // French

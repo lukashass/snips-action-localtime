@@ -5,6 +5,7 @@ import { IntentMessage, FlowContinuation, NluSlot, slotType } from 'hermes-javas
 import {
     SLOT_CONFIDENCE_THRESHOLD
 } from '../constants'
+import Moment from 'moment-timezone'
 
 export const convertTimeHandler: Handler = async function (msg: IntentMessage, flow: FlowContinuation) {
     logger.info('ConvertTime')
@@ -49,9 +50,11 @@ export const convertTimeHandler: Handler = async function (msg: IntentMessage, f
     if (baseEntry.value === targetEntry.value)
         throw new Error('samePlaces')
      
-    const baseTime: Date = new Date(timeValue.slice(0, -7))
-    const targetTime: Date = time.getConvertedTime(timeValue, baseEntry.timezone, targetEntry.timezone)
-    
+    const {
+        baseTime,
+        targetTime
+    } = time.getConvertedTime(timeValue, baseEntry.timezone, targetEntry.timezone)
+
     flow.end()
     return translation.convertTimeToSpeech(baseEntry, targetEntry, baseTime, targetTime)
 }
