@@ -1,7 +1,5 @@
 {
     "compilerOptions": {
-        "baseUrl": ".",
-        "paths": { "*": ["types/*"] },
         "module": "commonjs",
         "esModuleInterop": true,
         "resolveJsonModule": true,

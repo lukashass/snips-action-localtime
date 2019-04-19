@@ -19,8 +19,8 @@
             "L'heure actuelle à {{- location }} est {{ time }}."
         ],
         "getLocalDate": [
-            "Aujourd'hui, nous sommes {{ date }}.",
-            "C'est {{- date }}."
+            "Aujourd'hui, nous sommes le {{ date }}.",
+            "Nous sommes le {{- date }}."
         ],
         "convertTime": {
             "noTime": "Désolé, pouvez-vous répéter l'heure de votre requête.",

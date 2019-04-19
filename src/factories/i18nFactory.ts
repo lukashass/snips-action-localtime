@@ -3,19 +3,19 @@ import path from 'path'
 import i18next from 'i18next'
 import { DEFAULT_LANGUAGE } from '../constants'
 
-let i18n: (key: string | string[], options?: {[key: string]: any}) => string & string[]
+let i18n: (key: string | string[], options?: {[key: string]: any}) => string & string[] = null
 
 async function init(language = DEFAULT_LANGUAGE, i18nOptions = { mock: false }) {
     try {
         // If we are mocking.
         if(i18nOptions.mock) {
             // Stringify the key and options instead of using i18next.
-            i18n = function (key: string | string[], options?: {[key: string]: any}) {
+            i18n = function (key, options) {
                 return JSON.stringify({
                     key,
                     options
-                }) as string & string[]
-            }
+                })
+            } as any
             return
         }
         // Read the language files.
