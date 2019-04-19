@@ -18,6 +18,10 @@
             "In {{- location }}, it's currently {{ time }}.",
             "The time in {{- location }} is {{ time }}."
         ],
+        "getLocalDate": [
+            "It's {{ date }}.",
+            "Today, it's {{- date }}."
+        ],
         "convertTime": {
             "noTime": "Sorry, I did not understand the time you asked for.",
             "timeProvided": [

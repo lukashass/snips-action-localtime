@@ -41,6 +41,13 @@ export const translation = {
         })
     },
 
+    localDateToSpeech(date: Date): string {
+        console.log(beautify.date(date))
+        return translation.randomTranslation('localTime.getLocalDate', {
+            date: beautify.date(date)
+        })
+    },
+
     timeZoneToSpeech(entry: MappingEntry, offsetInfo): string {
         const i18n = i18nFactory.get()
 

@@ -28,6 +28,10 @@ export const time = {
         return new Date(Moment().tz(timeZone).format('YYYY-MM-DD HH:mm:ss'))
     },
 
+    getDateFromPlace(timeZone: string): Date {
+        return new Date(Moment().tz(timeZone).format('YYYY-MM-DD'))
+    },
+
     getUtcOffset(timezone: string) {
         const offset: number = Moment.tz(timezone).utcOffset() / 60
         const prefix: string = offset > 0 ? '+' : ''

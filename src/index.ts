@@ -11,6 +11,7 @@ export default function ({ hermesOptions = {}, bootstrapOptions = {} } = {}) : P
                 await bootstrap(bootstrapOptions)
                 
                 const dialog = hermes.dialog()
+                logger.info('try with Hermes')
                 
                 dialog.flows([
                     {
@@ -32,6 +33,10 @@ export default function ({ hermesOptions = {}, bootstrapOptions = {} } = {}) : P
                     {
                         intent: 'snips-assistant:GetTimeDifference_V2',
                         action : handlers.getTimeDifference
+                    },
+                    {
+                        intent: 'snips-assistant:GetDate',
+                        action : handlers.getDate
                     }
                 ])
                 resolve(done)

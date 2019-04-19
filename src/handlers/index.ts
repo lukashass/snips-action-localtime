@@ -4,6 +4,8 @@ import { getTimeDifferenceHandler } from './getTimeDifference'
 import { getLocalTimeHandler } from './getLocalTime'
 import { getTimeZoneHandler } from './getTimeZone'
 import { convertTimeHandler } from './convertTime'
+import { getDateHandler } from './getDate'
+
 
 export type Handler = (
     message: IntentMessage,
@@ -35,5 +37,6 @@ export default {
     getLocalTime: handlerWrapper(getLocalTimeHandler),
     getTimeZone: handlerWrapper(getTimeZoneHandler),
     getTimeDifference: handlerWrapper(getTimeDifferenceHandler),
-    convertTime: handlerWrapper(convertTimeHandler)
+    convertTime: handlerWrapper(convertTimeHandler),
+    getDate: handlerWrapper(getDateHandler)
 }
