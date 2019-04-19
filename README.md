@@ -25,7 +25,7 @@ npm run dev
 # 1) Lint, transpile and test.
 npm start
 # 2) Run the action.
-tsc && node action-localtime.js
+node action-localtime.js
 ```
 
 ## Debug

@@ -43,5 +43,9 @@
             }
         },
         "getTimeZone": "{{- target_location }} se trouve sur le fuseau horaire {{ offset_hour }} {{ offset_minute }}."
+    },
+    "moment": {
+        "date": "dddd D MMMM",
+        "time": "H [heures] m"
     }
 }
