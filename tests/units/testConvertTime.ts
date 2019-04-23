@@ -21,12 +21,8 @@ export function testConvertTime(): void {
             expect(getMessageKey(endMsg)).toBe('localTime.convertTime.timeProvided')
             expect(getMessageOptions(endMsg).base_location).toBe('Paris')
             expect(getMessageOptions(endMsg).target_location).toBe('Tokyo')
-            expect(getMessageOptions(endMsg).base_hour).toBe('3')
-            expect(getMessageOptions(endMsg).base_minute).toBe('')
-            expect(getMessageOptions(endMsg).base_period).toBe('AM')
-            expect(getMessageOptions(endMsg).target_hour).toBe('10')
-            expect(getMessageOptions(endMsg).target_minute).toBe('')
-            expect(getMessageOptions(endMsg).target_period).toBe('AM')
+            expect(getMessageOptions(endMsg).base_time).toBe('3 AM')
+            expect(getMessageOptions(endMsg).target_time).toBe('10 AM')
         })
 
         it('no time', async () => {
