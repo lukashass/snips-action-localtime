@@ -1,7 +1,7 @@
-import { location, time, logger, slot, MappingEntry, translation } from '../utils'
-import { Handler } from './index'
+import { location, time, slot, MappingEntry, translation } from '../utils'
+import { Handler, logger } from 'snips-toolkit'
 import commonHandler from './commonMulti'
-import { IntentMessage, FlowContinuation } from 'hermes-javascript'
+import { IntentMessage, FlowContinuation } from 'hermes-javascript/types'
 
 export const getTimeDifferenceHandler: Handler = async function (msg: IntentMessage, flow: FlowContinuation) {
     logger.info('GetTimeDifference')

@@ -1,7 +1,7 @@
-import { location, time, logger, slot, MappingEntry, translation } from '../utils'
-import { Handler } from './index'
+import { location, time, slot, MappingEntry, translation } from '../utils'
+import { Handler, logger } from 'snips-toolkit'
 import commonHandler from './commonSimple'
-import { IntentMessage, FlowContinuation } from 'hermes-javascript'
+import { IntentMessage, FlowContinuation } from 'hermes-javascript/types'
 import { getCurrentLocation } from './utils'
 
 export const getTimeZoneHandler: Handler = async function (msg: IntentMessage, flow: FlowContinuation) {

@@ -1,4 +1,4 @@
-import { mappingsFactory } from '../factories'
+import { mappings as mappingsUtils } from './mappings'
 
 export type MappingEntry = {
     geonameid: string, 
@@ -34,7 +34,7 @@ export const location = {
     },
 
     getEntry(loc: string, countryCode: string = ''): MappingEntry | null {
-        const mappings = mappingsFactory.get()
+        const mappings = mappingsUtils.get()
 
         const countryEntry = location.getMostPopulated(loc, mappings.country, countryCode)
         const regionEntry = location.getMostPopulated(loc, mappings.region, countryCode)
@@ -132,7 +132,7 @@ export const location = {
     },
     
     getCountryByCode (countryCode: string) {
-        const mappings: { [key: string]: MappingEntry } = mappingsFactory.get().country
+        const mappings: { [key: string]: MappingEntry } = mappingsUtils.get().country
 
         return Object.values(mappings).find(
             c => c.country === countryCode

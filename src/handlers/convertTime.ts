@@ -1,11 +1,10 @@
-import { location, time, logger, slot, translation, message, MappingEntry } from '../utils'
-import { Handler } from './index'
+import { location, time, slot, translation, MappingEntry } from '../utils'
+import { logger, message, Handler } from 'snips-toolkit'
 import commonHandler from './commonMulti'
-import { IntentMessage, FlowContinuation, NluSlot, slotType } from 'hermes-javascript'
+import { IntentMessage, FlowContinuation, NluSlot, slotType } from 'hermes-javascript/types'
 import {
     SLOT_CONFIDENCE_THRESHOLD
 } from '../constants'
-import Moment from 'moment-timezone'
 
 export const convertTimeHandler: Handler = async function (msg: IntentMessage, flow: FlowContinuation) {
     logger.info('ConvertTime')
@@ -18,7 +17,7 @@ export const convertTimeHandler: Handler = async function (msg: IntentMessage, f
     let timeValue: string
 
     // extracting time slot
-    const timeSlot: NluSlot<slotType.custom> = message.getSlotsByName(msg, 'time', {
+    const timeSlot: NluSlot<slotType.instantTime> = message.getSlotsByName(msg, 'time', {
         onlyMostConfident: true,
         threshold: SLOT_CONFIDENCE_THRESHOLD
     })

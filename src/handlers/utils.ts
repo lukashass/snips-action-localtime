@@ -1,7 +1,7 @@
-const { configFactory } = require('../factories')
+import { config as configUtils } from 'snips-toolkit'
 
 export const getCurrentLocation = function() {
-    const config = configFactory.get()
+    const config = configUtils.get()
 
     if (config.currentLocation)
         return config.currentLocation

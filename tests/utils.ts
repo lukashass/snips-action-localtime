@@ -1,4 +1,4 @@
-import { NluSlot, slotType, grain } from 'hermes-javascript'
+import { NluSlot, slotType, grain } from 'hermes-javascript/types'
 
 export function createEnglishPlaceSlot(placeName: string, slotName: string): NluSlot<slotType.custom> {
     return {

@@ -1,6 +1,8 @@
-import Session from '../helpers/session'
+import { Test } from 'snips-toolkit'
 import { createEnglishPlaceSlot, createTimeSlot } from '../utils'
-import { getMessageKey, getMessageOptions } from '../helpers'
+
+const { Session, Tools} = Test
+const { getMessageKey, getMessageOptions } = Tools
 
 export function testConvertTime(): void {
     describe('convertTime', () => {
@@ -8,7 +10,7 @@ export function testConvertTime(): void {
         it('common case', async () => {
             const session = new Session()
             await session.start({
-                intentName: 'snips-assistant:ConvertTime_V2',
+                intentName: 'snips-assistant:ConvertTime',
                 input: 'what time is it in Tokyo when it\'s 3 am in Paris?',
                 slots: [
                     createEnglishPlaceSlot('Paris', 'location_base'),
@@ -17,7 +19,7 @@ export function testConvertTime(): void {
                 ]
             })
             
-            const endMsg = (await session.end()).text
+            const endMsg = await session.end()
             expect(getMessageKey(endMsg)).toBe('localTime.convertTime.timeProvided')
             expect(getMessageOptions(endMsg).base_location).toBe('Paris')
             expect(getMessageOptions(endMsg).target_location).toBe('Tokyo')
@@ -25,10 +27,10 @@ export function testConvertTime(): void {
             expect(getMessageOptions(endMsg).target_time).toBe('10 AM')
         })
 
-        it('no time', async () => {
+        it.only('no time', async () => {
             const session = new Session()
             await session.start({
-                intentName: 'snips-assistant:ConvertTime_V2',
+                intentName: 'snips-assistant:ConvertTime',
                 input: 'what time is it in Tokyo when it\'s in Paris?',
                 slots: [
                     createEnglishPlaceSlot('Paris', 'location_base'),
@@ -36,7 +38,7 @@ export function testConvertTime(): void {
                 ]
             })
             
-            const endMsg = (await session.end()).text
+            const endMsg = await session.end()
             expect(getMessageKey(endMsg)[0]).toBe('error.noTime')
         })    
     })

@@ -28,7 +28,7 @@ npm run dev
 # 1) Lint, transpile and test.
 npm start
 # 2) Run the action.
-node action-localtime.js
+npm run launch
 ```
 
 ## Test & Demo cases
@@ -79,7 +79,7 @@ Get the date it is in a given location according to the time in another given lo
 
 ## Debug
 
-In the `action-localtime.js` file:
+In the `src/index.ts` file:
 
 ```js
 // Uncomment this line to print everything
@@ -96,5 +96,5 @@ npm run test
 
 **In test mode, i18n output and http calls are mocked.**
 
-- **http**: see `tests/httpMocks/index.ts`
-- **i18n**: see `src/factories/i18nFactory.ts`
+- **http**: mocks are written in `tests/httpMocks/index.ts`
+- **i18n**: mocked by `snips-toolkit`, see the [documentation](https://github.com/snipsco/snips-javascript-toolkit#i18n).

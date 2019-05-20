@@ -1,7 +1,6 @@
-import { location, time, logger, slot, translation, MappingEntry } from '../utils'
-import { Handler } from './index'
-import commonHandler from './commonSimple'
-import { IntentMessage, FlowContinuation } from 'hermes-javascript'
+import { location, time, slot, translation, MappingEntry } from '../utils'
+import { logger, Handler } from 'snips-toolkit'
+import { IntentMessage, FlowContinuation } from 'hermes-javascript/types'
 import { getCurrentLocation } from './utils'
 
 export const getDateHandler: Handler = async function (msg: IntentMessage, flow: FlowContinuation) {
