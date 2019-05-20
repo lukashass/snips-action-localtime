@@ -27,7 +27,7 @@ export function testConvertTime(): void {
             expect(getMessageOptions(endMsg).target_time).toBe('10 AM')
         })
 
-        it.only('no time', async () => {
+        it('no time', async () => {
             const session = new Session()
             await session.start({
                 intentName: 'snips-assistant:ConvertTime',
