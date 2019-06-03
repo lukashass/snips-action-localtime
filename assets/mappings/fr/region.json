@@ -1,5 +1,5 @@
 {
-  "Tessin":{
+  "tessin":{
      "geonameid":"2658370",
      "country":"CH",
      "value":"Tessin",
@@ -7,7 +7,7 @@
      "population":317006,
      "type":"region"
   },
-  "Hautes-Alpes":{
+  "hautes-alpes":{
      "geonameid":"3013738",
      "country":"FR",
      "value":"Hautes-Alpes",
@@ -15,7 +15,7 @@
      "population":141153,
      "type":"region"
   },
-  "Canton de Bâle-Campagne":{
+  "canton de bâle-campagne":{
      "geonameid":"2661603",
      "country":"CH",
      "population":265585,
@@ -23,7 +23,7 @@
      "timezone":"Europe/Zurich",
      "type":"region"
   },
-  "Tarn":{
+  "tarn":{
      "geonameid":"2973362",
      "country":"FR",
      "value":"Tarn",
@@ -31,7 +31,7 @@
      "population":385722,
      "type":"region"
   },
-  "Normandie":{
+  "normandie":{
      "geonameid":"11071621",
      "country":"FR",
      "population":3322757,
@@ -39,7 +39,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Obwald":{
+  "obwald":{
      "geonameid":"2659315",
      "country":"CH",
      "value":"Obwald",
@@ -47,7 +47,7 @@
      "population":33717,
      "type":"region"
   },
-  "Paris":{
+  "paris":{
      "geonameid":"2968815",
      "country":"FR",
      "population":2257981,
@@ -55,7 +55,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Hérault":{
+  "hérault":{
      "geonameid":"3013500",
      "country":"FR",
      "population":1050026,
@@ -63,7 +63,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Ville de Dudelange":{
+  "ville de dudelange":{
      "geonameid":"2960635",
      "country":"LU",
      "population":0,
@@ -71,7 +71,7 @@
      "timezone":"Europe/Luxembourg",
      "type":"region"
   },
-  "Arrondissement administratif de Frutigen-Bas-Simmental":{
+  "arrondissement administratif de frutigen-bas-simmental":{
      "geonameid":"8260135",
      "country":"CH",
      "population":39347,
@@ -79,7 +79,7 @@
      "timezone":"Europe/Zurich",
      "type":"region"
   },
-  "Seine-et-Marne":{
+  "seine-et-marne":{
      "geonameid":"2975249",
      "country":"FR",
      "value":"Seine-et-Marne",
@@ -87,7 +87,7 @@
      "population":1335284,
      "type":"region"
   },
-  "Jura-Nord Vaudois":{
+  "jura-nord vaudois":{
      "geonameid":"7285004",
      "country":"CH",
      "value":"Jura-Nord Vaudois",
@@ -95,7 +95,7 @@
      "population":84533,
      "type":"region"
   },
-  "Département de la Corse-du-Sud":{
+  "département de la corse-du-sud":{
      "geonameid":"3023514",
      "country":"FR",
      "value":"Département de la Corse-du-Sud",
@@ -103,7 +103,7 @@
      "population":143724,
      "type":"region"
   },
-  "Doubs":{
+  "doubs":{
      "geonameid":"3020989",
      "country":"FR",
      "value":"Doubs",
@@ -111,7 +111,7 @@
      "population":539992,
      "type":"region"
   },
-  "Ville de Rumelange":{
+  "ville de rumelange":{
      "geonameid":"2960124",
      "country":"LU",
      "population":0,
@@ -119,7 +119,7 @@
      "timezone":"Europe/Luxembourg",
      "type":"region"
   },
-  "Calvados":{
+  "calvados":{
      "geonameid":"3029094",
      "country":"FR",
      "value":"Calvados",
@@ -127,7 +127,7 @@
      "population":697054,
      "type":"region"
   },
-  "Var":{
+  "var":{
      "geonameid":"2970749",
      "country":"FR",
      "value":"Var",
@@ -135,7 +135,7 @@
      "population":1025201,
      "type":"region"
   },
-  "Jura Bernois":{
+  "jura bernois":{
      "geonameid":"8260140",
      "country":"CH",
      "value":"Jura Bernois",
@@ -143,7 +143,7 @@
      "population":52251,
      "type":"region"
   },
-  "Haut-Rhin":{
+  "haut-rhin":{
      "geonameid":"3013663",
      "country":"FR",
      "value":"Haut-Rhin",
@@ -151,7 +151,7 @@
      "population":764064,
      "type":"region"
   },
-  "Meurthe-et-Moselle":{
+  "meurthe-et-moselle":{
      "geonameid":"2994111",
      "country":"FR",
      "value":"Meurthe-et-Moselle",
@@ -159,7 +159,7 @@
      "population":745134,
      "type":"region"
   },
-  "Haute-Marne":{
+  "haute-marne":{
      "geonameid":"3013757",
      "country":"FR",
      "value":"Haute-Marne",
@@ -167,7 +167,7 @@
      "population":192224,
      "type":"region"
   },
-  "Moselle":{
+  "moselle":{
      "geonameid":"2991627",
      "country":"FR",
      "population":1066328,
@@ -175,7 +175,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Bretagne":{
+  "bretagne":{
      "geonameid":"3030293",
      "country":"FR",
      "value":"Bretagne",
@@ -183,7 +183,7 @@
      "population":3120288,
      "type":"region"
   },
-  "Ville de Wiltz":{
+  "ville de wiltz":{
      "geonameid":"2959978",
      "country":"LU",
      "value":"Ville de Wiltz",
@@ -191,7 +191,7 @@
      "population":0,
      "type":"region"
   },
-  "Sarine":{
+  "sarine":{
      "geonameid":"6458767",
      "country":"CH",
      "value":"Sarine",
@@ -199,7 +199,7 @@
      "population":99245,
      "type":"region"
   },
-  "Commune de Pétange":{
+  "commune de pétange":{
      "geonameid":"2960188",
      "country":"LU",
      "population":0,
@@ -207,7 +207,7 @@
      "timezone":"Europe/Luxembourg",
      "type":"region"
   },
-  "Gironde":{
+  "gironde":{
      "geonameid":"3015948",
      "country":"FR",
      "value":"Gironde",
@@ -215,7 +215,7 @@
      "population":1464088,
      "type":"region"
   },
-  "Haute-Loire":{
+  "haute-loire":{
      "geonameid":"3013760",
      "country":"FR",
      "value":"Haute-Loire",
@@ -223,7 +223,7 @@
      "population":231066,
      "type":"region"
   },
-  "La Chaux-de-Fonds":{
+  "la chaux-de-fonds":{
      "geonameid":"6458831",
      "country":"CH",
      "value":"La Chaux-de-Fonds",
@@ -239,7 +239,7 @@
      "population":1185379,
      "type":"region"
   },
-  "Appenzell Rhodes-Intérieures":{
+  "appenzell rhodes-intérieures":{
      "geonameid":"2661741",
      "country":"CH",
      "value":"Appenzell Rhodes-Intérieures",
@@ -247,7 +247,7 @@
      "population":15717,
      "type":"region"
   },
-  "Eure":{
+  "eure":{
      "geonameid":"3019317",
      "country":"FR",
      "population":599181,
@@ -255,7 +255,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Ville de Diekirch":{
+  "ville de diekirch":{
      "geonameid":"2960658",
      "country":"LU",
      "population":0,
@@ -263,7 +263,7 @@
      "timezone":"Europe/Luxembourg",
      "type":"region"
   },
-  "Corse":{
+  "corse":{
      "geonameid":"3023519",
      "country":"FR",
      "value":"Corse",
@@ -271,7 +271,7 @@
      "population":299209,
      "type":"region"
   },
-  "Commune de Troisvierges":{
+  "commune de troisvierges":{
      "geonameid":"2960031",
      "country":"LU",
      "population":0,
@@ -279,7 +279,7 @@
      "timezone":"Europe/Luxembourg",
      "type":"region"
   },
-  "Jura":[
+  "jura":[
      {
         "geonameid":"3012051",
         "country":"FR",
@@ -297,7 +297,7 @@
         "type":"region"
      }
   ],
-  "Porrentruy":{
+  "porrentruy":{
      "geonameid":"6458776",
      "country":"CH",
      "value":"Porrentruy",
@@ -305,7 +305,7 @@
      "population":24263,
      "type":"region"
   },
-  "Brabant Flamand":{
+  "brabant flamand":{
      "geonameid":"3333250",
      "country":"BE",
      "value":"Brabant Flamand",
@@ -313,7 +313,7 @@
      "population":1037335,
      "type":"region"
   },
-  "Loir-et-Cher":{
+  "loir-et-cher":{
      "geonameid":"2997856",
      "country":"FR",
      "population":338503,
@@ -321,7 +321,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Canton de Berne":{
+  "canton de berne":{
      "geonameid":"2661551",
      "country":"CH",
      "value":"Canton de Berne",
@@ -329,7 +329,7 @@
      "population":955658,
      "type":"region"
   },
-  "Commune de Préizerdaul":{
+  "commune de préizerdaul":{
      "geonameid":"8641291",
      "country":"LU",
      "value":"Commune de Préizerdaul",
@@ -337,7 +337,7 @@
      "population":0,
      "type":"region"
   },
-  "Province de Namur":{
+  "province de namur":{
      "geonameid":"2790469",
      "country":"BE",
      "value":"Province de Namur",
@@ -345,7 +345,7 @@
      "population":0,
      "type":"region"
   },
-  "Ain":{
+  "ain":{
      "geonameid":"3038422",
      "country":"FR",
      "population":605892,
@@ -353,7 +353,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Argovie":{
+  "argovie":{
      "geonameid":"2661876",
      "country":"CH",
      "value":"Argovie",
@@ -361,7 +361,7 @@
      "population":574171,
      "type":"region"
   },
-  "Monaco":{
+  "monaco":{
      "geonameid":"3319178",
      "country":"MC",
      "population":0,
@@ -369,7 +369,7 @@
      "timezone":"Europe/Monaco",
      "type":"region"
   },
-  "Yonne":{
+  "yonne":{
      "geonameid":"2967222",
      "country":"FR",
      "population":354282,
@@ -377,7 +377,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Mayenne":{
+  "mayenne":{
      "geonameid":"2994932",
      "country":"FR",
      "value":"Mayenne",
@@ -385,7 +385,7 @@
      "population":315303,
      "type":"region"
   },
-  "Auvergne-Rhône-Alpes":{
+  "auvergne-rhône-alpes":{
      "geonameid":"11071625",
      "country":"FR",
      "population":7695264,
@@ -393,7 +393,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Encamp":{
+  "encamp":{
      "geonameid":"3040684",
      "country":"AD",
      "population":13685,
@@ -401,7 +401,7 @@
      "timezone":"Europe/Andorra",
      "type":"region"
   },
-  "Nidwald":{
+  "nidwald":{
      "geonameid":"2659471",
      "country":"CH",
      "value":"Nidwald",
@@ -409,7 +409,7 @@
      "population":40794,
      "type":"region"
   },
-  "Val-de-Marne":{
+  "val-de-marne":{
      "geonameid":"2971090",
      "country":"FR",
      "value":"Val-de-Marne",
@@ -417,7 +417,7 @@
      "population":1331443,
      "type":"region"
   },
-  "Alpes-Maritimes":{
+  "alpes-maritimes":{
      "geonameid":"3038049",
      "country":"FR",
      "value":"Alpes-Maritimes",
@@ -425,7 +425,7 @@
      "population":1094596,
      "type":"region"
   },
-  "Deux Sèvres":{
+  "deux sèvres":{
      "geonameid":"3021501",
      "country":"FR",
      "value":"Deux Sèvres",
@@ -433,7 +433,7 @@
      "population":377784,
      "type":"region"
   },
-  "Corrèze":{
+  "corrèze":{
      "geonameid":"3023532",
      "country":"FR",
      "population":252116,
@@ -441,7 +441,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Finistere":{
+  "finistere":{
      "geonameid":"3018471",
      "country":"FR",
      "value":"Finistere",
@@ -449,7 +449,7 @@
      "population":925442,
      "type":"region"
   },
-  "Käerjeng":{
+  "käerjeng":{
      "geonameid":"8641865",
      "country":"LU",
      "value":"Käerjeng",
@@ -457,7 +457,7 @@
      "population":0,
      "type":"region"
   },
-  "Lozère":{
+  "lozère":{
      "geonameid":"2997288",
      "country":"FR",
      "population":81312,
@@ -465,7 +465,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Brabant Wallon":{
+  "brabant wallon":{
      "geonameid":"3333251",
      "country":"BE",
      "population":363442,
@@ -473,7 +473,7 @@
      "timezone":"Europe/Brussels",
      "type":"region"
   },
-  "Gard":{
+  "gard":{
      "geonameid":"3016670",
      "country":"FR",
      "value":"Gard",
@@ -481,7 +481,7 @@
      "population":718181,
      "type":"region"
   },
-  "Soleure":{
+  "soleure":{
      "geonameid":"2658563",
      "country":"CH",
      "value":"Soleure",
@@ -489,7 +489,7 @@
      "population":250155,
      "type":"region"
   },
-  "Flandre-Occidentale":{
+  "flandre-occidentale":{
      "geonameid":"2783770",
      "country":"BE",
      "value":"Flandre-Occidentale",
@@ -497,7 +497,7 @@
      "population":1136692,
      "type":"region"
   },
-  "Haute-Vienne":{
+  "haute-vienne":{
      "geonameid":"3013719",
      "country":"FR",
      "value":"Haute-Vienne",
@@ -505,7 +505,7 @@
      "population":383418,
      "type":"region"
   },
-  "Saint-Gall":{
+  "saint-gall":{
      "geonameid":"2658821",
      "country":"CH",
      "value":"Saint-Gall",
@@ -529,7 +529,7 @@
      "population":1003933,
      "type":"region"
   },
-  "Vendée":{
+  "vendée":{
      "geonameid":"2970140",
      "country":"FR",
      "population":645820,
@@ -537,7 +537,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Canton de Clervaux":{
+  "canton de clervaux":{
      "geonameid":"6693297",
      "country":"LU",
      "population":0,
@@ -545,7 +545,7 @@
      "timezone":"Europe/Luxembourg",
      "type":"region"
   },
-  "Saint-Maurice":{
+  "saint-maurice":{
      "geonameid":"6458832",
      "country":"CH",
      "value":"Saint-Maurice",
@@ -553,7 +553,7 @@
      "population":12931,
      "type":"region"
   },
-  "Delémont":{
+  "delémont":{
      "geonameid":"6458744",
      "country":"CH",
      "value":"Delémont",
@@ -561,7 +561,7 @@
      "population":36609,
      "type":"region"
   },
-  "District de Monthey":{
+  "district de monthey":{
      "geonameid":"6458845",
      "country":"CH",
      "population":42278,
@@ -569,7 +569,7 @@
      "timezone":"Europe/Zurich",
      "type":"region"
   },
-  "Anvers":{
+  "anvers":{
      "geonameid":"2803136",
      "country":"BE",
      "value":"Anvers",
@@ -577,7 +577,7 @@
      "population":0,
      "type":"region"
   },
-  "Sarthe":{
+  "sarthe":{
      "geonameid":"2975926",
      "country":"FR",
      "value":"Sarthe",
@@ -585,7 +585,7 @@
      "population":576741,
      "type":"region"
   },
-  "Loire-Atlantique":{
+  "loire-atlantique":{
      "geonameid":"2997861",
      "country":"FR",
      "value":"Loire-Atlantique",
@@ -593,7 +593,7 @@
      "population":1301325,
      "type":"region"
   },
-  "Arrondissement administratif de Bienne":{
+  "arrondissement administratif de bienne":{
      "geonameid":"8260136",
      "country":"CH",
      "population":95718,
@@ -609,7 +609,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Vienne":{
+  "vienne":{
      "geonameid":"2969280",
      "country":"FR",
      "population":437411,
@@ -617,7 +617,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Oise":{
+  "oise":{
      "geonameid":"2989663",
      "country":"FR",
      "population":821568,
@@ -625,7 +625,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Schwyz":{
+  "schwyz":{
      "geonameid":"2658664",
      "country":"CH",
      "value":"Schwyz",
@@ -633,7 +633,7 @@
      "population":135461,
      "type":"region"
   },
-  "Bruxelles-Capitale":{
+  "bruxelles-capitale":{
      "geonameid":"2800867",
      "country":"BE",
      "value":"Bruxelles-Capitale",
@@ -641,7 +641,7 @@
      "population":1830000,
      "type":"region"
   },
-  "Cantal":{
+  "cantal":{
      "geonameid":"3028791",
      "country":"FR",
      "value":"Cantal",
@@ -649,7 +649,7 @@
      "population":154354,
      "type":"region"
   },
-  "Bâle-Ville":[
+  "bâle-ville":[
      {
         "geonameid":"2661602",
         "country":"CH",
@@ -667,7 +667,7 @@
         "type":"region"
      }
   ],
-  "Lavaux-Oron":{
+  "lavaux-oron":{
      "geonameid":"7285005",
      "country":"CH",
      "value":"Lavaux-Oron",
@@ -675,7 +675,7 @@
      "population":57061,
      "type":"region"
   },
-  "Yvelines":{
+  "yvelines":{
      "geonameid":"2967196",
      "country":"FR",
      "value":"Yvelines",
@@ -683,7 +683,7 @@
      "population":1433447,
      "type":"region"
   },
-  "Charente":{
+  "charente":{
      "geonameid":"3026646",
      "country":"FR",
      "value":"Charente",
@@ -691,7 +691,7 @@
      "population":363913,
      "type":"region"
   },
-  "Canton de Mersch":{
+  "canton de mersch":{
      "geonameid":"6693293",
      "country":"LU",
      "population":0,
@@ -699,7 +699,7 @@
      "timezone":"Europe/Luxembourg",
      "type":"region"
   },
-  "Département de la Haute-Corse":{
+  "département de la haute-corse":{
      "geonameid":"3013793",
      "country":"FR",
      "value":"Département de la Haute-Corse",
@@ -707,7 +707,7 @@
      "population":167103,
      "type":"region"
   },
-  "Ville de Differdange":{
+  "ville de differdange":{
      "geonameid":"2960652",
      "country":"LU",
      "population":0,
@@ -715,7 +715,7 @@
      "timezone":"Europe/Luxembourg",
      "type":"region"
   },
-  "Bouches-du-Rhône":{
+  "bouches-du-rhône":{
      "geonameid":"3031359",
      "country":"FR",
      "population":1995094,
@@ -723,7 +723,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Meuse":{
+  "meuse":{
      "geonameid":"2994106",
      "country":"FR",
      "value":"Meuse",
@@ -731,7 +731,7 @@
      "population":200417,
      "type":"region"
   },
-  "Orne":{
+  "orne":{
      "geonameid":"2989247",
      "country":"FR",
      "population":302010,
@@ -739,7 +739,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Commune de la Vallée de l’Ernz":{
+  "commune de la vallée de l’ernz":{
      "geonameid":"8641526",
      "country":"LU",
      "value":"Commune de la Vallée de l’Ernz",
@@ -747,7 +747,7 @@
      "population":0,
      "type":"region"
   },
-  "Morges":{
+  "morges":{
      "geonameid":"6458855",
      "country":"CH",
      "value":"Morges",
@@ -755,7 +755,7 @@
      "population":75725,
      "type":"region"
   },
-  "Maine-et-Loire":{
+  "maine-et-loire":{
      "geonameid":"2996663",
      "country":"FR",
      "value":"Maine-et-Loire",
@@ -763,7 +763,7 @@
      "population":803573,
      "type":"region"
   },
-  "Goesdorf":{
+  "goesdorf":{
      "geonameid":"6693325",
      "country":"LU",
      "value":"Goesdorf",
@@ -771,7 +771,7 @@
      "population":0,
      "type":"region"
   },
-  "Vaucluse":{
+  "vaucluse":{
      "geonameid":"2970554",
      "country":"FR",
      "population":551922,
@@ -779,7 +779,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Zoug":[
+  "zoug":[
      {
         "geonameid":"2657907",
         "country":"CH",
@@ -797,7 +797,7 @@
         "type":"region"
      }
   ],
-  "Flandre":{
+  "flandre":{
      "geonameid":"3337388",
      "country":"BE",
      "value":"Flandre",
@@ -805,7 +805,7 @@
      "population":6350765,
      "type":"region"
   },
-  "Boudry":{
+  "boudry":{
      "geonameid":"6458825",
      "country":"CH",
      "value":"Boudry",
@@ -813,7 +813,7 @@
      "population":39133,
      "type":"region"
   },
-  "Commune de Schifflange":{
+  "commune de schifflange":{
      "geonameid":"2960103",
      "country":"LU",
      "population":0,
@@ -821,7 +821,7 @@
      "timezone":"Europe/Luxembourg",
      "type":"region"
   },
-  "Uri":{
+  "uri":{
      "geonameid":"2658226",
      "country":"CH",
      "value":"Uri",
@@ -829,7 +829,7 @@
      "population":34088,
      "type":"region"
   },
-  "Ordino":{
+  "ordino":{
      "geonameid":"3039676",
      "country":"AD",
      "population":3467,
@@ -837,7 +837,7 @@
      "timezone":"Europe/Andorra",
      "type":"region"
   },
-  "Extérieur":{
+  "extérieur":{
      "geonameid":"2661739",
      "country":"CH",
      "value":"Extérieur",
@@ -845,7 +845,7 @@
      "population":51829,
      "type":"region"
   },
-  "Hauts-de-Seine":{
+  "hauts-de-seine":{
      "geonameid":"3013657",
      "country":"FR",
      "value":"Hauts-de-Seine",
@@ -853,7 +853,7 @@
      "population":1579457,
      "type":"region"
   },
-  "Nyon":{
+  "nyon":{
      "geonameid":"7285006",
      "country":"CH",
      "value":"Nyon",
@@ -861,7 +861,7 @@
      "population":91834,
      "type":"region"
   },
-  "Pyrenees-Atlantiques":{
+  "pyrenees-atlantiques":{
      "geonameid":"2984887",
      "country":"FR",
      "value":"Pyrenees-Atlantiques",
@@ -869,7 +869,7 @@
      "population":671644,
      "type":"region"
   },
-  "Nouvelle-Aquitaine":{
+  "nouvelle-aquitaine":{
      "geonameid":"11071620",
      "country":"FR",
      "value":"Nouvelle-Aquitaine",
@@ -877,7 +877,7 @@
      "population":5808594,
      "type":"region"
   },
-  "Genève":[
+  "genève":[
      {
         "geonameid":"2660645",
         "country":"CH",
@@ -895,7 +895,7 @@
         "type":"region"
      }
   ],
-  "Sant Julià de Lòria":{
+  "sant julià de lòria":{
      "geonameid":"3039162",
      "country":"AD",
      "population":9448,
@@ -903,7 +903,7 @@
      "timezone":"Europe/Andorra",
      "type":"region"
   },
-  "Zurich":{
+  "zurich":{
      "geonameid":"2657895",
      "country":"CH",
      "value":"Zurich",
@@ -911,7 +911,7 @@
      "population":1289559,
      "type":"region"
   },
-  "Département du Rhône":{
+  "département du rhône":{
      "geonameid":"2987410",
      "country":"FR",
      "value":"Département du Rhône",
@@ -919,7 +919,7 @@
      "population":1738949,
      "type":"region"
   },
-  "Pas-de-Calais":{
+  "pas-de-calais":{
      "geonameid":"2988430",
      "country":"FR",
      "value":"Pas-de-Calais",
@@ -927,7 +927,7 @@
      "population":1488951,
      "type":"region"
   },
-  "Glaris":{
+  "glaris":{
      "geonameid":"2660593",
      "country":"CH",
      "value":"Glaris",
@@ -935,7 +935,7 @@
      "population":37372,
      "type":"region"
   },
-  "Aude":{
+  "aude":{
      "geonameid":"3036264",
      "country":"FR",
      "population":363420,
@@ -943,7 +943,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Limbourg":{
+  "limbourg":{
      "geonameid":"2792347",
      "country":"BE",
      "value":"Limbourg",
@@ -951,7 +951,7 @@
      "population":0,
      "type":"region"
   },
-  "Sion":{
+  "sion":{
      "geonameid":"6458745",
      "country":"CH",
      "value":"Sion",
@@ -959,7 +959,7 @@
      "population":43759,
      "type":"region"
   },
-  "Glâne":{
+  "glâne":{
      "geonameid":"2660598",
      "country":"CH",
      "value":"Glâne",
@@ -967,7 +967,7 @@
      "population":21790,
      "type":"region"
   },
-  "Haute-Saône":{
+  "haute-saône":{
      "geonameid":"3013737",
      "country":"FR",
      "population":246975,
@@ -975,7 +975,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Wallonie":{
+  "wallonie":{
      "geonameid":"3337387",
      "country":"BE",
      "value":"Wallonie",
@@ -983,7 +983,7 @@
      "population":3585214,
      "type":"region"
   },
-  "Gros-de-Vaud":{
+  "gros-de-vaud":{
      "geonameid":"7285003",
      "country":"CH",
      "value":"Gros-de-Vaud",
@@ -991,7 +991,7 @@
      "population":39840,
      "type":"region"
   },
-  "Luxembourg":{
+  "luxembourg":{
      "geonameid":"2791993",
      "country":"BE",
      "population":255945,
@@ -999,7 +999,7 @@
      "timezone":"Europe/Brussels",
      "type":"region"
   },
-  "District de Schwytz":{
+  "district de schwytz":{
      "geonameid":"6458775",
      "country":"CH",
      "population":52704,
@@ -1007,7 +1007,7 @@
      "timezone":"Europe/Zurich",
      "type":"region"
   },
-  "Morbihan":{
+  "morbihan":{
      "geonameid":"2991879",
      "country":"FR",
      "value":"Morbihan",
@@ -1015,7 +1015,7 @@
      "population":739144,
      "type":"region"
   },
-  "Lot":{
+  "lot":{
      "geonameid":"2997524",
      "country":"FR",
      "population":180305,
@@ -1023,7 +1023,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Alpes-de-Haute-Provence":{
+  "alpes-de-haute-provence":{
      "geonameid":"3038050",
      "country":"FR",
      "value":"Alpes-de-Haute-Provence",
@@ -1031,7 +1031,7 @@
      "population":164519,
      "type":"region"
   },
-  "Département de la Loire":{
+  "département de la loire":{
      "geonameid":"2997870",
      "country":"FR",
      "value":"Département de la Loire",
@@ -1039,7 +1039,7 @@
      "population":763867,
      "type":"region"
   },
-  "District de Vallemaggia":{
+  "district de vallemaggia":{
      "geonameid":"2658196",
      "country":"CH",
      "population":5944,
@@ -1055,7 +1055,7 @@
      "population":603337,
      "type":"region"
   },
-  "Andorre-la-Vieille":{
+  "andorre-la-vieille":{
      "geonameid":"3041566",
      "country":"AD",
      "population":24211,
@@ -1063,7 +1063,7 @@
      "timezone":"Europe/Andorra",
      "type":"region"
   },
-  "Savoie":{
+  "savoie":{
      "geonameid":"2975517",
      "country":"FR",
      "value":"Savoie",
@@ -1071,7 +1071,7 @@
      "population":424578,
      "type":"region"
   },
-  "District de Conthey":{
+  "district de conthey":{
      "geonameid":"6458850",
      "country":"CH",
      "population":25377,
@@ -1079,7 +1079,7 @@
      "timezone":"Europe/Zurich",
      "type":"region"
   },
-  "Loiret":{
+  "loiret":{
      "geonameid":"2997857",
      "country":"FR",
      "value":"Loiret",
@@ -1087,7 +1087,7 @@
      "population":672142,
      "type":"region"
   },
-  "Manche":{
+  "manche":{
      "geonameid":"2996268",
      "country":"FR",
      "value":"Manche",
@@ -1095,7 +1095,7 @@
      "population":516065,
      "type":"region"
   },
-  "La Massana":{
+  "la massana":{
      "geonameid":"3040131",
      "country":"AD",
      "population":8953,
@@ -1103,7 +1103,7 @@
      "timezone":"Europe/Andorra",
      "type":"region"
   },
-  "Franches-Montagnes":{
+  "franches-montagnes":{
      "geonameid":"6458790",
      "country":"CH",
      "value":"Franches-Montagnes",
@@ -1111,7 +1111,7 @@
      "population":10070,
      "type":"region"
   },
-  "Veveyse":{
+  "veveyse":{
      "geonameid":"6458862",
      "country":"CH",
      "value":"Veveyse",
@@ -1119,7 +1119,7 @@
      "population":16952,
      "type":"region"
   },
-  "Commune de Sanem":{
+  "commune de sanem":{
      "geonameid":"2960116",
      "country":"LU",
      "population":0,
@@ -1135,7 +1135,7 @@
      "population":1225717,
      "type":"region"
   },
-  "Ville de Grevenmacher":{
+  "ville de grevenmacher":{
      "geonameid":"2960516",
      "country":"LU",
      "value":"Ville de Grevenmacher",
@@ -1143,7 +1143,7 @@
      "population":0,
      "type":"region"
   },
-  "District de la Broye":{
+  "district de la broye":{
      "geonameid":"6458754",
      "country":"CH",
      "population":28448,
@@ -1151,7 +1151,7 @@
      "timezone":"Europe/Zurich",
      "type":"region"
   },
-  "Ardennes":{
+  "ardennes":{
      "geonameid":"3037136",
      "country":"FR",
      "value":"Ardennes",
@@ -1159,7 +1159,7 @@
      "population":291717,
      "type":"region"
   },
-  "Martigny":{
+  "martigny":{
      "geonameid":"2659752",
      "country":"CH",
      "value":"Martigny",
@@ -1167,7 +1167,7 @@
      "population":43453,
      "type":"region"
   },
-  "Puy-de-Dôme":{
+  "puy-de-dôme":{
      "geonameid":"2984986",
      "country":"FR",
      "population":646908,
@@ -1175,7 +1175,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Schaffhouse":{
+  "schaffhouse":{
      "geonameid":"2658760",
      "country":"CH",
      "value":"Schaffhouse",
@@ -1183,7 +1183,7 @@
      "population":73443,
      "type":"region"
   },
-  "Vosges":{
+  "vosges":{
      "geonameid":"2967681",
      "country":"FR",
      "value":"Vosges",
@@ -1191,7 +1191,7 @@
      "population":393474,
      "type":"region"
   },
-  "Marne":{
+  "marne":{
      "geonameid":"2995603",
      "country":"FR",
      "population":580402,
@@ -1199,7 +1199,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Saône-et-Loire":{
+  "saône-et-loire":{
      "geonameid":"2976082",
      "country":"FR",
      "population":574002,
@@ -1215,7 +1215,7 @@
      "population":81200,
      "type":"region"
   },
-  "Province de Liège":{
+  "province de liège":{
      "geonameid":"2792411",
      "country":"BE",
      "value":"Province de Liège",
@@ -1223,7 +1223,7 @@
      "population":0,
      "type":"region"
   },
-  "Gruyère":{
+  "gruyère":{
      "geonameid":"6458796",
      "country":"CH",
      "value":"Gruyère",
@@ -1231,7 +1231,7 @@
      "population":49022,
      "type":"region"
   },
-  "Pays de la Loire":{
+  "pays de la loire":{
      "geonameid":"2988289",
      "country":"FR",
      "value":"Pays de la Loire",
@@ -1239,7 +1239,7 @@
      "population":3482594,
      "type":"region"
   },
-  "Aigle":{
+  "aigle":{
      "geonameid":"6458896",
      "country":"CH",
      "value":"Aigle",
@@ -1247,7 +1247,7 @@
      "population":41736,
      "type":"region"
   },
-  "Haute-Garonne":{
+  "haute-garonne":{
      "geonameid":"3013767",
      "country":"FR",
      "value":"Haute-Garonne",
@@ -1255,7 +1255,7 @@
      "population":1254347,
      "type":"region"
   },
-  "Pyrénées-Orientales":{
+  "pyrénées-orientales":{
      "geonameid":"2984885",
      "country":"FR",
      "population":454737,
@@ -1263,7 +1263,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Canton de Fribourg":{
+  "canton de fribourg":{
      "geonameid":"2660717",
      "country":"CH",
      "value":"Canton de Fribourg",
@@ -1271,7 +1271,7 @@
      "population":248953,
      "type":"region"
   },
-  "Aube":{
+  "aube":{
      "geonameid":"3036420",
      "country":"FR",
      "population":311676,
@@ -1279,7 +1279,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Le Locle":{
+  "le locle":{
      "geonameid":"6458809",
      "country":"CH",
      "value":"Le Locle",
@@ -1287,7 +1287,7 @@
      "population":14247,
      "type":"region"
   },
-  "Schengen":{
+  "schengen":{
      "geonameid":"6693353",
      "country":"LU",
      "value":"Schengen",
@@ -1295,7 +1295,7 @@
      "population":0,
      "type":"region"
   },
-  "Occitanie":{
+  "occitanie":{
      "geonameid":"11071623",
      "country":"FR",
      "value":"Occitanie",
@@ -1303,7 +1303,7 @@
      "population":5626858,
      "type":"region"
   },
-  "Isère":{
+  "isère":{
      "geonameid":"3012715",
      "country":"FR",
      "population":1223730,
@@ -1319,7 +1319,7 @@
      "population":436966,
      "type":"region"
   },
-  "Canillo":{
+  "canillo":{
      "geonameid":"3041203",
      "country":"AD",
      "population":5067,
@@ -1327,7 +1327,7 @@
      "timezone":"Europe/Andorra",
      "type":"region"
   },
-  "District de Zurich":{
+  "district de zurich":{
      "geonameid":"6458798",
      "country":"CH",
      "population":380777,
@@ -1335,7 +1335,7 @@
      "timezone":"Europe/Zurich",
      "type":"region"
   },
-  "Tarn-et-Garonne":{
+  "tarn-et-garonne":{
      "geonameid":"2973357",
      "country":"FR",
      "population":245857,
@@ -1343,7 +1343,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Commune de Kayl":{
+  "commune de kayl":{
      "geonameid":"2960392",
      "country":"LU",
      "population":0,
@@ -1351,7 +1351,7 @@
      "timezone":"Europe/Luxembourg",
      "type":"region"
   },
-  "Val-de-Travers":{
+  "val-de-travers":{
      "geonameid":"6458835",
      "country":"CH",
      "value":"Val-de-Travers",
@@ -1359,7 +1359,7 @@
      "population":11998,
      "type":"region"
   },
-  "Flandre Orientale":{
+  "flandre orientale":{
      "geonameid":"2789733",
      "country":"BE",
      "value":"Flandre Orientale",
@@ -1367,7 +1367,7 @@
      "population":1376407,
      "type":"region"
   },
-  "Ouest Lausannois":{
+  "ouest lausannois":{
      "geonameid":"7285007",
      "country":"CH",
      "value":"Ouest Lausannois",
@@ -1375,7 +1375,7 @@
      "population":69913,
      "type":"region"
   },
-  "Indre":{
+  "indre":{
      "geonameid":"3012805",
      "country":"FR",
      "population":239443,
@@ -1383,7 +1383,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Aisne":{
+  "aisne":{
      "geonameid":"3038375",
      "country":"FR",
      "population":554521,
@@ -1391,7 +1391,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Escaldes-Engordany":{
+  "escaldes-engordany":{
      "geonameid":"3338529",
      "country":"AD",
      "population":16391,
@@ -1399,7 +1399,7 @@
      "timezone":"Europe/Andorra",
      "type":"region"
   },
-  "Val-de-Ruz":{
+  "val-de-ruz":{
      "geonameid":"6458812",
      "country":"CH",
      "value":"Val-de-Ruz",
@@ -1407,7 +1407,7 @@
      "population":16405,
      "type":"region"
   },
-  "Ariège":{
+  "ariège":{
      "geonameid":"3036965",
      "country":"FR",
      "population":156701,
@@ -1415,7 +1415,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Kiischpelt":{
+  "kiischpelt":{
      "geonameid":"8641289",
      "country":"LU",
      "value":"Kiischpelt",
@@ -1423,7 +1423,7 @@
      "population":0,
      "type":"region"
   },
-  "Haute-Savoie":{
+  "haute-savoie":{
      "geonameid":"3013736",
      "country":"FR",
      "value":"Haute-Savoie",
@@ -1431,7 +1431,7 @@
      "population":747965,
      "type":"region"
   },
-  "Grand Est":{
+  "grand est":{
      "geonameid":"11071622",
      "country":"FR",
      "value":"Grand Est",
@@ -1439,7 +1439,7 @@
      "population":5552388,
      "type":"region"
   },
-  "Canton du Valais":{
+  "canton du valais":{
      "geonameid":"2658205",
      "country":"CH",
      "value":"Canton du Valais",
@@ -1447,7 +1447,7 @@
      "population":284653,
      "type":"region"
   },
-  "Gers":{
+  "gers":{
      "geonameid":"3016194",
      "country":"FR",
      "population":194560,
@@ -1455,7 +1455,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Clervaux":{
+  "clervaux":{
      "geonameid":"2960683",
      "country":"LU",
      "population":13237,
@@ -1463,7 +1463,7 @@
      "timezone":"Europe/Luxembourg",
      "type":"region"
   },
-  "Bourgogne-Franche-Comté":{
+  "bourgogne-franche-comté":{
      "geonameid":"11071619",
      "country":"FR",
      "population":2816814,
@@ -1471,7 +1471,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Nord":{
+  "nord":{
      "geonameid":"2990129",
      "country":"FR",
      "value":"Nord",
@@ -1479,7 +1479,7 @@
      "population":2613285,
      "type":"region"
   },
-  "Île-de-France":{
+  "île-de-france":{
      "geonameid":"3012874",
      "country":"FR",
      "value":"Île-de-France",
@@ -1487,7 +1487,7 @@
      "population":11598866,
      "type":"region"
   },
-  "Sierre":{
+  "sierre":{
      "geonameid":"6458795",
      "country":"CH",
      "value":"Sierre",
@@ -1495,7 +1495,7 @@
      "population":47198,
      "type":"region"
   },
-  "Allier":{
+  "allier":{
      "geonameid":"3038111",
      "country":"FR",
      "population":353362,
@@ -1503,7 +1503,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Charente-Maritime":{
+  "charente-maritime":{
      "geonameid":"3026644",
      "country":"FR",
      "value":"Charente-Maritime",
@@ -1511,7 +1511,7 @@
      "population":634928,
      "type":"region"
   },
-  "Creuse":{
+  "creuse":{
      "geonameid":"3022516",
      "country":"FR",
      "value":"Creuse",
@@ -1519,7 +1519,7 @@
      "population":128435,
      "type":"region"
   },
-  "Luxembourg Campagne":{
+  "luxembourg campagne":{
      "geonameid":"2960315",
      "country":"LU",
      "population":0,
@@ -1527,7 +1527,7 @@
      "timezone":"Europe/Luxembourg",
      "type":"region"
   },
-  "Landes":{
+  "landes":{
      "geonameid":"3007866",
      "country":"FR",
      "value":"Landes",
@@ -1535,7 +1535,7 @@
      "population":392592,
      "type":"region"
   },
-  "Hautes-Pyrénées":{
+  "hautes-pyrénées":{
      "geonameid":"3013726",
      "country":"FR",
      "population":238031,
@@ -1551,7 +1551,7 @@
      "population":608356,
      "type":"region"
   },
-  "Neuchâtel":[
+  "neuchâtel":[
      {
         "geonameid":"2659495",
         "country":"CH",
@@ -1569,7 +1569,7 @@
         "type":"region"
      }
   ],
-  "Lac":{
+  "lac":{
      "geonameid":"6458820",
      "country":"CH",
      "value":"Lac",
@@ -1577,7 +1577,7 @@
      "population":33924,
      "type":"region"
   },
-  "Lausanne":{
+  "lausanne":{
      "geonameid":"6458866",
      "country":"CH",
      "value":"Lausanne",
@@ -1585,7 +1585,7 @@
      "population":154096,
      "type":"region"
   },
-  "Drôme":{
+  "drôme":{
      "geonameid":"3020781",
      "country":"FR",
      "population":497487,
@@ -1593,7 +1593,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Aveyron":{
+  "aveyron":{
      "geonameid":"3035691",
      "country":"FR",
      "population":288634,
@@ -1609,7 +1609,7 @@
      "timezone":"Europe/Zurich",
      "type":"region"
   },
-  "Somme":{
+  "somme":{
      "geonameid":"2974304",
      "country":"FR",
      "value":"Somme",
@@ -1617,7 +1617,7 @@
      "population":582469,
      "type":"region"
   },
-  "Hérens":{
+  "hérens":{
      "geonameid":"6458872",
      "country":"CH",
      "value":"Hérens",
@@ -1625,7 +1625,7 @@
      "population":10623,
      "type":"region"
   },
-  "Nièvre":{
+  "nièvre":{
      "geonameid":"2990371",
      "country":"FR",
      "population":227740,
@@ -1633,7 +1633,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Seine-Saint-Denis":{
+  "seine-saint-denis":{
      "geonameid":"2975246",
      "country":"FR",
      "value":"Seine-Saint-Denis",
@@ -1641,7 +1641,7 @@
      "population":1528413,
      "type":"region"
   },
-  "Hainaut":{
+  "hainaut":{
      "geonameid":"2796741",
      "country":"BE",
      "population":0,
@@ -1649,7 +1649,7 @@
      "timezone":"Europe/Brussels",
      "type":"region"
   },
-  "Ville d’Ettelbruck":{
+  "ville d’ettelbruck":{
      "geonameid":"2960590",
      "country":"LU",
      "population":0,
@@ -1657,7 +1657,7 @@
      "timezone":"Europe/Luxembourg",
      "type":"region"
   },
-  "Seine-Maritime":{
+  "seine-maritime":{
      "geonameid":"2975248",
      "country":"FR",
      "value":"Seine-Maritime",
@@ -1665,7 +1665,7 @@
      "population":1275483,
      "type":"region"
   },
-  "Dordogne":{
+  "dordogne":{
      "geonameid":"3021042",
      "country":"FR",
      "value":"Dordogne",
@@ -1673,7 +1673,7 @@
      "population":424456,
      "type":"region"
   },
-  "Lot-et-Garonne":{
+  "lot-et-garonne":{
      "geonameid":"2997523",
      "country":"FR",
      "population":341132,
@@ -1681,7 +1681,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Canton de Vaud":{
+  "canton de vaud":{
      "geonameid":"2658182",
      "country":"CH",
      "value":"Canton de Vaud",
@@ -1689,7 +1689,7 @@
      "population":646233,
      "type":"region"
   },
-  "Thurgovie":{
+  "thurgovie":{
      "geonameid":"2658372",
      "country":"CH",
      "value":"Thurgovie",
@@ -1705,7 +1705,7 @@
      "timezone":"Europe/Luxembourg",
      "type":"region"
   },
-  "Broye-Vully":{
+  "broye-vully":{
      "geonameid":"7285002",
      "country":"CH",
      "value":"Broye-Vully",
@@ -1713,7 +1713,7 @@
      "population":38418,
      "type":"region"
   },
-  "Hauts-de-France":{
+  "hauts-de-france":{
      "geonameid":"11071624",
      "country":"FR",
      "population":5973098,
@@ -1721,7 +1721,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Centre-Val de Loire":{
+  "centre-val de loire":{
      "geonameid":"3027939",
      "country":"FR",
      "value":"Centre-Val de Loire",
@@ -1729,7 +1729,7 @@
      "population":2526919,
      "type":"region"
   },
-  "Cher":{
+  "cher":{
      "geonameid":"3025480",
      "country":"FR",
      "value":"Cher",
@@ -1745,7 +1745,7 @@
      "population":4864015,
      "type":"region"
   },
-  "Bas-Rhin":{
+  "bas-rhin":{
      "geonameid":"3034720",
      "country":"FR",
      "value":"Bas-Rhin",
@@ -1753,7 +1753,7 @@
      "population":1113207,
      "type":"region"
   },
-  "Territoire de Belfort":{
+  "territoire de belfort":{
      "geonameid":"3033789",
      "country":"FR",
      "population":145987,
@@ -1761,7 +1761,7 @@
      "timezone":"Europe/Paris",
      "type":"region"
   },
-  "Commune de Bettembourg":{
+  "commune de bettembourg":{
      "geonameid":"2960778",
      "country":"LU",
      "population":0,
@@ -1769,7 +1769,7 @@
      "timezone":"Europe/Luxembourg",
      "type":"region"
   },
-  "Lucerne":{
+  "lucerne":{
      "geonameid":"2659810",
      "country":"CH",
      "value":"Lucerne",
@@ -1777,7 +1777,7 @@
      "population":362215,
      "type":"region"
   },
-  "Grisons":{
+  "grisons":{
      "geonameid":"2660522",
      "country":"CH",
      "value":"Grisons",

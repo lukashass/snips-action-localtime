@@ -12,7 +12,7 @@ export type MappingEntry = {
 
 export const location = {
     getMostPopulated(item: string, itemList: { [key: string]: MappingEntry }, countryCode: string = ''): MappingEntry | null {
-        let value: MappingEntry | MappingEntry[] = itemList[item]
+        let value: MappingEntry | MappingEntry[] = itemList[item.toLowerCase()]
 
         if (value) {
             if (countryCode) {

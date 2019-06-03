@@ -1,5 +1,5 @@
 {
-  "Canada":{
+  "canada":{
      "geonameid":"6251999",
      "country":"CA",
      "population":33679000,
@@ -7,7 +7,7 @@
      "timezone":"America/Toronto",
      "type":"country"
   },
-  "Republic of Honduras":{
+  "republic of honduras":{
      "geonameid":"3608932",
      "country":"HN",
      "value":"Republic of Honduras",
@@ -15,7 +15,7 @@
      "population":7989415,
      "type":"country"
   },
-  "Sao Tome and Principe":{
+  "sao tome and principe":{
      "geonameid":"2410758",
      "country":"ST",
      "value":"Sao Tome and Principe",
@@ -23,7 +23,7 @@
      "population":175808,
      "type":"country"
   },
-  "Turkmenistan":{
+  "turkmenistan":{
      "geonameid":"1218197",
      "country":"TM",
      "population":4940916,
@@ -31,7 +31,7 @@
      "timezone":"Asia/Ashgabat",
      "type":"country"
   },
-  "Republic of Mauritius":{
+  "republic of mauritius":{
      "geonameid":"934292",
      "country":"MU",
      "value":"Republic of Mauritius",
@@ -39,7 +39,7 @@
      "population":1294104,
      "type":"country"
   },
-  "Kingdom of Sweden":{
+  "kingdom of sweden":{
      "geonameid":"2661886",
      "country":"SE",
      "value":"Kingdom of Sweden",
@@ -47,7 +47,7 @@
      "population":9828655,
      "type":"country"
   },
-  "Republic of Chile":{
+  "republic of chile":{
      "geonameid":"3895114",
      "country":"CL",
      "value":"Republic of Chile",
@@ -55,7 +55,7 @@
      "population":16746491,
      "type":"country"
   },
-  "Union of the Comoros":{
+  "union of the comoros":{
      "geonameid":"921929",
      "country":"KM",
      "value":"Union of the Comoros",
@@ -63,7 +63,7 @@
      "population":773407,
      "type":"country"
   },
-  "Republic of Haiti":{
+  "republic of haiti":{
      "geonameid":"3723988",
      "country":"HT",
      "value":"Republic of Haiti",
@@ -71,7 +71,7 @@
      "population":9648924,
      "type":"country"
   },
-  "Bolivarian Republic of Venezuela":{
+  "bolivarian republic of venezuela":{
      "geonameid":"3625428",
      "country":"VE",
      "value":"Bolivarian Republic of Venezuela",
@@ -79,7 +79,7 @@
      "population":27223228,
      "type":"country"
   },
-  "Kingdom of Belgium":{
+  "kingdom of belgium":{
      "geonameid":"2802361",
      "country":"BE",
      "value":"Kingdom of Belgium",
@@ -87,7 +87,7 @@
      "population":10403000,
      "type":"country"
   },
-  "Burkina Faso":{
+  "burkina faso":{
      "geonameid":"2361809",
      "country":"BF",
      "population":16241811,
@@ -95,7 +95,7 @@
      "timezone":"Africa/Ouagadougou",
      "type":"country"
   },
-  "Federal Republic of Germany":{
+  "federal republic of germany":{
      "geonameid":"2921044",
      "country":"DE",
      "value":"Federal Republic of Germany",
@@ -103,7 +103,7 @@
      "population":81802257,
      "type":"country"
   },
-  "Japan":{
+  "japan":{
      "geonameid":"1861060",
      "country":"JP",
      "population":127288000,
@@ -111,7 +111,7 @@
      "timezone":"Asia/Tokyo",
      "type":"country"
   },
-  "Islamic Republic of Pakistan":{
+  "islamic republic of pakistan":{
      "geonameid":"1168579",
      "country":"PK",
      "value":"Islamic Republic of Pakistan",
@@ -119,7 +119,7 @@
      "population":184404791,
      "type":"country"
   },
-  "Federal Democratic Republic of Ethiopia":{
+  "federal democratic republic of ethiopia":{
      "geonameid":"337996",
      "country":"ET",
      "value":"Federal Democratic Republic of Ethiopia",
@@ -127,7 +127,7 @@
      "population":88013491,
      "type":"country"
   },
-  "Bosnia and Herzegovina":{
+  "bosnia and herzegovina":{
      "geonameid":"3277605",
      "country":"BA",
      "population":4590000,
@@ -135,7 +135,7 @@
      "timezone":"Europe/Sarajevo",
      "type":"country"
   },
-  "Republic of Nicaragua":{
+  "republic of nicaragua":{
      "geonameid":"3617476",
      "country":"NI",
      "value":"Republic of Nicaragua",
@@ -143,7 +143,7 @@
      "population":5995928,
      "type":"country"
   },
-  "Russian Federation":{
+  "russian federation":{
      "geonameid":"2017370",
      "country":"RU",
      "value":"Russian Federation",
@@ -151,7 +151,7 @@
      "population":140702000,
      "type":"country"
   },
-  "State of Israel":{
+  "state of israel":{
      "geonameid":"294640",
      "country":"IL",
      "value":"State of Israel",
@@ -159,7 +159,7 @@
      "population":7353985,
      "type":"country"
   },
-  "Portuguese Republic":{
+  "portuguese republic":{
      "geonameid":"2264397",
      "country":"PT",
      "value":"Portuguese Republic",
@@ -167,7 +167,7 @@
      "population":10676000,
      "type":"country"
   },
-  "Togolese Republic":{
+  "togolese republic":{
      "geonameid":"2363686",
      "country":"TG",
      "value":"Togolese Republic",
@@ -175,7 +175,7 @@
      "population":6587239,
      "type":"country"
   },
-  "Dominica":{
+  "dominica":{
      "geonameid":"3575830",
      "country":"DM",
      "value":"Dominica",
@@ -183,7 +183,7 @@
      "population":72813,
      "type":"country"
   },
-  "Republic of Turkey":{
+  "republic of turkey":{
      "geonameid":"298795",
      "country":"TR",
      "value":"Republic of Turkey",
@@ -191,7 +191,7 @@
      "population":77804122,
      "type":"country"
   },
-  "Republic of Croatia":{
+  "republic of croatia":{
      "geonameid":"3202326",
      "country":"HR",
      "value":"Republic of Croatia",
@@ -199,7 +199,7 @@
      "population":4284889,
      "type":"country"
   },
-  "Islamic Republic of Afghanistan":{
+  "islamic republic of afghanistan":{
      "geonameid":"1149361",
      "country":"AF",
      "value":"Islamic Republic of Afghanistan",
@@ -207,7 +207,7 @@
      "population":29121286,
      "type":"country"
   },
-  "Republic of Moldova":{
+  "republic of moldova":{
      "geonameid":"617790",
      "country":"MD",
      "value":"Republic of Moldova",
@@ -215,7 +215,7 @@
      "population":4324000,
      "type":"country"
   },
-  "Tanzania":{
+  "tanzania":{
      "geonameid":"149590",
      "country":"TZ",
      "population":41892895,
@@ -223,7 +223,7 @@
      "timezone":"Africa/Dar_es_Salaam",
      "type":"country"
   },
-  "Republic of Ecuador":{
+  "republic of ecuador":{
      "geonameid":"3658394",
      "country":"EC",
      "value":"Republic of Ecuador",
@@ -231,7 +231,7 @@
      "population":14790608,
      "type":"country"
   },
-  "Republic of Tajikistan":{
+  "republic of tajikistan":{
      "geonameid":"1220409",
      "country":"TJ",
      "value":"Republic of Tajikistan",
@@ -239,7 +239,7 @@
      "population":7487489,
      "type":"country"
   },
-  "Republic of Yemen":{
+  "republic of yemen":{
      "geonameid":"69543",
      "country":"YE",
      "value":"Republic of Yemen",
@@ -247,7 +247,7 @@
      "population":23495361,
      "type":"country"
   },
-  "Republic of Azerbaijan":{
+  "republic of azerbaijan":{
      "geonameid":"587116",
      "country":"AZ",
      "value":"Republic of Azerbaijan",
@@ -255,7 +255,7 @@
      "population":8303512,
      "type":"country"
   },
-  "Seychelles":{
+  "seychelles":{
      "geonameid":"241170",
      "country":"SC",
      "population":88340,
@@ -263,7 +263,7 @@
      "timezone":"Indian/Mahe",
      "type":"country"
   },
-  "Republic of Armenia":{
+  "republic of armenia":{
      "geonameid":"174982",
      "country":"AM",
      "value":"Republic of Armenia",
@@ -271,7 +271,7 @@
      "population":2968000,
      "type":"country"
   },
-  "Monaco":{
+  "monaco":{
      "geonameid":"2993457",
      "country":"MC",
      "population":32965,
@@ -279,7 +279,7 @@
      "timezone":"Europe/Monaco",
      "type":"country"
   },
-  "New Zealand":{
+  "new zealand":{
      "geonameid":"2186224",
      "country":"NZ",
      "population":4252277,
@@ -287,7 +287,7 @@
      "timezone":"Pacific/Auckland",
      "type":"country"
   },
-  "Republic of Guinea":{
+  "republic of guinea":{
      "geonameid":"2420477",
      "country":"GN",
      "value":"Republic of Guinea",
@@ -295,7 +295,7 @@
      "population":10324025,
      "type":"country"
   },
-  "Jamaica":{
+  "jamaica":{
      "geonameid":"3489940",
      "country":"JM",
      "population":2847232,
@@ -303,7 +303,7 @@
      "timezone":"America/Jamaica",
      "type":"country"
   },
-  "Slovak Republic":{
+  "slovak republic":{
      "geonameid":"3057568",
      "country":"SK",
      "value":"Slovak Republic",
@@ -311,7 +311,7 @@
      "population":5455000,
      "type":"country"
   },
-  "United Arab Emirates":{
+  "united arab emirates":{
      "geonameid":"290557",
      "country":"AE",
      "population":4975593,
@@ -319,7 +319,7 @@
      "timezone":"Asia/Dubai",
      "type":"country"
   },
-  "Republic of Iraq":{
+  "republic of iraq":{
      "geonameid":"99237",
      "country":"IQ",
      "value":"Republic of Iraq",
@@ -327,7 +327,7 @@
      "population":29671605,
      "type":"country"
   },
-  "India":{
+  "india":{
      "geonameid":"1269750",
      "country":"IN",
      "population":1173108018,
@@ -335,7 +335,7 @@
      "timezone":"Asia/Kolkata",
      "type":"country"
   },
-  "Republic of Kazakhstan":{
+  "republic of kazakhstan":{
      "geonameid":"1522867",
      "country":"KZ",
      "value":"Republic of Kazakhstan",
@@ -343,7 +343,7 @@
      "population":15340000,
      "type":"country"
   },
-  "Republic of Djibouti":{
+  "republic of djibouti":{
      "geonameid":"223816",
      "country":"DJ",
      "value":"Republic of Djibouti",
@@ -351,7 +351,7 @@
      "population":740528,
      "type":"country"
   },
-  "Lesotho":{
+  "lesotho":{
      "geonameid":"932692",
      "country":"LS",
      "population":1919552,
@@ -359,7 +359,7 @@
      "timezone":"Africa/Maseru",
      "type":"country"
   },
-  "Saint Vincent and the Grenadines":{
+  "saint vincent and the grenadines":{
      "geonameid":"3577815",
      "country":"VC",
      "value":"Saint Vincent and the Grenadines",
@@ -367,7 +367,7 @@
      "population":104217,
      "type":"country"
   },
-  "Plurinational State of Bolivia":{
+  "plurinational state of bolivia":{
      "geonameid":"3923057",
      "country":"BO",
      "value":"Plurinational State of Bolivia",
@@ -375,7 +375,7 @@
      "population":9947418,
      "type":"country"
   },
-  "Kenya":{
+  "kenya":{
      "geonameid":"192950",
      "country":"KE",
      "population":40046566,
@@ -383,7 +383,7 @@
      "timezone":"Africa/Nairobi",
      "type":"country"
   },
-  "Republic of Cameroon":{
+  "republic of cameroon":{
      "geonameid":"2233387",
      "country":"CM",
      "value":"Republic of Cameroon",
@@ -391,7 +391,7 @@
      "population":19294149,
      "type":"country"
   },
-  "Independent State of Samoa":{
+  "independent state of samoa":{
      "geonameid":"4034894",
      "country":"WS",
      "value":"Independent State of Samoa",
@@ -399,7 +399,7 @@
      "population":192001,
      "type":"country"
   },
-  "Bangladesh":{
+  "bangladesh":{
      "geonameid":"1210997",
      "country":"BD",
      "population":156118464,
@@ -407,7 +407,7 @@
      "timezone":"Asia/Dhaka",
      "type":"country"
   },
-  "Federative Republic of Brazil":{
+  "federative republic of brazil":{
      "geonameid":"3469034",
      "country":"BR",
      "value":"Federative Republic of Brazil",
@@ -415,7 +415,7 @@
      "population":201103330,
      "type":"country"
   },
-  "Solomon Islands":{
+  "solomon islands":{
      "geonameid":"2103350",
      "country":"SB",
      "population":559198,
@@ -423,7 +423,7 @@
      "timezone":"Pacific/Guadalcanal",
      "type":"country"
   },
-  "Republic of Angola":{
+  "republic of angola":{
      "geonameid":"3351879",
      "country":"AO",
      "value":"Republic of Angola",
@@ -431,7 +431,7 @@
      "population":13068161,
      "type":"country"
   },
-  "Saint Lucia":{
+  "saint lucia":{
      "geonameid":"3576468",
      "country":"LC",
      "value":"Saint Lucia",
@@ -439,7 +439,7 @@
      "population":160922,
      "type":"country"
   },
-  "San Marino":{
+  "san marino":{
      "geonameid":"3168068",
      "country":"SM",
      "population":31477,
@@ -447,7 +447,7 @@
      "timezone":"Europe/San_Marino",
      "type":"country"
   },
-  "Mongolia":{
+  "mongolia":{
      "geonameid":"2029969",
      "country":"MN",
      "value":"Mongolia",
@@ -455,7 +455,7 @@
      "population":3086918,
      "type":"country"
   },
-  "France":{
+  "france":{
      "geonameid":"3017382",
      "country":"FR",
      "population":64768389,
@@ -463,7 +463,7 @@
      "timezone":"Europe/Paris",
      "type":"country"
   },
-  "Syrian Arab Republic":{
+  "syrian arab republic":{
      "geonameid":"163843",
      "country":"SY",
      "value":"Syrian Arab Republic",
@@ -471,7 +471,7 @@
      "population":22198110,
      "type":"country"
   },
-  "Union of Burma":{
+  "union of burma":{
      "geonameid":"1327865",
      "country":"MM",
      "value":"Union of Burma",
@@ -479,7 +479,7 @@
      "population":53414374,
      "type":"country"
   },
-  "Republic of Finland":{
+  "republic of finland":{
      "geonameid":"660013",
      "country":"FI",
      "value":"Republic of Finland",
@@ -487,7 +487,7 @@
      "population":5244000,
      "type":"country"
   },
-  "Somalia":{
+  "somalia":{
      "geonameid":"51537",
      "country":"SO",
      "value":"Somalia",
@@ -495,7 +495,7 @@
      "population":10112453,
      "type":"country"
   },
-  "Republic of Colombia":{
+  "republic of colombia":{
      "geonameid":"3686110",
      "country":"CO",
      "value":"Republic of Colombia",
@@ -503,7 +503,7 @@
      "population":47790000,
      "type":"country"
   },
-  "Sultanate of Oman":{
+  "sultanate of oman":{
      "geonameid":"286963",
      "country":"OM",
      "value":"Sultanate of Oman",
@@ -511,7 +511,7 @@
      "population":2967717,
      "type":"country"
   },
-  "Malawi":{
+  "malawi":{
      "geonameid":"927384",
      "country":"MW",
      "population":15447500,
@@ -519,7 +519,7 @@
      "timezone":"Africa/Blantyre",
      "type":"country"
   },
-  "Republic of Suriname":{
+  "republic of suriname":{
      "geonameid":"3382998",
      "country":"SR",
      "value":"Republic of Suriname",
@@ -527,7 +527,7 @@
      "population":492829,
      "type":"country"
   },
-  "Republic of Costa Rica":{
+  "republic of costa rica":{
      "geonameid":"3624060",
      "country":"CR",
      "value":"Republic of Costa Rica",
@@ -535,7 +535,7 @@
      "population":4516220,
      "type":"country"
   },
-  "Republic of Latvia":{
+  "republic of latvia":{
      "geonameid":"458258",
      "country":"LV",
      "value":"Republic of Latvia",
@@ -543,7 +543,7 @@
      "population":2217969,
      "type":"country"
   },
-  "Kingdom of Cambodia":{
+  "kingdom of cambodia":{
      "geonameid":"1831722",
      "country":"KH",
      "value":"Kingdom of Cambodia",
@@ -551,7 +551,7 @@
      "population":14453680,
      "type":"country"
   },
-  "Montenegro":{
+  "montenegro":{
      "geonameid":"3194884",
      "country":"ME",
      "value":"Montenegro",
@@ -559,7 +559,7 @@
      "population":666730,
      "type":"country"
   },
-  "Republic of the Congo":{
+  "republic of the congo":{
      "geonameid":"2260494",
      "country":"CG",
      "value":"Republic of the Congo",
@@ -567,7 +567,7 @@
      "population":3039126,
      "type":"country"
   },
-  "Republic of Madagascar":{
+  "republic of madagascar":{
      "geonameid":"1062947",
      "country":"MG",
      "value":"Republic of Madagascar",
@@ -575,7 +575,7 @@
      "population":21281844,
      "type":"country"
   },
-  "Republic of Vanuatu":{
+  "republic of vanuatu":{
      "geonameid":"2134431",
      "country":"VU",
      "value":"Republic of Vanuatu",
@@ -583,7 +583,7 @@
      "population":221552,
      "type":"country"
   },
-  "Antigua and Barbuda":{
+  "antigua and barbuda":{
      "geonameid":"3576396",
      "country":"AG",
      "population":86754,
@@ -591,7 +591,7 @@
      "timezone":"America/Antigua",
      "type":"country"
   },
-  "Dominican Republic":{
+  "dominican republic":{
      "geonameid":"3508796",
      "country":"DO",
      "population":9823821,
@@ -599,7 +599,7 @@
      "timezone":"America/Santo_Domingo",
      "type":"country"
   },
-  "Ukraine":{
+  "ukraine":{
      "geonameid":"690791",
      "country":"UA",
      "population":45415596,
@@ -607,7 +607,7 @@
      "timezone":"Europe/Kyiv",
      "type":"country"
   },
-  "Ghana":{
+  "ghana":{
      "geonameid":"2300660",
      "country":"GH",
      "population":24339838,
@@ -615,7 +615,7 @@
      "timezone":"Africa/Accra",
      "type":"country"
   },
-  "Tonga":{
+  "tonga":{
      "geonameid":"4032283",
      "country":"TO",
      "population":122580,
@@ -623,7 +623,7 @@
      "timezone":"Pacific/Tongatapu",
      "type":"country"
   },
-  "Republic of Peru":{
+  "republic of peru":{
      "geonameid":"3932488",
      "country":"PE",
      "value":"Republic of Peru",
@@ -631,7 +631,7 @@
      "population":29907003,
      "type":"country"
   },
-  "Libya":{
+  "libya":{
      "geonameid":"2215636",
      "country":"LY",
      "population":6461454,
@@ -639,7 +639,7 @@
      "timezone":"Africa/Tripoli",
      "type":"country"
   },
-  "Argentine Republic":{
+  "argentine republic":{
      "geonameid":"3865483",
      "country":"AR",
      "value":"Argentine Republic",
@@ -647,7 +647,7 @@
      "population":41343201,
      "type":"country"
   },
-  "Vatican":{
+  "vatican":{
      "geonameid":"3164670",
      "country":"VA",
      "value":"Vatican",
@@ -655,7 +655,7 @@
      "population":921,
      "type":"country"
   },
-  "Republic of Equatorial Guinea":{
+  "republic of equatorial guinea":{
      "geonameid":"2309096",
      "country":"GQ",
      "value":"Republic of Equatorial Guinea",
@@ -663,7 +663,7 @@
      "population":1014999,
      "type":"country"
   },
-  "Central African Republic":{
+  "central african republic":{
      "geonameid":"239880",
      "country":"CF",
      "population":4844927,
@@ -671,7 +671,7 @@
      "timezone":"Africa/Bangui",
      "type":"country"
   },
-  "United States":{
+  "united states":{
      "geonameid":"6252001",
      "country":"US",
      "value":"United States",
@@ -679,7 +679,7 @@
      "population":310232863,
      "type":"country"
   },
-  "Republic of Niger":{
+  "republic of niger":{
      "geonameid":"2440476",
      "country":"NE",
      "value":"Republic of Niger",
@@ -687,7 +687,7 @@
      "population":15878271,
      "type":"country"
   },
-  "Democratic Republic of Timor-Leste":{
+  "democratic republic of timor-leste":{
      "geonameid":"1966436",
      "country":"TL",
      "value":"Democratic Republic of Timor-Leste",
@@ -695,7 +695,7 @@
      "population":1154625,
      "type":"country"
   },
-  "Guyana":{
+  "guyana":{
      "geonameid":"3378535",
      "country":"GY",
      "population":748486,
@@ -703,7 +703,7 @@
      "timezone":"America/Guyana",
      "type":"country"
   },
-  "Mali":{
+  "mali":{
      "geonameid":"2453866",
      "country":"ML",
      "population":13796354,
@@ -711,7 +711,7 @@
      "timezone":"Africa/Bamako",
      "type":"country"
   },
-  "People’s Republic of China":{
+  "people’s republic of china":{
      "geonameid":"1814991",
      "country":"CN",
      "value":"People’s Republic of China",
@@ -719,7 +719,7 @@
      "population":1330044000,
      "type":"country"
   },
-  "Socialist Republic of Vietnam":{
+  "socialist republic of vietnam":{
      "geonameid":"1562822",
      "country":"VN",
      "value":"Socialist Republic of Vietnam",
@@ -727,7 +727,7 @@
      "population":89571130,
      "type":"country"
   },
-  "Romania":{
+  "romania":{
      "geonameid":"798549",
      "country":"RO",
      "population":21959278,
@@ -735,7 +735,7 @@
      "timezone":"Europe/Bucharest",
      "type":"country"
   },
-  "Fiji":{
+  "fiji":{
      "geonameid":"2205218",
      "country":"FJ",
      "population":875983,
@@ -743,7 +743,7 @@
      "timezone":"Pacific/Fiji",
      "type":"country"
   },
-  "Republic of Lithuania":{
+  "republic of lithuania":{
      "geonameid":"597427",
      "country":"LT",
      "value":"Republic of Lithuania",
@@ -751,7 +751,7 @@
      "population":2944459,
      "type":"country"
   },
-  "Brunei Darussalam":{
+  "brunei darussalam":{
      "geonameid":"1820814",
      "country":"BN",
      "value":"Brunei Darussalam",
@@ -759,7 +759,7 @@
      "population":395027,
      "type":"country"
   },
-  "Republic of Senegal":{
+  "republic of senegal":{
      "geonameid":"2245662",
      "country":"SN",
      "value":"Republic of Senegal",
@@ -767,7 +767,7 @@
      "population":12323252,
      "type":"country"
   },
-  "Barbados":{
+  "barbados":{
      "geonameid":"3374084",
      "country":"BB",
      "population":285653,
@@ -775,7 +775,7 @@
      "timezone":"America/Barbados",
      "type":"country"
   },
-  "Uganda":{
+  "uganda":{
      "geonameid":"226074",
      "country":"UG",
      "population":33398682,
@@ -783,7 +783,7 @@
      "timezone":"Africa/Kampala",
      "type":"country"
   },
-  "Kyrgyz Republic":{
+  "kyrgyz republic":{
      "geonameid":"1527747",
      "country":"KG",
      "value":"Kyrgyz Republic",
@@ -791,7 +791,7 @@
      "population":5776500,
      "type":"country"
   },
-  "Hungary":{
+  "hungary":{
      "geonameid":"719819",
      "country":"HU",
      "population":9982000,
@@ -799,7 +799,7 @@
      "timezone":"Europe/Budapest",
      "type":"country"
   },
-  "Republic of Bulgaria":{
+  "republic of bulgaria":{
      "geonameid":"732800",
      "country":"BG",
      "value":"Republic of Bulgaria",
@@ -807,7 +807,7 @@
      "population":7148785,
      "type":"country"
   },
-  "Principality of Andorra":{
+  "principality of andorra":{
      "geonameid":"3041565",
      "country":"AD",
      "value":"Principality of Andorra",
@@ -815,7 +815,7 @@
      "population":84000,
      "type":"country"
   },
-  "South Sudan":{
+  "south sudan":{
      "geonameid":"7909807",
      "country":"SS",
      "value":"South Sudan",
@@ -823,7 +823,7 @@
      "population":8260490,
      "type":"country"
   },
-  "Grand Duchy of Luxembourg":{
+  "grand duchy of luxembourg":{
      "geonameid":"2960313",
      "country":"LU",
      "value":"Grand Duchy of Luxembourg",
@@ -831,7 +831,7 @@
      "population":497538,
      "type":"country"
   },
-  "Republic of Burundi":{
+  "republic of burundi":{
      "geonameid":"433561",
      "country":"BI",
      "value":"Republic of Burundi",
@@ -839,7 +839,7 @@
      "population":9863117,
      "type":"country"
   },
-  "State of Eritrea":{
+  "state of eritrea":{
      "geonameid":"338010",
      "country":"ER",
      "value":"State of Eritrea",
@@ -847,7 +847,7 @@
      "population":5792984,
      "type":"country"
   },
-  "Republic of Uzbekistan":{
+  "republic of uzbekistan":{
      "geonameid":"1512440",
      "country":"UZ",
      "value":"Republic of Uzbekistan",
@@ -855,7 +855,7 @@
      "population":27865738,
      "type":"country"
   },
-  "State of Kuwait":{
+  "state of kuwait":{
      "geonameid":"285570",
      "country":"KW",
      "value":"State of Kuwait",
@@ -863,7 +863,7 @@
      "population":2789132,
      "type":"country"
   },
-  "Republic of Slovenia":{
+  "republic of slovenia":{
      "geonameid":"3190538",
      "country":"SI",
      "value":"Republic of Slovenia",
@@ -871,7 +871,7 @@
      "population":2007000,
      "type":"country"
   },
-  "Republic of Mozambique":{
+  "republic of mozambique":{
      "geonameid":"1036973",
      "country":"MZ",
      "value":"Republic of Mozambique",
@@ -879,7 +879,7 @@
      "population":22061451,
      "type":"country"
   },
-  "Republic of El Salvador":{
+  "republic of el salvador":{
      "geonameid":"3585968",
      "country":"SV",
      "value":"Republic of El Salvador",
@@ -887,7 +887,7 @@
      "population":6052064,
      "type":"country"
   },
-  "Kingdom of Thailand":{
+  "kingdom of thailand":{
      "geonameid":"1605651",
      "country":"TH",
      "value":"Kingdom of Thailand",
@@ -895,7 +895,7 @@
      "population":67089500,
      "type":"country"
   },
-  "Bahamas":{
+  "bahamas":{
      "geonameid":"3572887",
      "country":"BS",
      "value":"Bahamas",
@@ -903,7 +903,7 @@
      "population":301790,
      "type":"country"
   },
-  "Ireland":{
+  "ireland":{
      "geonameid":"2963597",
      "country":"IE",
      "value":"Ireland",
@@ -911,7 +911,7 @@
      "population":4622917,
      "type":"country"
   },
-  "Republic of Belarus":{
+  "republic of belarus":{
      "geonameid":"630336",
      "country":"BY",
      "value":"Republic of Belarus",
@@ -919,7 +919,7 @@
      "population":9685000,
      "type":"country"
   },
-  "Kingdom of Denmark":{
+  "kingdom of denmark":{
      "geonameid":"2623032",
      "country":"DK",
      "value":"Kingdom of Denmark",
@@ -927,7 +927,7 @@
      "population":5484000,
      "type":"country"
   },
-  "Australia":{
+  "australia":{
      "geonameid":"2077456",
      "country":"AU",
      "population":21515754,
@@ -935,7 +935,7 @@
      "timezone":"Australia/Sydney",
      "type":"country"
   },
-  "Republic of Albania":{
+  "republic of albania":{
      "geonameid":"783754",
      "country":"AL",
      "value":"Republic of Albania",
@@ -943,7 +943,7 @@
      "population":2986952,
      "type":"country"
   },
-  "Republic of Iceland":{
+  "republic of iceland":{
      "geonameid":"2629691",
      "country":"IS",
      "value":"Republic of Iceland",
@@ -951,7 +951,7 @@
      "population":308910,
      "type":"country"
   },
-  "Republic of Poland":{
+  "republic of poland":{
      "geonameid":"798544",
      "country":"PL",
      "value":"Republic of Poland",
@@ -959,7 +959,7 @@
      "population":38500000,
      "type":"country"
   },
-  "Tuvalu":{
+  "tuvalu":{
      "geonameid":"2110297",
      "country":"TV",
      "population":10472,
@@ -967,7 +967,7 @@
      "timezone":"Pacific/Funafuti",
      "type":"country"
   },
-  "Czechia":{
+  "czechia":{
      "geonameid":"3077311",
      "country":"CZ",
      "value":"Czechia",
@@ -975,7 +975,7 @@
      "population":10476000,
      "type":"country"
   },
-  "Hellenic Republic":{
+  "hellenic republic":{
      "geonameid":"390903",
      "country":"GR",
      "value":"Hellenic Republic",
@@ -983,7 +983,7 @@
      "population":11000000,
      "type":"country"
   },
-  "Naija":{
+  "naija":{
      "geonameid":"2328926",
      "country":"NG",
      "value":"Naija",
@@ -991,7 +991,7 @@
      "population":154000000,
      "type":"country"
   },
-  "Kiribati":{
+  "kiribati":{
      "geonameid":"4030945",
      "country":"KI",
      "population":92533,
@@ -999,7 +999,7 @@
      "timezone":"Pacific/Tarawa",
      "type":"country"
   },
-  "Democratic People’s Republic of Korea":{
+  "democratic people’s republic of korea":{
      "geonameid":"1873107",
      "country":"KP",
      "value":"Democratic People’s Republic of Korea",
@@ -1007,7 +1007,7 @@
      "population":22912177,
      "type":"country"
   },
-  "Belize":{
+  "belize":{
      "geonameid":"3582678",
      "country":"BZ",
      "population":314522,
@@ -1015,7 +1015,7 @@
      "timezone":"America/Belize",
      "type":"country"
   },
-  "Republic of the Philippines":{
+  "republic of the philippines":{
      "geonameid":"1694008",
      "country":"PH",
      "value":"Republic of the Philippines",
@@ -1023,7 +1023,7 @@
      "population":99900177,
      "type":"country"
   },
-  "Sierra Leone":{
+  "sierra leone":{
      "geonameid":"2403846",
      "country":"SL",
      "population":5245695,
@@ -1031,7 +1031,7 @@
      "timezone":"Africa/Freetown",
      "type":"country"
   },
-  "Republic of Rwanda":{
+  "republic of rwanda":{
      "geonameid":"49518",
      "country":"RW",
      "value":"Republic of Rwanda",
@@ -1039,7 +1039,7 @@
      "population":11055976,
      "type":"country"
   },
-  "Georgia":{
+  "georgia":{
      "geonameid":"614540",
      "country":"GE",
      "population":4630000,
@@ -1047,7 +1047,7 @@
      "timezone":"Asia/Tbilisi",
      "type":"country"
   },
-  "Islamic Republic of Mauritania":{
+  "islamic republic of mauritania":{
      "geonameid":"2378080",
      "country":"MR",
      "value":"Islamic Republic of Mauritania",
@@ -1055,7 +1055,7 @@
      "population":3205060,
      "type":"country"
   },
-  "Republic of Guatemala":{
+  "republic of guatemala":{
      "geonameid":"3595528",
      "country":"GT",
      "value":"Republic of Guatemala",
@@ -1063,7 +1063,7 @@
      "population":13550440,
      "type":"country"
   },
-  "Italian Republic":{
+  "italian republic":{
      "geonameid":"3175395",
      "country":"IT",
      "value":"Italian Republic",
@@ -1071,7 +1071,7 @@
      "population":60340328,
      "type":"country"
   },
-  "Nauru":{
+  "nauru":{
      "geonameid":"2110425",
      "country":"NR",
      "value":"Nauru",
@@ -1079,7 +1079,7 @@
      "population":10065,
      "type":"country"
   },
-  "State of Qatar":{
+  "state of qatar":{
      "geonameid":"289688",
      "country":"QA",
      "value":"State of Qatar",
@@ -1087,7 +1087,7 @@
      "population":840926,
      "type":"country"
   },
-  "Switzerland":{
+  "switzerland":{
      "geonameid":"2658434",
      "country":"CH",
      "population":8484100,
@@ -1095,7 +1095,7 @@
      "timezone":"Europe/Zurich",
      "type":"country"
   },
-  "Grenada":{
+  "grenada":{
      "geonameid":"3580239",
      "country":"GD",
      "population":107818,
@@ -1103,7 +1103,7 @@
      "timezone":"America/Grenada",
      "type":"country"
   },
-  "Republic of Guinea-Bissau":{
+  "republic of guinea-bissau":{
      "geonameid":"2372248",
      "country":"GW",
      "value":"Republic of Guinea-Bissau",
@@ -1111,7 +1111,7 @@
      "population":1565126,
      "type":"country"
   },
-  "Republic of Chad":{
+  "republic of chad":{
      "geonameid":"2434508",
      "country":"TD",
      "value":"Republic of Chad",
@@ -1119,7 +1119,7 @@
      "population":10543464,
      "type":"country"
   },
-  "Kingdom of Bahrain":{
+  "kingdom of bahrain":{
      "geonameid":"290291",
      "country":"BH",
      "value":"Kingdom of Bahrain",
@@ -1127,7 +1127,7 @@
      "population":738004,
      "type":"country"
   },
-  "Lebanon":{
+  "lebanon":{
      "geonameid":"272103",
      "country":"LB",
      "value":"Lebanon",
@@ -1135,7 +1135,7 @@
      "population":4125247,
      "type":"country"
   },
-  "Kingdom of Norway":{
+  "kingdom of norway":{
      "geonameid":"3144096",
      "country":"NO",
      "value":"Kingdom of Norway",
@@ -1143,7 +1143,7 @@
      "population":5009150,
      "type":"country"
   },
-  "Republic of Paraguay":{
+  "republic of paraguay":{
      "geonameid":"3437598",
      "country":"PY",
      "value":"Republic of Paraguay",
@@ -1151,7 +1151,7 @@
      "population":6375830,
      "type":"country"
   },
-  "Republic of Korea":{
+  "republic of korea":{
      "geonameid":"1835841",
      "country":"KR",
      "value":"Republic of Korea",
@@ -1159,7 +1159,7 @@
      "population":48422644,
      "type":"country"
   },
-  "Republic of Austria":{
+  "republic of austria":{
      "geonameid":"2782113",
      "country":"AT",
      "value":"Republic of Austria",
@@ -1167,7 +1167,7 @@
      "population":8205000,
      "type":"country"
   },
-  "Taiwan":{
+  "taiwan":{
      "geonameid":"1668284",
      "country":"TW",
      "value":"Taiwan",
@@ -1175,7 +1175,7 @@
      "population":22894384,
      "type":"country"
   },
-  "Cyprus":{
+  "cyprus":{
      "geonameid":"146669",
      "country":"CY",
      "population":1102677,
@@ -1183,7 +1183,7 @@
      "timezone":"Asia/Nicosia",
      "type":"country"
   },
-  "Eswatini":{
+  "eswatini":{
      "geonameid":"934841",
      "country":"SZ",
      "value":"Eswatini",
@@ -1191,7 +1191,7 @@
      "population":1354051,
      "type":"country"
   },
-  "Lao People’s Democratic Republic":{
+  "lao people’s democratic republic":{
      "geonameid":"1655842",
      "country":"LA",
      "value":"Lao People’s Democratic Republic",
@@ -1199,7 +1199,7 @@
      "population":6368162,
      "type":"country"
   },
-  "Republic of Panama":{
+  "republic of panama":{
      "geonameid":"3703430",
      "country":"PA",
      "value":"Republic of Panama",
@@ -1207,7 +1207,7 @@
      "population":3410676,
      "type":"country"
   },
-  "Arab Republic of Egypt":{
+  "arab republic of egypt":{
      "geonameid":"357994",
      "country":"EG",
      "value":"Arab Republic of Egypt",
@@ -1215,7 +1215,7 @@
      "population":80471869,
      "type":"country"
   },
-  "Bhutan":{
+  "bhutan":{
      "geonameid":"1252634",
      "country":"BT",
      "population":699847,
@@ -1223,7 +1223,7 @@
      "timezone":"Asia/Thimphu",
      "type":"country"
   },
-  "Liberia":{
+  "liberia":{
      "geonameid":"2275384",
      "country":"LR",
      "population":3685076,
@@ -1231,7 +1231,7 @@
      "timezone":"Africa/Monrovia",
      "type":"country"
   },
-  "Sudan":{
+  "sudan":{
      "geonameid":"366755",
      "country":"SD",
      "population":35000000,
@@ -1239,7 +1239,7 @@
      "timezone":"Africa/Khartoum",
      "type":"country"
   },
-  "Kingdom of Saudi Arabia":{
+  "kingdom of saudi arabia":{
      "geonameid":"102358",
      "country":"SA",
      "value":"Kingdom of Saudi Arabia",
@@ -1247,7 +1247,7 @@
      "population":25731776,
      "type":"country"
   },
-  "Republic of Maldives":{
+  "republic of maldives":{
      "geonameid":"1282028",
      "country":"MV",
      "value":"Republic of Maldives",
@@ -1255,7 +1255,7 @@
      "population":395650,
      "type":"country"
   },
-  "Oriental Republic of Uruguay":{
+  "oriental republic of uruguay":{
      "geonameid":"3439705",
      "country":"UY",
      "value":"Oriental Republic of Uruguay",
@@ -1263,7 +1263,7 @@
      "population":3477000,
      "type":"country"
   },
-  "Republic of Cabo Verde":{
+  "republic of cabo verde":{
      "geonameid":"3374766",
      "country":"CV",
      "value":"Republic of Cabo Verde",
@@ -1271,7 +1271,7 @@
      "population":508659,
      "type":"country"
   },
-  "Democratic Republic of the Congo":{
+  "democratic republic of the congo":{
      "geonameid":"203312",
      "country":"CD",
      "value":"Democratic Republic of the Congo",
@@ -1279,7 +1279,7 @@
      "population":70916439,
      "type":"country"
   },
-  "United Kingdom of Great Britain and Northern Ireland":{
+  "united kingdom of great britain and northern ireland":{
      "geonameid":"2635167",
      "country":"GB",
      "value":"United Kingdom of Great Britain and Northern Ireland",
@@ -1287,7 +1287,7 @@
      "population":62348447,
      "type":"country"
   },
-  "Kingdom of the Netherlands":{
+  "kingdom of the netherlands":{
      "geonameid":"2750405",
      "country":"NL",
      "value":"Kingdom of the Netherlands",
@@ -1295,7 +1295,7 @@
      "population":16645000,
      "type":"country"
   },
-  "Republic of Kosovo":{
+  "republic of kosovo":{
      "geonameid":"831053",
      "country":"XK",
      "value":"Republic of Kosovo",
@@ -1303,7 +1303,7 @@
      "population":1800000,
      "type":"country"
   },
-  "Republic of Benin":{
+  "republic of benin":{
      "geonameid":"2395170",
      "country":"BJ",
      "value":"Republic of Benin",
@@ -1311,7 +1311,7 @@
      "population":9056010,
      "type":"country"
   },
-  "Malaysia":{
+  "malaysia":{
      "geonameid":"1733045",
      "country":"MY",
      "population":28274729,
@@ -1319,7 +1319,7 @@
      "timezone":"Asia/Kuala_Lumpur",
      "type":"country"
   },
-  "St Kitts and Nevis":{
+  "st kitts and nevis":{
      "geonameid":"3575174",
      "country":"KN",
      "value":"St Kitts and Nevis",
@@ -1327,7 +1327,7 @@
      "population":51134,
      "type":"country"
   },
-  "Republic of Estonia":{
+  "republic of estonia":{
      "geonameid":"453733",
      "country":"EE",
      "value":"Republic of Estonia",
@@ -1335,7 +1335,7 @@
      "population":1291170,
      "type":"country"
   },
-  "Papua New Guinea":{
+  "papua new guinea":{
      "geonameid":"2088628",
      "country":"PG",
      "population":6064515,
@@ -1343,7 +1343,7 @@
      "timezone":"Pacific/Port_Moresby",
      "type":"country"
   },
-  "Federal Democratic Republic of Nepal":{
+  "federal democratic republic of nepal":{
      "geonameid":"1282988",
      "country":"NP",
      "value":"Federal Democratic Republic of Nepal",
@@ -1351,7 +1351,7 @@
      "population":28951852,
      "type":"country"
   },
-  "Zimbabwe":{
+  "zimbabwe":{
      "geonameid":"878675",
      "country":"ZW",
      "population":13061000,
@@ -1359,7 +1359,7 @@
      "timezone":"Africa/Harare",
      "type":"country"
   },
-  "Republic of Malta":{
+  "republic of malta":{
      "geonameid":"2562770",
      "country":"MT",
      "value":"Republic of Malta",
@@ -1367,7 +1367,7 @@
      "population":403000,
      "type":"country"
   },
-  "Gambia":{
+  "gambia":{
      "geonameid":"2413451",
      "country":"GM",
      "value":"Gambia",
@@ -1375,7 +1375,7 @@
      "population":1593256,
      "type":"country"
   },
-  "Republic of Indonesia":{
+  "republic of indonesia":{
      "geonameid":"1643084",
      "country":"ID",
      "value":"Republic of Indonesia",
@@ -1391,7 +1391,7 @@
      "population":21058798,
      "type":"country"
   },
-  "Trinidad and Tobago":{
+  "trinidad and tobago":{
      "geonameid":"3573591",
      "country":"TT",
      "population":1328019,
@@ -1399,7 +1399,7 @@
      "timezone":"America/Port_of_Spain",
      "type":"country"
   },
-  "People’s Democratic Republic of Algeria":{
+  "people’s democratic republic of algeria":{
      "geonameid":"2589581",
      "country":"DZ",
      "value":"People’s Democratic Republic of Algeria",
@@ -1407,7 +1407,7 @@
      "population":34586184,
      "type":"country"
   },
-  "Kingdom of Spain":{
+  "kingdom of spain":{
      "geonameid":"2510769",
      "country":"ES",
      "value":"Kingdom of Spain",
@@ -1415,7 +1415,7 @@
      "population":46505963,
      "type":"country"
   },
-  "Hashemite Kingdom of Jordan":{
+  "hashemite kingdom of jordan":{
      "geonameid":"248816",
      "country":"JO",
      "value":"Hashemite Kingdom of Jordan",
@@ -1423,7 +1423,7 @@
      "population":6407085,
      "type":"country"
   },
-  "Republic of Cuba":{
+  "republic of cuba":{
      "geonameid":"3562981",
      "country":"CU",
      "value":"Republic of Cuba",
@@ -1431,7 +1431,7 @@
      "population":11423000,
      "type":"country"
   },
-  "Principality of Liechtenstein":{
+  "principality of liechtenstein":{
      "geonameid":"3042058",
      "country":"LI",
      "value":"Principality of Liechtenstein",
@@ -1439,7 +1439,7 @@
      "population":35000,
      "type":"country"
   },
-  "Gabonese Republic":{
+  "gabonese republic":{
      "geonameid":"2400553",
      "country":"GA",
      "value":"Gabonese Republic",
@@ -1447,7 +1447,7 @@
      "population":1545255,
      "type":"country"
   },
-  "Mexico":{
+  "mexico":{
      "geonameid":"3996063",
      "country":"MX",
      "value":"Mexico",
@@ -1455,7 +1455,7 @@
      "population":112468855,
      "type":"country"
   },
-  "Tunisia":{
+  "tunisia":{
      "geonameid":"2464461",
      "country":"TN",
      "value":"Tunisia",
@@ -1463,7 +1463,7 @@
      "population":10589025,
      "type":"country"
   },
-  "Republic of Macedonia":{
+  "republic of macedonia":{
      "geonameid":"718075",
      "country":"MK",
      "value":"Republic of Macedonia",
@@ -1471,7 +1471,7 @@
      "population":2062294,
      "type":"country"
   },
-  "Republic of South Africa":{
+  "republic of south africa":{
      "geonameid":"953987",
      "country":"ZA",
      "value":"Republic of South Africa",
@@ -1479,7 +1479,7 @@
      "population":49000000,
      "type":"country"
   },
-  "Singapore":{
+  "singapore":{
      "geonameid":"1880251",
      "country":"SG",
      "population":4701069,
@@ -1487,7 +1487,7 @@
      "timezone":"Asia/Singapore",
      "type":"country"
   },
-  "Serbia":{
+  "serbia":{
      "geonameid":"6290252",
      "country":"RS",
      "population":7344847,
@@ -1495,7 +1495,7 @@
      "timezone":"Europe/Belgrade",
      "type":"country"
   },
-  "Republic of Zambia":{
+  "republic of zambia":{
      "geonameid":"895949",
      "country":"ZM",
      "value":"Republic of Zambia",
@@ -1503,7 +1503,7 @@
      "population":13460305,
      "type":"country"
   },
-  "Islamic Republic of Iran":{
+  "islamic republic of iran":{
      "geonameid":"130758",
      "country":"IR",
      "value":"Islamic Republic of Iran",
@@ -1511,7 +1511,7 @@
      "population":76923300,
      "type":"country"
   },
-  "Sri Lanka":{
+  "sri lanka":{
      "geonameid":"1227603",
      "country":"LK",
      "population":21513990,
@@ -1519,7 +1519,7 @@
      "timezone":"Asia/Colombo",
      "type":"country"
   },
-  "Namibia":{
+  "namibia":{
      "geonameid":"3355338",
      "country":"NA",
      "population":2128471,
@@ -1527,7 +1527,7 @@
      "timezone":"Africa/Windhoek",
      "type":"country"
   },
-  "Botswana":{
+  "botswana":{
      "geonameid":"933860",
      "country":"BW",
      "population":2029307,
@@ -1535,7 +1535,7 @@
      "timezone":"Africa/Gaborone",
      "type":"country"
   },
-  "Kingdom of Morocco":{
+  "kingdom of morocco":{
      "geonameid":"2542007",
      "country":"MA",
      "value":"Kingdom of Morocco",
