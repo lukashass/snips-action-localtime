@@ -11,27 +11,26 @@ export default function ({ hermesOptions = {}, bootstrapOptions = {} } = {}) : P
                 await bootstrap(bootstrapOptions)
                 
                 const dialog = hermes.dialog()
-                logger.info('try with Hermes')
                 
                 dialog.flows([
                     {
-                        intent: 'snips-assistant:GetLocalTime_V2',
+                        intent: 'snips-assistant:GetLocalTime',
                         action : handlers.getLocalTime
                     },
                     {
-                        intent: 'snips-assistant:CheckTime_V2',
+                        intent: 'snips-assistant:CheckTime',
                         action: handlers.getLocalTime
                     },
                     {
-                        intent: 'snips-assistant:ConvertTime_V2',
+                        intent: 'snips-assistant:ConvertTime',
                         action : handlers.convertTime
                     },
                     {
-                        intent: 'snips-assistant:GetTimezone_V2',
+                        intent: 'snips-assistant:GetTimezone',
                         action : handlers.getTimeZone
                     },
                     {
-                        intent: 'snips-assistant:GetTimeDifference_V2',
+                        intent: 'snips-assistant:GetTimeDifference',
                         action : handlers.getTimeDifference
                     },
                     {
