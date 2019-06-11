@@ -1,8 +1,8 @@
 {
     "error": {
-        "mqtt": "Désolé, une erreur s'est produite lors de la communication avec la plateforme Snips",
+        "mqtt": "Désolé, une erreur s'est produite lors de la communication avec la plateforme Snips.",
         "config": "Désolé, une erreur s'est produite avec votre fichier de configuration.",
-        "locale": "Désolé, une erreur s'est produite avec vos paramètres de langue.",
+        "localisation": "Désolé, une erreur s'est produite avec vos paramètres de langue.",
         "intentNotRecognized": "Désolé, je n'ai pas compris votre requête.",
         "samePlaces": "Veuillez indiquer deux lieux différents pour votre requête.",
         "place": "Désolé, le lieu demandé n'a pas été retrouvé.",
