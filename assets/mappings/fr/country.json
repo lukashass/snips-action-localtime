@@ -4,7 +4,7 @@
      "country":"CA",
      "population":33679000,
      "value":"Canada",
-     "timezone":null,
+     "timezone":"America/Toronto",
      "type":"country"
   },
   "turkmenistan":{
@@ -28,7 +28,7 @@
      "country":"ES",
      "population":46505963,
      "value":"Espagne",
-     "timezone":null,
+     "timezone":"Europe/Madrid",
      "type":"country"
   },
   "vatican":{
@@ -84,7 +84,7 @@
      "country":"AR",
      "population":41343201,
      "value":"Argentine",
-     "timezone":null,
+     "timezone":"America/Argentina/Buenos_Aires",
      "type":"country"
   },
   "bolivie":{
@@ -180,7 +180,7 @@
      "country":"DE",
      "population":81802257,
      "value":"Allemagne",
-     "timezone":null,
+     "timezone":"Europe/Berlin",
      "type":"country"
   },
   "côte d’ivoire":{
@@ -236,7 +236,7 @@
      "country":"EC",
      "population":14790608,
      "value":"Équateur",
-     "timezone":null,
+     "timezone":"America/Guayaquil",
      "type":"country"
   },
   "pakistan":{
@@ -356,7 +356,7 @@
      "country":"NZ",
      "population":4252277,
      "value":"Nouvelle-Zélande",
-     "timezone":null,
+     "timezone":"Pacific/Auckland",
      "type":"country"
   },
   "mongolie":{
@@ -364,7 +364,7 @@
      "country":"MN",
      "population":3086918,
      "value":"Mongolie",
-     "timezone":null,
+     "timezone":"Asia/Ulaanbaatar",
      "type":"country"
   },
   "émirats arabes unis":{
@@ -491,7 +491,7 @@
      "geonameid":"1814991",
      "country":"CN",
      "value":"Chine",
-     "timezone":null,
+     "timezone":"Asia/Shanghai",
      "population":1330044000,
      "type":"country"
   },
@@ -508,7 +508,7 @@
      "country":"UZ",
      "population":27865738,
      "value":"Ouzbékistan",
-     "timezone":null,
+     "timezone":"Asia/Tashkent",
      "type":"country"
   },
   "guinée":{
@@ -556,7 +556,7 @@
      "country":"UA",
      "population":45415596,
      "value":"Ukraine",
-     "timezone":null,
+     "timezone":"Europe/Kyiv",
      "type":"country"
   },
   "libye":{
@@ -580,7 +580,7 @@
      "country":"MY",
      "population":28274729,
      "value":"Malaisie",
-     "timezone":null,
+     "timezone":"Asia/Kuala_Lumpur",
      "type":"country"
   },
   "brunei":{
@@ -603,7 +603,7 @@
      "geonameid":"2088628",
      "country":"PG",
      "value":"Papouasie-Nouvelle Guinée",
-     "timezone":null,
+     "timezone":"Pacific/Port_Moresby",
      "population":6064515,
      "type":"country"
   },
@@ -644,7 +644,7 @@
      "country":"RU",
      "population":140702000,
      "value":"Russie",
-     "timezone":null,
+     "timezone":"Europe/Moscow",
      "type":"country"
   },
   "bulgarie":{
@@ -692,7 +692,7 @@
      "country":"PT",
      "population":10676000,
      "value":"Portugal",
-     "timezone":null,
+     "timezone":"Europe/Lisbon",
      "type":"country"
   },
   "barbade":{
@@ -708,7 +708,7 @@
      "country":"ID",
      "population":242968342,
      "value":"Indonésie",
-     "timezone":null,
+     "timezone":"Asia/Jakarta",
      "type":"country"
   },
   "qatar":{
@@ -916,7 +916,7 @@
      "country":"MX",
      "population":112468855,
      "value":"Mexique",
-     "timezone":null,
+     "timezone":"America/Mexico_City",
      "type":"country"
   },
   "australie":{
@@ -924,7 +924,7 @@
      "country":"AU",
      "population":21515754,
      "value":"Australie",
-     "timezone":null,
+     "timezone":"Australia/Sydney",
      "type":"country"
   },
   "monténégro":{
@@ -948,7 +948,7 @@
      "country":"BR",
      "population":201103330,
      "value":"Brésil",
-     "timezone":null,
+     "timezone":"America/Sao_Paulo",
      "type":"country"
   },
   "belgique":{
@@ -972,7 +972,7 @@
      "country":"KI",
      "population":92533,
      "value":"Kiribati",
-     "timezone":null,
+     "timezone":"Pacific/Tarawa",
      "type":"country"
   },
   "chili":{
@@ -980,7 +980,7 @@
      "country":"CL",
      "population":16746491,
      "value":"Chili",
-     "timezone":null,
+     "timezone":"America/Santiago",
      "type":"country"
   },
   "chypre":{
@@ -988,7 +988,7 @@
      "country":"CY",
      "population":1102677,
      "value":"Chypre",
-     "timezone":null,
+     "timezone":"Asia/Nicosia",
      "type":"country"
   },
   "sierra leone":{
@@ -1051,7 +1051,7 @@
      "geonameid":"203312",
      "country":"CD",
      "value":"RDC",
-     "timezone":null,
+     "timezone":"Africa/Brazzaville",
      "population":70916439,
      "type":"country"
   },
@@ -1211,7 +1211,7 @@
      "geonameid":"6252001",
      "country":"US",
      "value":"USA",
-     "timezone":null,
+     "timezone":"America/New_York",
      "population":310232863,
      "type":"country"
   },
@@ -1340,7 +1340,7 @@
      "country":"KZ",
      "population":15340000,
      "value":"Kazakhstan",
-     "timezone":null,
+     "timezone":"Asia/Almaty",
      "type":"country"
   },
   "dominique":{
