@@ -42,7 +42,7 @@
                 "severalHours": "Il y a {{ diff_hour }} heures et 30 minutes de décalage horaire entre {{- base_location }} et {{- target_location }}."
             }
         },
-        "getTimeZone": "{{- target_location }} se trouve sur le fuseau horaire {{ offset_hour }} {{ offset_minute }}."
+        "getTimeZone": "{{- target_location }} se trouve sur le fuseau horaire UTC {{ offset_hour }} {{ offset_minute }}."
     },
     "moment": {
         "date": "dddd D MMMM",
