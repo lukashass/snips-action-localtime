@@ -28,8 +28,7 @@
   },
   "dependencies": {
     "moment": "^2.24.0",
-    "moment-timezone": "^0.5.25",
-    "snips-toolkit-runner": "^1.0.0"
+    "moment-timezone": "^0.5.25"
   },
   "sandbox": [
     "fs",
