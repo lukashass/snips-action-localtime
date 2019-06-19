@@ -2,6 +2,8 @@
 
 Snips action code for the Local time app
 
+[![Build Status](https://travis-ci.org/snipsco/snips-action-localtime.svg?branch=master)](https://travis-ci.org/snipsco/snips-action-localtime)
+
 ## Setup
 
 ```sh
