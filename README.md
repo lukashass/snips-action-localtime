@@ -100,3 +100,11 @@ npm run test
 
 - **http**: mocks are written in `tests/httpMocks/index.ts`
 - **i18n**: mocked by `snips-toolkit`, see the [documentation](https://github.com/snipsco/snips-javascript-toolkit#i18n).
+
+## Contributing
+
+Please see the [Contribution Guidelines](https://github.com/snipsco/snips-action-localtime/blob/master/CONTRIBUTING.md).
+
+## Copyright
+
+This library is provided by [Snips](https://snips.ai) as Open Source software. See [LICENSE](https://github.com/snipsco/snips-action-localtime/blob/master/LICENSE) for more information.
