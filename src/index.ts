@@ -2,6 +2,7 @@ import { Hermes, Done } from 'hermes-javascript'
 import { config, i18n, logger } from 'snips-toolkit'
 import { mappings } from './utils'
 import handlers from './handlers'
+import { beautify } from './utils/beautify'
 
 // Enables deep printing of objects.
 process.env.DEBUG_DEPTH = undefined
@@ -20,6 +21,7 @@ export default async function ({
         logger.enable('error')
 
         config.init()
+        beautify.init()
         await i18n.init(config.get().locale)
         mappings.init(config.get().locale)
 

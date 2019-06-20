@@ -43,9 +43,5 @@
             }
         },
         "getTimeZone": "{{- target_location }} is in the UTC {{ offset_hour }} {{ offset_minute }} timezone."
-    },
-    "moment": {
-        "date": "dddd, MMMM D",
-        "time": "h m A"
     }
 }

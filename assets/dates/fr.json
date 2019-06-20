@@ -1,0 +1,6 @@
+{
+    "moment": {
+        "date": "dddd D MMMM",
+        "time": "H [heures] m"
+    }
+}
