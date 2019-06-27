@@ -3,3 +3,4 @@ locale=en
 
 [secret]
 current_location=New York City
+assistant_prefix=snips-assistant

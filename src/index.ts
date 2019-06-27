@@ -12,7 +12,7 @@ export default async function ({
     done
 }: {
     hermes: Hermes,
-    done: Done 
+    done: Done
 }) {
     try {
         const { name } = require('../package.json')
@@ -30,27 +30,27 @@ export default async function ({
         // Subscribe to the app intents
         dialog.flows([
             {
-                intent: 'snips-assistant:GetLocalTime',
+                intent: `${ config.get().assistantPrefix }:GetLocalTime`,
                 action : handlers.getLocalTime
             },
             {
-                intent: 'snips-assistant:CheckTime',
+                intent: `${ config.get().assistantPrefix }:CheckTime`,
                 action: handlers.getLocalTime
             },
             {
-                intent: 'snips-assistant:ConvertTime',
+                intent: `${ config.get().assistantPrefix }:ConvertTime`,
                 action : handlers.convertTime
             },
             {
-                intent: 'snips-assistant:GetTimezone',
+                intent: `${ config.get().assistantPrefix }:GetTimezone`,
                 action : handlers.getTimeZone
             },
             {
-                intent: 'snips-assistant:GetTimeDifference',
+                intent: `${ config.get().assistantPrefix }:GetTimeDifference`,
                 action : handlers.getTimeDifference
             },
             {
-                intent: 'snips-assistant:GetDate',
+                intent: `${ config.get().assistantPrefix }:GetDate`,
                 action : handlers.getDate
             }
         ])
