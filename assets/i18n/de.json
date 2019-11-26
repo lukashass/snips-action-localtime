@@ -19,8 +19,8 @@
             "Die Zeit in {{- location }} ist {{ time }}."
         ],
         "getLocalDate": [
-            "Es ist der {{ date }}.",
-            "Heute ist der {{- date }}."
+            "Es ist {{ date }}.",
+            "Heute ist {{- date }}."
         ],
         "convertTime": {
             "noTime": "Entschuldigung, ich habe nicht verstanden nach welcher Zeit du gefragt hast.",
