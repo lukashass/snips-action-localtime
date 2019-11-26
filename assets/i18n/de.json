@@ -1,0 +1,47 @@
+{
+    "error": {
+        "mqtt": "Entschuldigung, es gab einen Fehler bei der Kommunikation mit der Snips Platform.",
+        "config": "Entschuldigung, es gab einen Fehler mit der Konfigurationsdatei.",
+        "localisation": "Entschuldigung, es gab einen Fehler mit den Spracheinstellungen.",
+        "intentNotRecognized": "Entschuldigung, ich habe dich nicht verstanden.",
+        "samePlaces": "Bitte gebe zwei unterschiedliche Orte an.",
+        "place": "Entschuldigung, den Ort nach dem du gefragt hast habe ich nicht gefunden.",
+        "country": "Entschuldigung, das Land nach dem du gefragt hast habe ich nicht gefunden.",
+        "noTime": "Entschuldigung, ich habe nicht verstanden nach welcher Zeit du gefragt hast.",
+        "noCurrentLocation": "Bitte setze deine aktuelle Position.",
+        "unspecific": "Ups, da ist etwas schief gelaufen."
+    },
+    "localTime": {
+        "getLocalTime": [
+            "Es ist gerade {{ time }} in {{- location }}.",
+            "Es ist {{- time }} in {{- location }}.",
+            "In {{- location }}, ist es gerade {{ time }}.",
+            "Die Zeit in {{- location }} ist {{ time }}."
+        ],
+        "getLocalDate": [
+            "Es ist der {{ date }}.",
+            "Heute ist der {{- date }}."
+        ],
+        "convertTime": {
+            "noTime": "Entschuldigung, ich habe nicht verstanden nach welcher Zeit du gefragt hast.",
+            "timeProvided": [
+                "Es ist {{ target_time }} in {{- target_location }} wenn es {{ base_time }} in {{- base_location }} ist.",
+                "Wenn es {{ base_time }} in {{- base_location }} ist, ist es {{ target_time }} in {{- target_location }}.",
+                "Um {{ base_time }} in {{- base_location }}, ist es {{ target_time }} in {{- target_location }}."
+            ]
+        },
+        "getTimeDifference": {
+            "round": {
+                "zeroHour": "Es gibt keinen Zeitunterschied zwischen {{- base_location }} und {{- target_location }}.",
+                "oneHour": "Es gibt eine Zeitdifferenz von einer Stunde zwischen {{- base_location }} und {{- target_location }}.",
+                "severalHours": "Es gibt eine Zeitdifferenz von {{ diff_hour }} Stunden zwischen {{- base_location }} und {{- target_location }}."
+            },
+            "halves": {
+                "zeroHour": "Es gibt einen Zeitunterschied von einer halben Stunde zwischen {{- base_location }} und {{- target_location }}.",
+                "oneHour": "Es gibt einen Zeitunterschied von eineinhalb Stunden zwischen {{- base_location }} und {{- target_location }}.",
+                "severalHours": "Es gibt eine Zeitdifferenz von {{ diff_hour }} Stunden und 30 Minuten zwischen {{- base_location }} und {{- target_location }}."
+            }
+        },
+        "getTimeZone": "{{- target_location }} ist in der Zeitzone UTC {{ offset_hour }} {{ offset_minute }}."
+    }
+}

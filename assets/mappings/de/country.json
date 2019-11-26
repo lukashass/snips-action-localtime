@@ -1,0 +1,1546 @@
+{
+  "canada":{
+     "geonameid":"6251999",
+     "country":"CA",
+     "population":33679000,
+     "value":"Canada",
+     "timezone":"America/Toronto",
+     "type":"country"
+  },
+  "republic of honduras":{
+     "geonameid":"3608932",
+     "country":"HN",
+     "value":"Republic of Honduras",
+     "timezone":"America/Tegucigalpa",
+     "population":7989415,
+     "type":"country"
+  },
+  "sao tome and principe":{
+     "geonameid":"2410758",
+     "country":"ST",
+     "value":"Sao Tome and Principe",
+     "timezone":"Africa/Sao_Tome",
+     "population":175808,
+     "type":"country"
+  },
+  "turkmenistan":{
+     "geonameid":"1218197",
+     "country":"TM",
+     "population":4940916,
+     "value":"Turkmenistan",
+     "timezone":"Asia/Ashgabat",
+     "type":"country"
+  },
+  "republic of mauritius":{
+     "geonameid":"934292",
+     "country":"MU",
+     "value":"Republic of Mauritius",
+     "timezone":"Indian/Mauritius",
+     "population":1294104,
+     "type":"country"
+  },
+  "kingdom of sweden":{
+     "geonameid":"2661886",
+     "country":"SE",
+     "value":"Kingdom of Sweden",
+     "timezone":"Europe/Stockholm",
+     "population":9828655,
+     "type":"country"
+  },
+  "republic of chile":{
+     "geonameid":"3895114",
+     "country":"CL",
+     "value":"Republic of Chile",
+     "timezone":"America/Santiago",
+     "population":16746491,
+     "type":"country"
+  },
+  "union of the comoros":{
+     "geonameid":"921929",
+     "country":"KM",
+     "value":"Union of the Comoros",
+     "timezone":"Indian/Comoro",
+     "population":773407,
+     "type":"country"
+  },
+  "republic of haiti":{
+     "geonameid":"3723988",
+     "country":"HT",
+     "value":"Republic of Haiti",
+     "timezone":"America/Port-au-Prince",
+     "population":9648924,
+     "type":"country"
+  },
+  "bolivarian republic of venezuela":{
+     "geonameid":"3625428",
+     "country":"VE",
+     "value":"Bolivarian Republic of Venezuela",
+     "timezone":"America/Caracas",
+     "population":27223228,
+     "type":"country"
+  },
+  "kingdom of belgium":{
+     "geonameid":"2802361",
+     "country":"BE",
+     "value":"Kingdom of Belgium",
+     "timezone":"Europe/Brussels",
+     "population":10403000,
+     "type":"country"
+  },
+  "burkina faso":{
+     "geonameid":"2361809",
+     "country":"BF",
+     "population":16241811,
+     "value":"Burkina Faso",
+     "timezone":"Africa/Ouagadougou",
+     "type":"country"
+  },
+  "federal republic of germany":{
+     "geonameid":"2921044",
+     "country":"DE",
+     "value":"Federal Republic of Germany",
+     "timezone":"Europe/Berlin",
+     "population":81802257,
+     "type":"country"
+  },
+  "japan":{
+     "geonameid":"1861060",
+     "country":"JP",
+     "population":127288000,
+     "value":"Japan",
+     "timezone":"Asia/Tokyo",
+     "type":"country"
+  },
+  "islamic republic of pakistan":{
+     "geonameid":"1168579",
+     "country":"PK",
+     "value":"Islamic Republic of Pakistan",
+     "timezone":"Asia/Karachi",
+     "population":184404791,
+     "type":"country"
+  },
+  "federal democratic republic of ethiopia":{
+     "geonameid":"337996",
+     "country":"ET",
+     "value":"Federal Democratic Republic of Ethiopia",
+     "timezone":"Africa/Addis_Ababa",
+     "population":88013491,
+     "type":"country"
+  },
+  "bosnia and herzegovina":{
+     "geonameid":"3277605",
+     "country":"BA",
+     "population":4590000,
+     "value":"Bosnia and Herzegovina",
+     "timezone":"Europe/Sarajevo",
+     "type":"country"
+  },
+  "republic of nicaragua":{
+     "geonameid":"3617476",
+     "country":"NI",
+     "value":"Republic of Nicaragua",
+     "timezone":"America/Managua",
+     "population":5995928,
+     "type":"country"
+  },
+  "russian federation":{
+     "geonameid":"2017370",
+     "country":"RU",
+     "value":"Russian Federation",
+     "timezone":"Europe/Moscow",
+     "population":140702000,
+     "type":"country"
+  },
+  "state of israel":{
+     "geonameid":"294640",
+     "country":"IL",
+     "value":"State of Israel",
+     "timezone":"Asia/Jerusalem",
+     "population":7353985,
+     "type":"country"
+  },
+  "portuguese republic":{
+     "geonameid":"2264397",
+     "country":"PT",
+     "value":"Portuguese Republic",
+     "timezone":"Europe/Lisbon",
+     "population":10676000,
+     "type":"country"
+  },
+  "togolese republic":{
+     "geonameid":"2363686",
+     "country":"TG",
+     "value":"Togolese Republic",
+     "timezone":"Africa/Lome",
+     "population":6587239,
+     "type":"country"
+  },
+  "dominica":{
+     "geonameid":"3575830",
+     "country":"DM",
+     "value":"Dominica",
+     "timezone":"America/Dominica",
+     "population":72813,
+     "type":"country"
+  },
+  "republic of turkey":{
+     "geonameid":"298795",
+     "country":"TR",
+     "value":"Republic of Turkey",
+     "timezone":"Europe/Istanbul",
+     "population":77804122,
+     "type":"country"
+  },
+  "republic of croatia":{
+     "geonameid":"3202326",
+     "country":"HR",
+     "value":"Republic of Croatia",
+     "timezone":"Europe/Zagreb",
+     "population":4284889,
+     "type":"country"
+  },
+  "islamic republic of afghanistan":{
+     "geonameid":"1149361",
+     "country":"AF",
+     "value":"Islamic Republic of Afghanistan",
+     "timezone":"Asia/Kabul",
+     "population":29121286,
+     "type":"country"
+  },
+  "republic of moldova":{
+     "geonameid":"617790",
+     "country":"MD",
+     "value":"Republic of Moldova",
+     "timezone":"Europe/Chisinau",
+     "population":4324000,
+     "type":"country"
+  },
+  "tanzania":{
+     "geonameid":"149590",
+     "country":"TZ",
+     "population":41892895,
+     "value":"Tanzania",
+     "timezone":"Africa/Dar_es_Salaam",
+     "type":"country"
+  },
+  "republic of ecuador":{
+     "geonameid":"3658394",
+     "country":"EC",
+     "value":"Republic of Ecuador",
+     "timezone":"America/Guayaquil",
+     "population":14790608,
+     "type":"country"
+  },
+  "republic of tajikistan":{
+     "geonameid":"1220409",
+     "country":"TJ",
+     "value":"Republic of Tajikistan",
+     "timezone":"Asia/Dushanbe",
+     "population":7487489,
+     "type":"country"
+  },
+  "republic of yemen":{
+     "geonameid":"69543",
+     "country":"YE",
+     "value":"Republic of Yemen",
+     "timezone":"Asia/Aden",
+     "population":23495361,
+     "type":"country"
+  },
+  "republic of azerbaijan":{
+     "geonameid":"587116",
+     "country":"AZ",
+     "value":"Republic of Azerbaijan",
+     "timezone":"Asia/Baku",
+     "population":8303512,
+     "type":"country"
+  },
+  "seychelles":{
+     "geonameid":"241170",
+     "country":"SC",
+     "population":88340,
+     "value":"Seychelles",
+     "timezone":"Indian/Mahe",
+     "type":"country"
+  },
+  "republic of armenia":{
+     "geonameid":"174982",
+     "country":"AM",
+     "value":"Republic of Armenia",
+     "timezone":"Asia/Yerevan",
+     "population":2968000,
+     "type":"country"
+  },
+  "monaco":{
+     "geonameid":"2993457",
+     "country":"MC",
+     "population":32965,
+     "value":"Monaco",
+     "timezone":"Europe/Monaco",
+     "type":"country"
+  },
+  "new zealand":{
+     "geonameid":"2186224",
+     "country":"NZ",
+     "population":4252277,
+     "value":"New Zealand",
+     "timezone":"Pacific/Auckland",
+     "type":"country"
+  },
+  "republic of guinea":{
+     "geonameid":"2420477",
+     "country":"GN",
+     "value":"Republic of Guinea",
+     "timezone":"Africa/Conakry",
+     "population":10324025,
+     "type":"country"
+  },
+  "jamaica":{
+     "geonameid":"3489940",
+     "country":"JM",
+     "population":2847232,
+     "value":"Jamaica",
+     "timezone":"America/Jamaica",
+     "type":"country"
+  },
+  "slovak republic":{
+     "geonameid":"3057568",
+     "country":"SK",
+     "value":"Slovak Republic",
+     "timezone":"Europe/Bratislava",
+     "population":5455000,
+     "type":"country"
+  },
+  "united arab emirates":{
+     "geonameid":"290557",
+     "country":"AE",
+     "population":4975593,
+     "value":"United Arab Emirates",
+     "timezone":"Asia/Dubai",
+     "type":"country"
+  },
+  "republic of iraq":{
+     "geonameid":"99237",
+     "country":"IQ",
+     "value":"Republic of Iraq",
+     "timezone":"Asia/Baghdad",
+     "population":29671605,
+     "type":"country"
+  },
+  "india":{
+     "geonameid":"1269750",
+     "country":"IN",
+     "population":1173108018,
+     "value":"India",
+     "timezone":"Asia/Kolkata",
+     "type":"country"
+  },
+  "republic of kazakhstan":{
+     "geonameid":"1522867",
+     "country":"KZ",
+     "value":"Republic of Kazakhstan",
+     "timezone":"Asia/Almaty",
+     "population":15340000,
+     "type":"country"
+  },
+  "republic of djibouti":{
+     "geonameid":"223816",
+     "country":"DJ",
+     "value":"Republic of Djibouti",
+     "timezone":"Africa/Djibouti",
+     "population":740528,
+     "type":"country"
+  },
+  "lesotho":{
+     "geonameid":"932692",
+     "country":"LS",
+     "population":1919552,
+     "value":"Lesotho",
+     "timezone":"Africa/Maseru",
+     "type":"country"
+  },
+  "saint vincent and the grenadines":{
+     "geonameid":"3577815",
+     "country":"VC",
+     "value":"Saint Vincent and the Grenadines",
+     "timezone":"America/St_Vincent",
+     "population":104217,
+     "type":"country"
+  },
+  "plurinational state of bolivia":{
+     "geonameid":"3923057",
+     "country":"BO",
+     "value":"Plurinational State of Bolivia",
+     "timezone":"America/La_Paz",
+     "population":9947418,
+     "type":"country"
+  },
+  "kenya":{
+     "geonameid":"192950",
+     "country":"KE",
+     "population":40046566,
+     "value":"Kenya",
+     "timezone":"Africa/Nairobi",
+     "type":"country"
+  },
+  "republic of cameroon":{
+     "geonameid":"2233387",
+     "country":"CM",
+     "value":"Republic of Cameroon",
+     "timezone":"Africa/Douala",
+     "population":19294149,
+     "type":"country"
+  },
+  "independent state of samoa":{
+     "geonameid":"4034894",
+     "country":"WS",
+     "value":"Independent State of Samoa",
+     "timezone":"Pacific/Apia",
+     "population":192001,
+     "type":"country"
+  },
+  "bangladesh":{
+     "geonameid":"1210997",
+     "country":"BD",
+     "population":156118464,
+     "value":"Bangladesh",
+     "timezone":"Asia/Dhaka",
+     "type":"country"
+  },
+  "federative republic of brazil":{
+     "geonameid":"3469034",
+     "country":"BR",
+     "value":"Federative Republic of Brazil",
+     "timezone":"America/Sao_Paulo",
+     "population":201103330,
+     "type":"country"
+  },
+  "solomon islands":{
+     "geonameid":"2103350",
+     "country":"SB",
+     "population":559198,
+     "value":"Solomon Islands",
+     "timezone":"Pacific/Guadalcanal",
+     "type":"country"
+  },
+  "republic of angola":{
+     "geonameid":"3351879",
+     "country":"AO",
+     "value":"Republic of Angola",
+     "timezone":"Africa/Luanda",
+     "population":13068161,
+     "type":"country"
+  },
+  "saint lucia":{
+     "geonameid":"3576468",
+     "country":"LC",
+     "value":"Saint Lucia",
+     "timezone":"America/St_Lucia",
+     "population":160922,
+     "type":"country"
+  },
+  "san marino":{
+     "geonameid":"3168068",
+     "country":"SM",
+     "population":31477,
+     "value":"San Marino",
+     "timezone":"Europe/San_Marino",
+     "type":"country"
+  },
+  "mongolia":{
+     "geonameid":"2029969",
+     "country":"MN",
+     "value":"Mongolia",
+     "timezone":"Asia/Ulaanbaatar",
+     "population":3086918,
+     "type":"country"
+  },
+  "france":{
+     "geonameid":"3017382",
+     "country":"FR",
+     "population":64768389,
+     "value":"France",
+     "timezone":"Europe/Paris",
+     "type":"country"
+  },
+  "syrian arab republic":{
+     "geonameid":"163843",
+     "country":"SY",
+     "value":"Syrian Arab Republic",
+     "timezone":"Asia/Damascus",
+     "population":22198110,
+     "type":"country"
+  },
+  "union of burma":{
+     "geonameid":"1327865",
+     "country":"MM",
+     "value":"Union of Burma",
+     "timezone":"Asia/Yangon",
+     "population":53414374,
+     "type":"country"
+  },
+  "republic of finland":{
+     "geonameid":"660013",
+     "country":"FI",
+     "value":"Republic of Finland",
+     "timezone":"Europe/Helsinki",
+     "population":5244000,
+     "type":"country"
+  },
+  "somalia":{
+     "geonameid":"51537",
+     "country":"SO",
+     "value":"Somalia",
+     "timezone":"Africa/Mogadishu",
+     "population":10112453,
+     "type":"country"
+  },
+  "republic of colombia":{
+     "geonameid":"3686110",
+     "country":"CO",
+     "value":"Republic of Colombia",
+     "timezone":"America/Bogota",
+     "population":47790000,
+     "type":"country"
+  },
+  "sultanate of oman":{
+     "geonameid":"286963",
+     "country":"OM",
+     "value":"Sultanate of Oman",
+     "timezone":"Asia/Muscat",
+     "population":2967717,
+     "type":"country"
+  },
+  "malawi":{
+     "geonameid":"927384",
+     "country":"MW",
+     "population":15447500,
+     "value":"Malawi",
+     "timezone":"Africa/Blantyre",
+     "type":"country"
+  },
+  "republic of suriname":{
+     "geonameid":"3382998",
+     "country":"SR",
+     "value":"Republic of Suriname",
+     "timezone":"America/Paramaribo",
+     "population":492829,
+     "type":"country"
+  },
+  "republic of costa rica":{
+     "geonameid":"3624060",
+     "country":"CR",
+     "value":"Republic of Costa Rica",
+     "timezone":"America/Costa_Rica",
+     "population":4516220,
+     "type":"country"
+  },
+  "republic of latvia":{
+     "geonameid":"458258",
+     "country":"LV",
+     "value":"Republic of Latvia",
+     "timezone":"Europe/Riga",
+     "population":2217969,
+     "type":"country"
+  },
+  "kingdom of cambodia":{
+     "geonameid":"1831722",
+     "country":"KH",
+     "value":"Kingdom of Cambodia",
+     "timezone":"Asia/Phnom_Penh",
+     "population":14453680,
+     "type":"country"
+  },
+  "montenegro":{
+     "geonameid":"3194884",
+     "country":"ME",
+     "value":"Montenegro",
+     "timezone":"Europe/Podgorica",
+     "population":666730,
+     "type":"country"
+  },
+  "republic of the congo":{
+     "geonameid":"2260494",
+     "country":"CG",
+     "value":"Republic of the Congo",
+     "timezone":"Africa/Brazzaville",
+     "population":3039126,
+     "type":"country"
+  },
+  "republic of madagascar":{
+     "geonameid":"1062947",
+     "country":"MG",
+     "value":"Republic of Madagascar",
+     "timezone":"Indian/Antananarivo",
+     "population":21281844,
+     "type":"country"
+  },
+  "republic of vanuatu":{
+     "geonameid":"2134431",
+     "country":"VU",
+     "value":"Republic of Vanuatu",
+     "timezone":"Pacific/Efate",
+     "population":221552,
+     "type":"country"
+  },
+  "antigua and barbuda":{
+     "geonameid":"3576396",
+     "country":"AG",
+     "population":86754,
+     "value":"Antigua and Barbuda",
+     "timezone":"America/Antigua",
+     "type":"country"
+  },
+  "dominican republic":{
+     "geonameid":"3508796",
+     "country":"DO",
+     "population":9823821,
+     "value":"Dominican Republic",
+     "timezone":"America/Santo_Domingo",
+     "type":"country"
+  },
+  "ukraine":{
+     "geonameid":"690791",
+     "country":"UA",
+     "population":45415596,
+     "value":"Ukraine",
+     "timezone":"Europe/Kyiv",
+     "type":"country"
+  },
+  "ghana":{
+     "geonameid":"2300660",
+     "country":"GH",
+     "population":24339838,
+     "value":"Ghana",
+     "timezone":"Africa/Accra",
+     "type":"country"
+  },
+  "tonga":{
+     "geonameid":"4032283",
+     "country":"TO",
+     "population":122580,
+     "value":"Tonga",
+     "timezone":"Pacific/Tongatapu",
+     "type":"country"
+  },
+  "republic of peru":{
+     "geonameid":"3932488",
+     "country":"PE",
+     "value":"Republic of Peru",
+     "timezone":"America/Lima",
+     "population":29907003,
+     "type":"country"
+  },
+  "libya":{
+     "geonameid":"2215636",
+     "country":"LY",
+     "population":6461454,
+     "value":"Libya",
+     "timezone":"Africa/Tripoli",
+     "type":"country"
+  },
+  "argentine republic":{
+     "geonameid":"3865483",
+     "country":"AR",
+     "value":"Argentine Republic",
+     "timezone":"America/Argentina/Buenos_Aires",
+     "population":41343201,
+     "type":"country"
+  },
+  "vatican":{
+     "geonameid":"3164670",
+     "country":"VA",
+     "value":"Vatican",
+     "timezone":"Europe/Vatican",
+     "population":921,
+     "type":"country"
+  },
+  "republic of equatorial guinea":{
+     "geonameid":"2309096",
+     "country":"GQ",
+     "value":"Republic of Equatorial Guinea",
+     "timezone":"Africa/Malabo",
+     "population":1014999,
+     "type":"country"
+  },
+  "central african republic":{
+     "geonameid":"239880",
+     "country":"CF",
+     "population":4844927,
+     "value":"Central African Republic",
+     "timezone":"Africa/Bangui",
+     "type":"country"
+  },
+  "united states":{
+     "geonameid":"6252001",
+     "country":"US",
+     "value":"United States",
+     "timezone":"America/New_York",
+     "population":310232863,
+     "type":"country"
+  },
+  "republic of niger":{
+     "geonameid":"2440476",
+     "country":"NE",
+     "value":"Republic of Niger",
+     "timezone":"Africa/Niamey",
+     "population":15878271,
+     "type":"country"
+  },
+  "democratic republic of timor-leste":{
+     "geonameid":"1966436",
+     "country":"TL",
+     "value":"Democratic Republic of Timor-Leste",
+     "timezone":"Asia/Dili",
+     "population":1154625,
+     "type":"country"
+  },
+  "guyana":{
+     "geonameid":"3378535",
+     "country":"GY",
+     "population":748486,
+     "value":"Guyana",
+     "timezone":"America/Guyana",
+     "type":"country"
+  },
+  "mali":{
+     "geonameid":"2453866",
+     "country":"ML",
+     "population":13796354,
+     "value":"Mali",
+     "timezone":"Africa/Bamako",
+     "type":"country"
+  },
+  "people’s republic of china":{
+     "geonameid":"1814991",
+     "country":"CN",
+     "value":"People’s Republic of China",
+     "timezone":"Asia/Shanghai",
+     "population":1330044000,
+     "type":"country"
+  },
+  "socialist republic of vietnam":{
+     "geonameid":"1562822",
+     "country":"VN",
+     "value":"Socialist Republic of Vietnam",
+     "timezone":"Asia/Ho_Chi_Minh",
+     "population":89571130,
+     "type":"country"
+  },
+  "romania":{
+     "geonameid":"798549",
+     "country":"RO",
+     "population":21959278,
+     "value":"Romania",
+     "timezone":"Europe/Bucharest",
+     "type":"country"
+  },
+  "fiji":{
+     "geonameid":"2205218",
+     "country":"FJ",
+     "population":875983,
+     "value":"Fiji",
+     "timezone":"Pacific/Fiji",
+     "type":"country"
+  },
+  "republic of lithuania":{
+     "geonameid":"597427",
+     "country":"LT",
+     "value":"Republic of Lithuania",
+     "timezone":"Europe/Vilnius",
+     "population":2944459,
+     "type":"country"
+  },
+  "brunei darussalam":{
+     "geonameid":"1820814",
+     "country":"BN",
+     "value":"Brunei Darussalam",
+     "timezone":"Asia/Brunei",
+     "population":395027,
+     "type":"country"
+  },
+  "republic of senegal":{
+     "geonameid":"2245662",
+     "country":"SN",
+     "value":"Republic of Senegal",
+     "timezone":"Africa/Dakar",
+     "population":12323252,
+     "type":"country"
+  },
+  "barbados":{
+     "geonameid":"3374084",
+     "country":"BB",
+     "population":285653,
+     "value":"Barbados",
+     "timezone":"America/Barbados",
+     "type":"country"
+  },
+  "uganda":{
+     "geonameid":"226074",
+     "country":"UG",
+     "population":33398682,
+     "value":"Uganda",
+     "timezone":"Africa/Kampala",
+     "type":"country"
+  },
+  "kyrgyz republic":{
+     "geonameid":"1527747",
+     "country":"KG",
+     "value":"Kyrgyz Republic",
+     "timezone":"Asia/Bishkek",
+     "population":5776500,
+     "type":"country"
+  },
+  "hungary":{
+     "geonameid":"719819",
+     "country":"HU",
+     "population":9982000,
+     "value":"Hungary",
+     "timezone":"Europe/Budapest",
+     "type":"country"
+  },
+  "republic of bulgaria":{
+     "geonameid":"732800",
+     "country":"BG",
+     "value":"Republic of Bulgaria",
+     "timezone":"Europe/Sofia",
+     "population":7148785,
+     "type":"country"
+  },
+  "principality of andorra":{
+     "geonameid":"3041565",
+     "country":"AD",
+     "value":"Principality of Andorra",
+     "timezone":"Europe/Andorra",
+     "population":84000,
+     "type":"country"
+  },
+  "south sudan":{
+     "geonameid":"7909807",
+     "country":"SS",
+     "value":"South Sudan",
+     "timezone":"Africa/Juba",
+     "population":8260490,
+     "type":"country"
+  },
+  "grand duchy of luxembourg":{
+     "geonameid":"2960313",
+     "country":"LU",
+     "value":"Grand Duchy of Luxembourg",
+     "timezone":"Europe/Luxembourg",
+     "population":497538,
+     "type":"country"
+  },
+  "republic of burundi":{
+     "geonameid":"433561",
+     "country":"BI",
+     "value":"Republic of Burundi",
+     "timezone":"Africa/Bujumbura",
+     "population":9863117,
+     "type":"country"
+  },
+  "state of eritrea":{
+     "geonameid":"338010",
+     "country":"ER",
+     "value":"State of Eritrea",
+     "timezone":"Africa/Asmara",
+     "population":5792984,
+     "type":"country"
+  },
+  "republic of uzbekistan":{
+     "geonameid":"1512440",
+     "country":"UZ",
+     "value":"Republic of Uzbekistan",
+     "timezone":"Asia/Tashkent",
+     "population":27865738,
+     "type":"country"
+  },
+  "state of kuwait":{
+     "geonameid":"285570",
+     "country":"KW",
+     "value":"State of Kuwait",
+     "timezone":"Asia/Kuwait",
+     "population":2789132,
+     "type":"country"
+  },
+  "republic of slovenia":{
+     "geonameid":"3190538",
+     "country":"SI",
+     "value":"Republic of Slovenia",
+     "timezone":"Europe/Ljubljana",
+     "population":2007000,
+     "type":"country"
+  },
+  "republic of mozambique":{
+     "geonameid":"1036973",
+     "country":"MZ",
+     "value":"Republic of Mozambique",
+     "timezone":"Africa/Maputo",
+     "population":22061451,
+     "type":"country"
+  },
+  "republic of el salvador":{
+     "geonameid":"3585968",
+     "country":"SV",
+     "value":"Republic of El Salvador",
+     "timezone":"America/El_Salvador",
+     "population":6052064,
+     "type":"country"
+  },
+  "kingdom of thailand":{
+     "geonameid":"1605651",
+     "country":"TH",
+     "value":"Kingdom of Thailand",
+     "timezone":"Asia/Bangkok",
+     "population":67089500,
+     "type":"country"
+  },
+  "bahamas":{
+     "geonameid":"3572887",
+     "country":"BS",
+     "value":"Bahamas",
+     "timezone":"America/Nassau",
+     "population":301790,
+     "type":"country"
+  },
+  "ireland":{
+     "geonameid":"2963597",
+     "country":"IE",
+     "value":"Ireland",
+     "timezone":"Europe/Dublin",
+     "population":4622917,
+     "type":"country"
+  },
+  "republic of belarus":{
+     "geonameid":"630336",
+     "country":"BY",
+     "value":"Republic of Belarus",
+     "timezone":"Europe/Minsk",
+     "population":9685000,
+     "type":"country"
+  },
+  "kingdom of denmark":{
+     "geonameid":"2623032",
+     "country":"DK",
+     "value":"Kingdom of Denmark",
+     "timezone":"Europe/Copenhagen",
+     "population":5484000,
+     "type":"country"
+  },
+  "australia":{
+     "geonameid":"2077456",
+     "country":"AU",
+     "population":21515754,
+     "value":"Australia",
+     "timezone":"Australia/Sydney",
+     "type":"country"
+  },
+  "republic of albania":{
+     "geonameid":"783754",
+     "country":"AL",
+     "value":"Republic of Albania",
+     "timezone":"Europe/Tirane",
+     "population":2986952,
+     "type":"country"
+  },
+  "republic of iceland":{
+     "geonameid":"2629691",
+     "country":"IS",
+     "value":"Republic of Iceland",
+     "timezone":"Atlantic/Reykjavik",
+     "population":308910,
+     "type":"country"
+  },
+  "republic of poland":{
+     "geonameid":"798544",
+     "country":"PL",
+     "value":"Republic of Poland",
+     "timezone":"Europe/Warsaw",
+     "population":38500000,
+     "type":"country"
+  },
+  "tuvalu":{
+     "geonameid":"2110297",
+     "country":"TV",
+     "population":10472,
+     "value":"Tuvalu",
+     "timezone":"Pacific/Funafuti",
+     "type":"country"
+  },
+  "czechia":{
+     "geonameid":"3077311",
+     "country":"CZ",
+     "value":"Czechia",
+     "timezone":"Europe/Prague",
+     "population":10476000,
+     "type":"country"
+  },
+  "hellenic republic":{
+     "geonameid":"390903",
+     "country":"GR",
+     "value":"Hellenic Republic",
+     "timezone":"Europe/Athens",
+     "population":11000000,
+     "type":"country"
+  },
+  "naija":{
+     "geonameid":"2328926",
+     "country":"NG",
+     "value":"Naija",
+     "timezone":"Africa/Lagos",
+     "population":154000000,
+     "type":"country"
+  },
+  "kiribati":{
+     "geonameid":"4030945",
+     "country":"KI",
+     "population":92533,
+     "value":"Kiribati",
+     "timezone":"Pacific/Tarawa",
+     "type":"country"
+  },
+  "democratic people’s republic of korea":{
+     "geonameid":"1873107",
+     "country":"KP",
+     "value":"Democratic People’s Republic of Korea",
+     "timezone":"Asia/Pyongyang",
+     "population":22912177,
+     "type":"country"
+  },
+  "belize":{
+     "geonameid":"3582678",
+     "country":"BZ",
+     "population":314522,
+     "value":"Belize",
+     "timezone":"America/Belize",
+     "type":"country"
+  },
+  "republic of the philippines":{
+     "geonameid":"1694008",
+     "country":"PH",
+     "value":"Republic of the Philippines",
+     "timezone":"Asia/Manila",
+     "population":99900177,
+     "type":"country"
+  },
+  "sierra leone":{
+     "geonameid":"2403846",
+     "country":"SL",
+     "population":5245695,
+     "value":"Sierra Leone",
+     "timezone":"Africa/Freetown",
+     "type":"country"
+  },
+  "republic of rwanda":{
+     "geonameid":"49518",
+     "country":"RW",
+     "value":"Republic of Rwanda",
+     "timezone":"Africa/Kigali",
+     "population":11055976,
+     "type":"country"
+  },
+  "georgia":{
+     "geonameid":"614540",
+     "country":"GE",
+     "population":4630000,
+     "value":"Georgia",
+     "timezone":"Asia/Tbilisi",
+     "type":"country"
+  },
+  "islamic republic of mauritania":{
+     "geonameid":"2378080",
+     "country":"MR",
+     "value":"Islamic Republic of Mauritania",
+     "timezone":"Africa/Nouakchott",
+     "population":3205060,
+     "type":"country"
+  },
+  "republic of guatemala":{
+     "geonameid":"3595528",
+     "country":"GT",
+     "value":"Republic of Guatemala",
+     "timezone":"America/Guatemala",
+     "population":13550440,
+     "type":"country"
+  },
+  "italian republic":{
+     "geonameid":"3175395",
+     "country":"IT",
+     "value":"Italian Republic",
+     "timezone":"Europe/Rome",
+     "population":60340328,
+     "type":"country"
+  },
+  "nauru":{
+     "geonameid":"2110425",
+     "country":"NR",
+     "value":"Nauru",
+     "timezone":"Pacific/Nauru",
+     "population":10065,
+     "type":"country"
+  },
+  "state of qatar":{
+     "geonameid":"289688",
+     "country":"QA",
+     "value":"State of Qatar",
+     "timezone":"Asia/Qatar",
+     "population":840926,
+     "type":"country"
+  },
+  "switzerland":{
+     "geonameid":"2658434",
+     "country":"CH",
+     "population":8484100,
+     "value":"Switzerland",
+     "timezone":"Europe/Zurich",
+     "type":"country"
+  },
+  "grenada":{
+     "geonameid":"3580239",
+     "country":"GD",
+     "population":107818,
+     "value":"Grenada",
+     "timezone":"America/Grenada",
+     "type":"country"
+  },
+  "republic of guinea-bissau":{
+     "geonameid":"2372248",
+     "country":"GW",
+     "value":"Republic of Guinea-Bissau",
+     "timezone":"Africa/Bissau",
+     "population":1565126,
+     "type":"country"
+  },
+  "republic of chad":{
+     "geonameid":"2434508",
+     "country":"TD",
+     "value":"Republic of Chad",
+     "timezone":"Africa/Ndjamena",
+     "population":10543464,
+     "type":"country"
+  },
+  "kingdom of bahrain":{
+     "geonameid":"290291",
+     "country":"BH",
+     "value":"Kingdom of Bahrain",
+     "timezone":"Asia/Bahrain",
+     "population":738004,
+     "type":"country"
+  },
+  "lebanon":{
+     "geonameid":"272103",
+     "country":"LB",
+     "value":"Lebanon",
+     "timezone":"Asia/Beirut",
+     "population":4125247,
+     "type":"country"
+  },
+  "kingdom of norway":{
+     "geonameid":"3144096",
+     "country":"NO",
+     "value":"Kingdom of Norway",
+     "timezone":"Europe/Oslo",
+     "population":5009150,
+     "type":"country"
+  },
+  "republic of paraguay":{
+     "geonameid":"3437598",
+     "country":"PY",
+     "value":"Republic of Paraguay",
+     "timezone":"America/Asuncion",
+     "population":6375830,
+     "type":"country"
+  },
+  "republic of korea":{
+     "geonameid":"1835841",
+     "country":"KR",
+     "value":"Republic of Korea",
+     "timezone":"Asia/Seoul",
+     "population":48422644,
+     "type":"country"
+  },
+  "republic of austria":{
+     "geonameid":"2782113",
+     "country":"AT",
+     "value":"Republic of Austria",
+     "timezone":"Europe/Vienna",
+     "population":8205000,
+     "type":"country"
+  },
+  "taiwan":{
+     "geonameid":"1668284",
+     "country":"TW",
+     "value":"Taiwan",
+     "timezone":"Asia/Taipei",
+     "population":22894384,
+     "type":"country"
+  },
+  "cyprus":{
+     "geonameid":"146669",
+     "country":"CY",
+     "population":1102677,
+     "value":"Cyprus",
+     "timezone":"Asia/Nicosia",
+     "type":"country"
+  },
+  "eswatini":{
+     "geonameid":"934841",
+     "country":"SZ",
+     "value":"Eswatini",
+     "timezone":"Africa/Mbabane",
+     "population":1354051,
+     "type":"country"
+  },
+  "lao people’s democratic republic":{
+     "geonameid":"1655842",
+     "country":"LA",
+     "value":"Lao People’s Democratic Republic",
+     "timezone":"Asia/Vientiane",
+     "population":6368162,
+     "type":"country"
+  },
+  "republic of panama":{
+     "geonameid":"3703430",
+     "country":"PA",
+     "value":"Republic of Panama",
+     "timezone":"America/Panama",
+     "population":3410676,
+     "type":"country"
+  },
+  "arab republic of egypt":{
+     "geonameid":"357994",
+     "country":"EG",
+     "value":"Arab Republic of Egypt",
+     "timezone":"Africa/Cairo",
+     "population":80471869,
+     "type":"country"
+  },
+  "bhutan":{
+     "geonameid":"1252634",
+     "country":"BT",
+     "population":699847,
+     "value":"Bhutan",
+     "timezone":"Asia/Thimphu",
+     "type":"country"
+  },
+  "liberia":{
+     "geonameid":"2275384",
+     "country":"LR",
+     "population":3685076,
+     "value":"Liberia",
+     "timezone":"Africa/Monrovia",
+     "type":"country"
+  },
+  "sudan":{
+     "geonameid":"366755",
+     "country":"SD",
+     "population":35000000,
+     "value":"Sudan",
+     "timezone":"Africa/Khartoum",
+     "type":"country"
+  },
+  "kingdom of saudi arabia":{
+     "geonameid":"102358",
+     "country":"SA",
+     "value":"Kingdom of Saudi Arabia",
+     "timezone":"Asia/Riyadh",
+     "population":25731776,
+     "type":"country"
+  },
+  "republic of maldives":{
+     "geonameid":"1282028",
+     "country":"MV",
+     "value":"Republic of Maldives",
+     "timezone":"Indian/Maldives",
+     "population":395650,
+     "type":"country"
+  },
+  "oriental republic of uruguay":{
+     "geonameid":"3439705",
+     "country":"UY",
+     "value":"Oriental Republic of Uruguay",
+     "timezone":"America/Montevideo",
+     "population":3477000,
+     "type":"country"
+  },
+  "republic of cabo verde":{
+     "geonameid":"3374766",
+     "country":"CV",
+     "value":"Republic of Cabo Verde",
+     "timezone":"Atlantic/Cape_Verde",
+     "population":508659,
+     "type":"country"
+  },
+  "democratic republic of the congo":{
+     "geonameid":"203312",
+     "country":"CD",
+     "value":"Democratic Republic of the Congo",
+     "timezone":"Africa/Kinshasa",
+     "population":70916439,
+     "type":"country"
+  },
+  "united kingdom of great britain and northern ireland":{
+     "geonameid":"2635167",
+     "country":"GB",
+     "value":"United Kingdom of Great Britain and Northern Ireland",
+     "timezone":"Europe/London",
+     "population":62348447,
+     "type":"country"
+  },
+  "kingdom of the netherlands":{
+     "geonameid":"2750405",
+     "country":"NL",
+     "value":"Kingdom of the Netherlands",
+     "timezone":"Europe/Amsterdam",
+     "population":16645000,
+     "type":"country"
+  },
+  "republic of kosovo":{
+     "geonameid":"831053",
+     "country":"XK",
+     "value":"Republic of Kosovo",
+     "timezone":"Europe/Belgrade",
+     "population":1800000,
+     "type":"country"
+  },
+  "republic of benin":{
+     "geonameid":"2395170",
+     "country":"BJ",
+     "value":"Republic of Benin",
+     "timezone":"Africa/Porto-Novo",
+     "population":9056010,
+     "type":"country"
+  },
+  "malaysia":{
+     "geonameid":"1733045",
+     "country":"MY",
+     "population":28274729,
+     "value":"Malaysia",
+     "timezone":"Asia/Kuala_Lumpur",
+     "type":"country"
+  },
+  "st kitts and nevis":{
+     "geonameid":"3575174",
+     "country":"KN",
+     "value":"St Kitts and Nevis",
+     "timezone":"America/St_Kitts",
+     "population":51134,
+     "type":"country"
+  },
+  "republic of estonia":{
+     "geonameid":"453733",
+     "country":"EE",
+     "value":"Republic of Estonia",
+     "timezone":"Europe/Tallinn",
+     "population":1291170,
+     "type":"country"
+  },
+  "papua new guinea":{
+     "geonameid":"2088628",
+     "country":"PG",
+     "population":6064515,
+     "value":"Papua New Guinea",
+     "timezone":"Pacific/Port_Moresby",
+     "type":"country"
+  },
+  "federal democratic republic of nepal":{
+     "geonameid":"1282988",
+     "country":"NP",
+     "value":"Federal Democratic Republic of Nepal",
+     "timezone":"Asia/Kathmandu",
+     "population":28951852,
+     "type":"country"
+  },
+  "zimbabwe":{
+     "geonameid":"878675",
+     "country":"ZW",
+     "population":13061000,
+     "value":"Zimbabwe",
+     "timezone":"Africa/Harare",
+     "type":"country"
+  },
+  "republic of malta":{
+     "geonameid":"2562770",
+     "country":"MT",
+     "value":"Republic of Malta",
+     "timezone":"Europe/Malta",
+     "population":403000,
+     "type":"country"
+  },
+  "gambia":{
+     "geonameid":"2413451",
+     "country":"GM",
+     "value":"Gambia",
+     "timezone":"Africa/Banjul",
+     "population":1593256,
+     "type":"country"
+  },
+  "republic of indonesia":{
+     "geonameid":"1643084",
+     "country":"ID",
+     "value":"Republic of Indonesia",
+     "timezone":"Asia/Jakarta",
+     "population":242968342,
+     "type":"country"
+  },
+  "Republic of Côte d’Ivoire":{
+     "geonameid":"2287781",
+     "country":"CI",
+     "value":"Republic of Côte d’Ivoire",
+     "timezone":"Africa/Abidjan",
+     "population":21058798,
+     "type":"country"
+  },
+  "trinidad and tobago":{
+     "geonameid":"3573591",
+     "country":"TT",
+     "population":1328019,
+     "value":"Trinidad and Tobago",
+     "timezone":"America/Port_of_Spain",
+     "type":"country"
+  },
+  "people’s democratic republic of algeria":{
+     "geonameid":"2589581",
+     "country":"DZ",
+     "value":"People’s Democratic Republic of Algeria",
+     "timezone":"Africa/Algiers",
+     "population":34586184,
+     "type":"country"
+  },
+  "kingdom of spain":{
+     "geonameid":"2510769",
+     "country":"ES",
+     "value":"Kingdom of Spain",
+     "timezone":"Europe/Madrid",
+     "population":46505963,
+     "type":"country"
+  },
+  "hashemite kingdom of jordan":{
+     "geonameid":"248816",
+     "country":"JO",
+     "value":"Hashemite Kingdom of Jordan",
+     "timezone":"Asia/Amman",
+     "population":6407085,
+     "type":"country"
+  },
+  "republic of cuba":{
+     "geonameid":"3562981",
+     "country":"CU",
+     "value":"Republic of Cuba",
+     "timezone":"America/Havana",
+     "population":11423000,
+     "type":"country"
+  },
+  "principality of liechtenstein":{
+     "geonameid":"3042058",
+     "country":"LI",
+     "value":"Principality of Liechtenstein",
+     "timezone":"Europe/Vaduz",
+     "population":35000,
+     "type":"country"
+  },
+  "gabonese republic":{
+     "geonameid":"2400553",
+     "country":"GA",
+     "value":"Gabonese Republic",
+     "timezone":"Africa/Libreville",
+     "population":1545255,
+     "type":"country"
+  },
+  "mexico":{
+     "geonameid":"3996063",
+     "country":"MX",
+     "value":"Mexico",
+     "timezone":"America/Mexico_City",
+     "population":112468855,
+     "type":"country"
+  },
+  "tunisia":{
+     "geonameid":"2464461",
+     "country":"TN",
+     "value":"Tunisia",
+     "timezone":"Africa/Tunis",
+     "population":10589025,
+     "type":"country"
+  },
+  "republic of macedonia":{
+     "geonameid":"718075",
+     "country":"MK",
+     "value":"Republic of Macedonia",
+     "timezone":"Europe/Skopje",
+     "population":2062294,
+     "type":"country"
+  },
+  "republic of south africa":{
+     "geonameid":"953987",
+     "country":"ZA",
+     "value":"Republic of South Africa",
+     "timezone":"Africa/Johannesburg",
+     "population":49000000,
+     "type":"country"
+  },
+  "singapore":{
+     "geonameid":"1880251",
+     "country":"SG",
+     "population":4701069,
+     "value":"Singapore",
+     "timezone":"Asia/Singapore",
+     "type":"country"
+  },
+  "serbia":{
+     "geonameid":"6290252",
+     "country":"RS",
+     "population":7344847,
+     "value":"Serbia",
+     "timezone":"Europe/Belgrade",
+     "type":"country"
+  },
+  "republic of zambia":{
+     "geonameid":"895949",
+     "country":"ZM",
+     "value":"Republic of Zambia",
+     "timezone":"Africa/Lusaka",
+     "population":13460305,
+     "type":"country"
+  },
+  "islamic republic of iran":{
+     "geonameid":"130758",
+     "country":"IR",
+     "value":"Islamic Republic of Iran",
+     "timezone":"Asia/Tehran",
+     "population":76923300,
+     "type":"country"
+  },
+  "sri lanka":{
+     "geonameid":"1227603",
+     "country":"LK",
+     "population":21513990,
+     "value":"Sri Lanka",
+     "timezone":"Asia/Colombo",
+     "type":"country"
+  },
+  "namibia":{
+     "geonameid":"3355338",
+     "country":"NA",
+     "population":2128471,
+     "value":"Namibia",
+     "timezone":"Africa/Windhoek",
+     "type":"country"
+  },
+  "botswana":{
+     "geonameid":"933860",
+     "country":"BW",
+     "population":2029307,
+     "value":"Botswana",
+     "timezone":"Africa/Gaborone",
+     "type":"country"
+  },
+  "kingdom of morocco":{
+     "geonameid":"2542007",
+     "country":"MA",
+     "value":"Kingdom of Morocco",
+     "timezone":"Africa/Casablanca",
+     "population":33848242,
+     "type":"country"
+  }
+}
