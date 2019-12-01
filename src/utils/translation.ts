@@ -3,11 +3,17 @@ import { MappingEntry } from './location'
 import { beautify } from './beautify'
 
 export const translation = {
-    localTimeToSpeech(entry: MappingEntry, time: Date): string {
-        return i18n.randomTranslation('localTime.getLocalTime', {
-            location: entry.value,
-            time: beautify.time(time)
-        })
+    localTimeToSpeech(entry: MappingEntry, time: Date, useLocation: boolean): string {
+        if (!useLocation) {
+            return i18n.randomTranslation('localTime.getLocalTime', {
+                location: entry.value,
+                time: beautify.time(time)
+            })
+        } else {
+            return i18n.randomTranslation('localTime.getLocalTimeNoLocation', {
+                time: beautify.time(time)
+            })
+        }
     },
 
     localDateToSpeech(date: Date): string {

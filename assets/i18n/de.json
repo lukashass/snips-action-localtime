@@ -18,6 +18,12 @@
             "In {{- location }}, ist es gerade {{ time }}.",
             "Die Zeit in {{- location }} ist {{ time }}."
         ],
+        "getLocalTimeNoLocation": [
+            "Es ist gerade {{ time }}.",
+            "Es ist {{- time }}.",
+            "Die Zeit ist {{ time }}.",
+            "{{ time }}."
+        ],
         "getLocalDate": [
             "Es ist {{ date }}.",
             "Heute ist {{- date }}."

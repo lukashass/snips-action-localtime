@@ -8,9 +8,11 @@ export const getLocalTimeHandler: Handler = async function (msg: IntentMessage, 
     logger.info('GetLocalTime')
     
     const locations = await commonHandler(msg)
+    let isCurrentLocation = false
 
     if (slot.missing(locations)) {
         locations.push(getCurrentLocation())
+        isCurrentLocation = true
     }
 
     const entries: MappingEntry[] = location.getMostRelevantEntries(locations)
@@ -22,5 +24,5 @@ export const getLocalTimeHandler: Handler = async function (msg: IntentMessage, 
     const timeInfo = time.getTimeFromPlace(entry.timezone)
 
     flow.end()
-    return translation.localTimeToSpeech(entry, timeInfo)
+    return translation.localTimeToSpeech(entry, timeInfo, isCurrentLocation)
 }
